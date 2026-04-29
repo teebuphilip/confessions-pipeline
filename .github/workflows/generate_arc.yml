@@ -1,0 +1,81 @@
+name: Generate Weekly Arc
+
+on:
+  schedule:
+    # Every Monday at 9am ET — generates next week's arc
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+    inputs:
+      input_type:
+        description: 'Input type: event or seed'
+        required: true
+        default: 'event'
+        type: choice
+        options:
+          - event
+          - seed
+      input_text:
+        description: 'Your failure event or paragraph seed'
+        required: false
+        type: string
+      backlog_id:
+        description: 'Or use a backlog ID instead'
+        required: false
+        type: string
+
+jobs:
+  generate-arc:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install anthropic
+      
+      - name: Generate arc from manual input
+        if: ${{ github.event.inputs.input_text != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/generate_arc.py \
+            --${{ github.event.inputs.input_type }} "${{ github.event.inputs.input_text }}"
+      
+      - name: Generate arc from backlog
+        if: ${{ github.event.inputs.backlog_id != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/backlog.py generate --id ${{ github.event.inputs.backlog_id }}
+      
+      - name: Auto-generate from next queued backlog item
+        if: ${{ github.event.inputs.input_text == '' && github.event.inputs.backlog_id == '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Get next queued item and generate
+          NEXT_ID=$(python -c "
+          import json
+          b = json.load(open('backlog.json'))
+          queued = [i for i in b if i['status'] == 'queued']
+          if queued:
+              print(queued[0]['id'])
+          ")
+          if [ -n "$NEXT_ID" ]; then
+            python scripts/backlog.py generate --id $NEXT_ID
+          else
+            echo "No queued items in backlog"
+          fi
+      
+      - name: Commit generated drafts
+        run: |
+          git config --local user.email "louzерр@confessionsofaloser.com"
+          git config --local user.name "Lou Zerr Pipeline"
+          git add output/drafts/ backlog.json
+          git diff --staged --quiet || git commit -m "arc: generated $(date +%Y-%m-%d)"
+          git push
