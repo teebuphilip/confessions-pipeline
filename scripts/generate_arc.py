@@ -63,7 +63,7 @@ Generate a full 7-post arc. Return this exact JSON structure:
       "tier": "free",
       "title": "post title",
       "hook": "first line — must make them keep reading",
-      "body": "full post body in Lou's voice, 300-500 words",
+      "body": "full post body in Lou's voice, 500-700 words",
       "tease": "one line tease for next post"
     }},
     ... (all 7 posts)
