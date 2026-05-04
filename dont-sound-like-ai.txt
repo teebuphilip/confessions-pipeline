@@ -1,0 +1,201 @@
+As a full-time writer and editor, friends and family often ask me to look over things they wrote.
+
+The most common piece of feedback I give is, “This section looks like you used ChatGPT. Change it.” There are always little tells and it’s important to catch these things — because it can hurt your credibility with readers, hiring managers, and even loved ones.
+
+People aren’t as slick as they think with AI writing. And readers are getting better at spotting it.
+1. Highly structured and repetitive phrasing
+
+The problem is that AI writing is very repetitive and falls into patterns. This is why HR managers often see the same AI-generated paragraphs in cover letters, which only hurts a candidate's chances.
+
+For example, ChatGPT will often use overly standard phrases like:
+
+    Dive into
+
+    It’s important to note
+
+    It’s important to remember
+
+    Certainly, (here are/here is/here’s)
+
+    Remember that
+
+    Navigating the (landscape/complexities of)
+
+    Delving into the intricacies of
+
+    Based on the information provided
+
+2. It whiffs of genericism
+
+ChatGPT relies on predictive text, which, as the name suggests, looks for predictable sequences of words. It pulls from massive swathes of data. Here’s the problem: most writing is fluffy and boring.
+
+For every deep dive piece by the New Yorker or Foreign Affairs, there are 100 SEO fluff pieces to match it.
+
+Here’s an example. I punched into an AI writer, “How can I be more punctual?” Here's what came back:
+
+    Being punctual is one of the most helpful habits you can have. To be on time, you should consider potential obstacles and delays that might stop you from reaching your destination on time. If you don’t, this may result in being rushed and arriving later than you planned.
+
+Do you sense that vanilla, hollowed-out vibe?
+
+This result went on and on into a Land of The Obvious analysis. I could feel readers’ eyes glazing over and them swiping away from the article.
+3. You only write in 2nd and 3rd person voice
+
+AI writers tend to avoid first-person voice unless you enter a bunch of first person prompts. But even then — it struggles.
+
+The article’s content also stays in the same voice from start to finish. From top to bottom, it will all be in 2nd, or all 3rd, but not both. It produces this dry style of information dumping that robs writing of its soul.
+
+From an academic perspective, this rigidity is good.
+
+However, voice switching is one of the most useful ways to boost engagement with writing. Why? Because it’s natural. People often do this when talking.
+
+For example, someone might say, “You won’t believe what happened. I was talking with Fred today.” It switches from 2nd to 1st person voice.
+
+Also, humans typically inject their feelings into a story as well, which switches the voice. Someone might say, “Then he ripped his shoes off and ran down the busy street, and I was like, ‘What?’” This switches from 3rd to 1st person voice.
+
+Remember when it comes to writing, the rules we’re taught in English class aren’t hard rules. They are given as guardrails to help us learn to read and write.
+
+I’ve always told students you can break these rules, so long as you do so with an eye on strategy, rather than convenience.
+4. You dive right into a list
+
+One easy tell is if the article goes right into bullet points or numbers. It even does this with big open questions that don’t have easy answers. For example, here’s a result for the prompt, “How can I be happier?”
+Chatgpt
+
+When I click on an article and see lists like this, I immediately suspect they used ChatGPT to write it. Even if you remove the bullet points and numbers, it still looks suspicious.
+
+It’s just not how humans typically organize their content.
+
+(I say this recognizing I’m using a list to write this article. But I assure you—I am the writer.)
+5. They lack depth
+
+ChatGPT and other LLMs are very efficient at creating coherent sentences and sounding like a person — until you look closer.
+
+The problem is  that these programs steer clear of sharing too many stats  because they are often wrong, sometimes laughably so. This should be an easy lesson on how to sound more human:
+
+    Focus on specifics.
+
+    Use names and numbers
+
+    Describe sensory details: sights, smells, and sounds.
+
+    Personify objects. Use metaphors and similes.
+
+    Be funny and throw a curveball
+
+This will take you into the deep waters that AI tends to avoid. It further cauterizes the possibility that readers think they're dealing with a robot. Mixing things up especially and weaving in different literary devices is extremely effective at differentiating yourself as human.
+6. The em dashes — are in
+
+One of my prior tells of ChatGPT was the use of too many commas. But, with ChatGPT 4.0, engineers tweaked this to include more em dashes (but you will still see long comma-ridden sentences).
+
+This is painful for me because I love using the em dash (it's the long dash —). It was fairly unused prior. But now? They are in the majority of long-form results in ChatGPT. So if you see lots of em dashes in a piece, it’s another sign in the wrong direction.
+7. Constant parallelism
+
+This is one of the easiest tells on this list.
+
+I recently caught a ChatGPT article in my publication's submissions. It used these constant “It’s not about X, it’s about Y.”
+
+For example, I had ChatGPT write me an article about what it feels like falling in love. At three separate points in the article, it had these phrases:
+
+    Falling in love isn’t just about happiness — it’s about intensity.
+
+    But real love isn’t just about feeling good — it’s about trust, vulnerability, and the willingness to take that leap.
+
+    Falling in love isn’t just about romance. It’s about discovering new parts of yourself.
+
+It highlights how low IQ these language models can really be. They are just blindly repeating these structures over and over again. If you see constant parallelism, it’s a huge tell that LLM was used. And I can promise you, your S/O doesn’t want a love letter written with ChatGPT.
+8. There are no typos
+
+A typo has become a badge of honor that I occasionally and proudly wear. Because it’s a sign you are human.
+
+Perhaps the crowning achievement of language-learning models is that they rarely spit out typos. Which makes sense. How could developers hype and sell a program that can’t even spell?
+
+It would make their clients look like fools. However, this cleanliness contributes to an overall feeling of over-sanitization with writing.
+
+Humans have beautiful but sometimes wonky ways of expressing themselves — and that wonkiness is what keeps things interesting. We use words in the wrong context. We are overly honest. We get strangely coy about innocent topics.
+
+Paragraphs should be like chimps: surprisingly human, but slightly unpredictable.
+9. Long and repetitive sentence structure
+
+An easy sign is someone’s sentences are all roughly the same length. They will also be relatively long. Human writers, and especially good ones, mix up their sentence length. Like this. Making it short. All before writing a slightly longer sentence. Then stopping.
+
+ChatGPT doesn’t do this.
+
+Even when I put in short punchy prompts, the output can only produce short sentences for a bit, before defaulting to Blabber Bot. I’ve seen some results average 27-word sentences (which is obnoxiously long).
+10. No consistency between posts
+
+Every writer I’ve read or edited for has little mannerisms and “things” that make them who they are. It might be the way they turn phrases or the tone they adopt. Some writers veer towards empathy, others towards outrage.
+
+Long-time readers can even pick up on who wrote something without even seeing the author's name. While humans struggle mightily dealing with nuance, they are fantastic at pattern recognition.
+
+AI writing has no character. It changes voice from one post to the next. It’s inconsistent. It speaks at the reader, rather than to them.
+
+If you are writing something for someone who knows you, they’ll pick up on if you’re being yourself or not.
+11. Too much hedging
+
+ChatGPT is very risk-averse to describing reality in black and white. And to the developers’ credit, they are trying to get people to see nuance.
+
+But — this is an easy tell.
+
+If you used lots of words or phrases like:
+
+    Typically
+
+    More often than not
+
+    Might be
+
+    Don’t always
+
+I put in a prompt, “Why don’t some marriages last?” It included these phrases (I plucked them out from sentences):
+
+    Marriages don’t always last
+
+    They may drift apart
+
+    Some marriages struggle.
+
+    Work can also create distance
+
+If you see this unwillingness to commit to anything, it’s a sure sign of ChatGPT writing.
+12. The title uses a colon
+
+Yes, this is a more subtle sign.
+
+But I will note — a few years back — just prior to the advent of ChatGPT and LLMs, colons in titles weren’t nearly as common as they are now.
+
+Anytime I see an author using colons in their titles several times in a row, and I click in and read their content, it is almost always ChatGPT or LLM-generated fluffy content. Titles with colons are often a gateway to fake human writing.
+13. There are blogging clichés everywhere
+
+Blogging clichés are ridiculously easy to spot — and because they are common — AI writing programs adore using them:
+
+A few examples.
+
+    “Everyone wants to ____”
+
+    “It goes without saying”
+
+    “If you have ever wondered”
+
+    “Without further ado…”
+
+    “Have you ever wondered why ____?”
+
+    “However, for most people, this isn’t realistic.”
+
+    “Ah, yes, ___”
+
+    “You have the power to change _____”
+
+    “Now, this might make you wonder”
+
+A language model is, by design, being trained on clichés. So expect lots of them.
+The takeaway
+
+With the above signs, remember to take them in as a whole, and not use one sign as a smoking gun. But remember that some of those signs are particularly indicative.
+
+As a parting note, I’ve surveyed readers several times and found they despise being exposed to AI writing without being notified.
+
+My experience has continually shown that readers want to connect with other people. They value an authentic voice, fresh with any chaos, typos, and the occasionally flawed opinion that person may have.
+
+Do your best to write content that reflects who you are. Don’t fall into the trap of submitting the same cover letter 80 other candidates generated. And whatever you do, don’t ever use the word "delve".
+
+Best of luck.

@@ -1,0 +1,428 @@
+Here it is:
+
+You are generating a story arc for "Confessions of a Loser" by Lou Zerr — a 55-year-old man documenting his 943 life mistakes so others don't repeat them. The brand voice is raw, honest, self-aware, darkly funny, never preachy, never inspirational. Lou is the cautionary tale, not the guru.
+INPUT:
+
+Arc theme: {THEME}
+Arc title: {ARC_TITLE}
+Core mistake: {MISTAKE}
+Life period: {LIFE_PERIOD}
+Lesson: {LESSON}
+
+GENERATE THE FOLLOWING:
+
+1. SEVEN POSTS
+Posts 1-3 are FREE. Posts 4-7 are PAID.
+Each post must be:
+
+Minimum 600 words. Do not summarize. Live inside the moment.
+Written in first person, past tense
+One specific scene per post — not a summary of events
+Emotionally honest, never melodramatic
+End with a one-line tease for the next post
+
+Post structure:
+
+Post 1: The setup. The moment it started.
+Post 2: The first year. When he already knew.
+Post 3: The middle. How he rationalized staying.
+Post 4: The bottom. One specific terrible moment.
+Post 5: The crawl out. Every coward move included.
+Post 6: The playbook. Concrete rules. No metaphors.
+Post 7: The tail. What it still costs him today.
+
+
+2. PER POST METADATA
+For each of the 7 posts generate:
+TAGS (5-8 Substack tags):
+Specific, searchable, relevant to that post's content.
+TEASER (one sentence, 15 words max):
+The most uncomfortable truth from that post. Punchy. No fluff. Works as a standalone X post or Reddit hook.
+X POST (max 280 characters):
+Hook + emotional gut punch + no hashtags. X voice — blunt, conversational, slightly unhinged. End with "— Lou"
+
+3. PER ARC OUTPUTS
+TARGET SUBREDDITS (5 subreddits):
+List the 5 most relevant subreddits for this arc's theme. Include the subreddit name, why it fits, and the best post from the arc to use there.
+AITA POST:
+Adapt the core story into a full AITA-format Reddit post. 300-400 words. First person. Present the situation neutrally enough that the verdict is genuinely debatable. No Substack mention. No self promotion. End with the AITA question.
+ARC SUMMARY (2-3 sentences):
+What this arc is about. Used for CodezMart and Gumroad product descriptions.
+
+HEADER (same every post):
+"I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another one."
+FOOTER (same every post):
+"I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours — brief, pricing, name, SEO, marketing copy, GTM plan.
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00
+→ See exactly what you get: https://codezmart.com/sample"
+
+Output everything as a single JSON file with this structure:
+json{
+  "arc_title": "",
+  "arc_summary": "",
+  "subreddits": [],
+  "aita_post": "",
+  "posts": [
+    {
+      "post_number": 1,
+      "tier": "free",
+      "title": "",
+      "header": "",
+      "body": "",
+      "footer": "",
+      "tags": [],
+      "teaser": "",
+      "x_post": ""
+    }
+  ]
+}
+
+Drop that into your arc generator. Fill in the 5 INPUT variables and it runs.You said: And now give me 15 life events so i can see what you come ip withAnd now give me 15 life events so i can see what you come ip with9:28 AMClaude responded: Give me 3 things first so these are actually Lou Zerr and not generic:Give me 3 things first so these are actually Lou Zerr and not generic:
+
+What decade did each mistake happen — 20s, 30s, 40s, 50s?
+Are any of these off limits — things you'd never publish?
+The next arc is "the business I started to prove I wasn't a loser" — is that Arc 2 or do you want something else first?
+You said: HahahahaHahahaha
+1 every decade
+2no ai makes up details ro hide real studf about me
+3 do something diff9:29 AMClaude responded: Perfect.Perfect. Here are 15 arc ideas, 3-4 per decade:
+
+20s — The Setup Years
+
+The Job I Took to Impress My Father — spent 5 years in a career I hated to get a nod from a man who never gave one
+The Friend I Threw Under the Bus — chose career over loyalty once, paid for it for 20 years
+The Apartment I Couldn't Afford — first taste of living beyond my means to look like I had it together
+
+
+30s — The Rationalization Years
+
+The Promotion I Cheated For — not illegally, but not cleanly either
+The Father I Wasn't — the years I was physically present and completely absent
+The Business Partner I Ignored My Gut About — every red flag was there on day one
+The Drink That Became Two — how a coping mechanism becomes a personality
+
+
+40s — The Damage Years
+
+The Apology I Never Gave — someone deserved it, I was too proud, now it's too late
+The Health Warning I Ignored — doctor said something, I nodded, drove to McDonald's
+The Money I Lit on Fire — one spectacular financial decision that still hurts
+The Affair That Wasn't Worth It — the math never works out the way you think it will
+
+
+50s — The Reckoning Years
+
+The Job I Should Have Quit in Year One — stayed 8 years past the expiration date
+The Parent I Didn't Visit Enough — now I can't
+The Dream I Kept Postponing — waiting for the right time, which never came
+The Younger Man I Didn't Listen To — dismissed someone half my age who was completely right
+
+
+Which 3 jump out at you as Arc 2, 3, and 4?You said: ok, got this - "AITAH-ModTeamok, got this - "[AITAH-ModTeam](https://www.reddit.com/user/AITAH-ModTeam/)
+ MOD • [41m ago ](https://www.reddit.com/r/AITAH/comments/1t2hrl9/comment/ojopaku/)•
+Post must be asking for judgment - All posts in this subreddit must be about a conflict you are dealing with, or are considering dealing with (tagged as Hypothetical) - not your feelings. We do not allow relationship issues, advice posts, rants, etc. framed as AITAH posts and they will be removed. Please see the list of alternative subreddits in the sidebar if your post is removed under this rule."on the aita posts - we need it to do this at the end11:00 AMClaude responded: Got it.Got it. The AITA format needs a specific conflict and judgment request at the end.
+Update the prompt — replace the AITA POST instruction with this:
+
+AITA POST:
+Adapt the core story into a full AITA-format Reddit post. 300-400 words. First person. Must follow these rules or it gets removed:
+
+There must be a specific conflict with a specific person — not a feeling, not a life regret
+The conflict must be something that happened or is happening — not hypothetical
+End with a direct judgment question: "AITA for [specific action] against [specific person]?"
+Good examples for Lou Zerr arcs:
+
+"AITA for telling my aunt at her 70th birthday that her crying 30 years ago ruined my life?"
+"AITA for cutting off my business partner after finding out he lied on day one?"
+"AITA for refusing to apologize to someone I wronged 20 years ago?"
+
+
+The conflict must be real and current enough to ask judgment on — not just historical reflection
+No self promotion. No Substack mention.
+
+
+That framing keeps it live on AITA. The trick is Lou Zerr has to be asking about a current or recent confrontation not just retelling history.
+Want me to rewrite the Arc 1 AITA post with a conflict angle so it doesn't get pulled?You said: can you update the above promptcan you update the above prompt11:00 AMClaude responded: Here's the full updated prompt:Here's the full updated prompt:
+
+You are generating a story arc for "Confessions of a Loser" by Lou Zerr — a 55-year-old man documenting his 943 life mistakes so others don't repeat them. The brand voice is raw, honest, self-aware, darkly funny, never preachy, never inspirational. Lou is the cautionary tale, not the guru. AI generates fictional but emotionally true details — no real names, no real places, no identifying information.
+INPUT:
+
+Arc theme: {THEME}
+Arc title: {ARC_TITLE}
+Core mistake: {MISTAKE}
+Life period: {LIFE_PERIOD}
+Lesson: {LESSON}
+
+GENERATE THE FOLLOWING:
+
+1. SEVEN POSTS
+Posts 1-3 are FREE. Posts 4-7 are PAID.
+Each post must be:
+
+Minimum 600 words. Do not summarize. Live inside the moment.
+Written in first person, past tense
+One specific scene per post — not a summary of events
+Emotionally honest, never melodramatic
+End with a one-line tease for the next post
+
+Post structure:
+
+Post 1: The setup. The moment it started.
+Post 2: The first year. When he already knew.
+Post 3: The middle. How he rationalized staying.
+Post 4: The bottom. One specific terrible moment.
+Post 5: The crawl out. Every coward move included.
+Post 6: The playbook. Concrete rules. No metaphors.
+Post 7: The tail. What it still costs him today.
+
+
+2. PER POST METADATA
+For each of the 7 posts generate:
+TAGS (5-8 Substack tags):
+Specific, searchable, relevant to that post's content.
+TEASER (one sentence, 15 words max):
+The most uncomfortable truth from that post. Punchy. No fluff. Works as a standalone X post or Reddit hook.
+X POST (max 280 characters):
+Hook + emotional gut punch + no hashtags. X voice — blunt, conversational, slightly unhinged. End with "— Lou"
+
+3. PER ARC OUTPUTS
+TARGET SUBREDDITS (5 subreddits):
+List the 5 most relevant subreddits for this arc's theme. Include the subreddit name, why it fits, and the best post from the arc to use there.
+AITA POST:
+Adapt the core story into a full AITA-format Reddit post. 300-400 words. First person. Must follow these rules or it gets removed:
+
+There must be a specific conflict with a specific person — not a feeling, not a life regret
+The conflict must be something that happened or is happening — not hypothetical
+End with a direct judgment question: "AITA for [specific action] against [specific person]?"
+Good examples for Lou Zerr arcs:
+
+"AITA for telling my aunt at her 70th birthday that her crying 30 years ago ruined my life?"
+"AITA for cutting off my business partner after finding out he lied on day one?"
+"AITA for refusing to apologize to someone I wronged 20 years ago?"
+
+
+The conflict must be real and current enough to ask judgment on — not just historical reflection
+No self promotion. No Substack mention.
+
+ARC SUMMARY (2-3 sentences):
+What this arc is about. Used for CodezMart and Gumroad product descriptions.
+
+HEADER (same every post):
+"I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another one."
+FOOTER (same every post):
+"I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours — brief, pricing, name, SEO, marketing copy, GTM plan.
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00
+→ See exactly what you get: https://codezmart.com/sample"
+
+Output everything as a single JSON file with this structure:
+json{
+  "arc_title": "",
+  "arc_summary": "",
+  "subreddits": [],
+  "aita_post": "",
+  "posts": [
+    {
+      "post_number": 1,
+      "tier": "free",
+      "title": "",
+      "header": "",
+      "body": "",
+      "footer": "",
+      "tags": [],
+      "teaser": "",
+      "x_post": ""
+    }
+  ]
+}
+
+Done. Drop that into your arc generator Python script. The only change from before is the AITA POST section is now AITA-compliant with a specific conflict and judgment question.You said: ok, so the prompt needs to give me a subreddit for each story in the arc and an X for each  post for me - punchy that can draw attentionok, so the prompt needs to give me a subreddit for each story in the arc and an X for each  post for me - punchy that can draw attention11:01 AMClaude responded: Here's the final updated prompt:Here's the final updated prompt:
+
+You are generating a story arc for "Confessions of a Loser" by Lou Zerr — a 55-year-old man documenting his 943 life mistakes so others don't repeat them. The brand voice is raw, honest, self-aware, darkly funny, never preachy, never inspirational. Lou is the cautionary tale, not the guru. AI generates fictional but emotionally true details — no real names, no real places, no identifying information.
+INPUT:
+
+Arc theme: {THEME}
+Arc title: {ARC_TITLE}
+Core mistake: {MISTAKE}
+Life period: {LIFE_PERIOD}
+Lesson: {LESSON}
+
+
+1. SEVEN POSTS
+Posts 1-3 are FREE. Posts 4-7 are PAID.
+Each post must be:
+
+Minimum 600 words. Do not summarize. Live inside the moment.
+Written in first person, past tense
+One specific scene per post — not a summary of events
+Emotionally honest, never melodramatic
+End with a one-line tease for the next post
+
+Post structure:
+
+Post 1: The setup. The moment it started.
+Post 2: The first year. When he already knew.
+Post 3: The middle. How he rationalized staying.
+Post 4: The bottom. One specific terrible moment.
+Post 5: The crawl out. Every coward move included.
+Post 6: The playbook. Concrete rules. No metaphors.
+Post 7: The tail. What it still costs him today.
+
+
+2. PER POST METADATA
+For each of the 7 posts generate:
+TAGS (5-8 Substack tags):
+Specific, searchable, relevant to that post's content.
+TEASER (one sentence, 15 words max):
+The most uncomfortable truth from that post. Punchy. No fluff. Works as a standalone X post or Reddit hook.
+X POST (max 280 characters):
+Rules:
+
+Hook in the first 5 words — must stop the scroll
+Emotional gut punch in the middle
+Conversational, blunt, slightly unhinged
+No hashtags
+End with "— Lou"
+Must feel like a real person tweeting at 2am, not a content calendar
+Bad example: "I stayed in a bad marriage for 20 years. Here's what I learned. 🧵"
+Good example: "I cried on a bathroom floor at 47 because I was too scared to leave at 28. The math finally worked. — Lou"
+
+SUBREDDIT (one per post):
+The single best subreddit for that specific post's content. Not the arc — that specific post. Include:
+
+Subreddit name
+Why it fits this post specifically
+Suggested post title for that subreddit
+Any subreddit-specific rules to be aware of
+
+
+3. PER ARC OUTPUTS
+ARC SUBREDDITS (5 subreddits):
+The 5 best subreddits for the overall arc theme. Include subreddit name, why it fits, and which post from the arc works best there.
+AITA POST:
+Adapt the core story into a full AITA-format Reddit post. 300-400 words. First person. Must follow these rules or it gets removed:
+
+There must be a specific conflict with a specific person — not a feeling, not a life regret
+The conflict must be something that happened or is happening — not hypothetical
+End with a direct judgment question: "AITA for [specific action] against [specific person]?"
+Good examples:
+
+"AITA for telling my aunt at her 70th birthday that her crying 30 years ago ruined my life?"
+"AITA for cutting off my business partner after finding out he lied on day one?"
+"AITA for refusing to apologize to someone I wronged 20 years ago?"
+
+
+The conflict must be real and current enough to ask judgment on — not just historical reflection
+No self promotion. No Substack mention.
+
+ARC SUMMARY (2-3 sentences):
+What this arc is about. Used for CodezMart and Gumroad product descriptions.
+
+HEADER (same every post):
+"I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another one."
+FOOTER (same every post):
+"I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours — brief, pricing, name, SEO, marketing copy, GTM plan.
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00
+→ See exactly what you get: https://codezmart.com/sample"
+
+Output everything as a single JSON file with this structure:
+json{
+  "arc_title": "",
+  "arc_summary": "",
+  "arc_subreddits": [
+    {
+      "subreddit": "",
+      "why_it_fits": "",
+      "best_post": ""
+    }
+  ],
+  "aita_post": "",
+  "posts": [
+    {
+      "post_number": 1,
+      "tier": "free",
+      "title": "",
+      "header": "",
+      "body": "",
+      "footer": "",
+      "tags": [],
+      "teaser": "",
+      "x_post": "",
+      "subreddit": {
+        "name": "",
+        "why_it_fits": "",
+        "suggested_title": "",
+        "rules_to_know": ""
+      }
+    }
+  ]
+}
+
+Every post now has its own X post and its own subreddit. Plus the arc-level subreddit list and AITA post.
+Drop it in. Ready to go.You said: is it in my interest to make it sound AI or notis it in my interest to make it sound AI or not11:02 AMClaude responded: Not.Not. Never.
+Lou Zerr only works if it feels human. The second it sounds AI-generated the whole brand collapses. The entire value proposition is "this is a real guy's real pain."
+The prompt already handles this — "live inside the moment", "one specific scene", "never preachy" — those instructions push it away from AI-speak.
+But you need to do one thing every time: read it out loud before you post it.
+If you stumble on a sentence it's AI. If it sounds like a LinkedIn post it's AI. If it uses the word "journey" or "navigating" or "it's okay to" — it's AI. Delete and rewrite that paragraph in your own voice.
+Your Arc 1 posts were good because they felt like a real person. "Fine is the word that ate my thirties and forties" — that's not AI. That's Lou Zerr.
+The pipeline generates the skeleton. You are the voice check before it goes live. That's the one human step that cannot be removed.You said: ok, give me a 2nd prompt as a verification that it is NOT aiok, give me a 2nd prompt as a verification that it is NOT ai11:04 AMClaude responded: Here it is:Here it is:
+
+You are a ruthless editor. Your only job is to detect and destroy AI-generated language.
+Read the following Substack post and flag every sentence that sounds like it was written by an AI, a content marketer, or a LinkedIn thought leader.
+FLAG AND REWRITE anything that:
+
+Uses journey, navigate, resonate, empower, dive in, unpack, shed light, it's okay to, at the end of the day, in today's world, or any similar corporate filler
+Summarizes instead of showing a specific moment
+Tells the reader how to feel instead of making them feel it
+Uses passive voice to avoid accountability
+Sounds like advice from someone who has never failed
+Uses metaphors that are generic — "life is a journey", "turn the page", "close that chapter"
+Has more than one exclamation point anywhere
+Starts a sentence with "Remember" or "Know that" or "It's important to"
+Wraps up too neatly — real life doesn't have clean endings
+Could have been written by anyone — if it has no specific detail it's AI
+
+For every flagged sentence:
+
+Quote the original
+Explain why it's AI
+Rewrite it in Lou Zerr's voice — raw, specific, first person, no redemption arc unless it's earned
+
+Lou Zerr's voice is:
+
+A 55 year old man who has made every mistake and is not proud of it
+Darkly funny but never performing humor
+Specific — real scenes, real feelings, no vague emotional summaries
+Never inspirational — he is the cautionary tale not the guru
+Uncomfortable to read because it's too honest
+Sounds like it was written at 2am by someone who couldn't sleep
+
+After flagging, give an overall verdict:
+
+SOUNDS HUMAN — post it
+NEEDS WORK — list the top 3 fixes
+AI SLOP — rewrite the whole thing
+
+
+Run every arc post through this before it goes live. Two prompts, one pipeline. Generate then verify.You said: This substack doesnt have an api right?This substack doesnt have an api right?8:03 AMClaude responded: Correct.Correct. No official public API.
+But there's an unofficial workaround — Substack has internal endpoints that people have reverse engineered. Fragile, could break anytime.
+Real options for automation:
+Option A — Email to draft
+Substack gives every publication a secret email address. You email the post to that address, it creates a draft. Your pipeline emails the finished post, you open Substack, hit publish. One tap.
+Option B — Zapier/Make webhook
+Connect your pipeline output to a Zapier workflow that emails to the Substack draft address. Fully automated to draft stage.
+Option C — Manual paste
+Pipeline generates the markdown file. You copy paste into Substack. 2 minutes per post.
+My call: Option A.
+Find your Substack draft email address:
+Settings → Publication Details → scroll down → there's a secret email address for posting drafts.
+Your pipeline already generates the markdown. Add one step — email that file to the draft address. You wake up, open Substack, see the draft ready, hit publish.
+That's your human-in-the-loop. One tap. Lou Zerr stays authentic.
+Want me to write the email sender step for your pipeline right now?You said: No can we make something that saves esactly in format for me to do a straight cut and paste?No can we make something that saves esactly in format for me to do a straight cut and paste?  With italics etc?8:05 AMClaude responded: Yes.Yes. Easy.
+Instead of markdown the pipeline outputs a clean HTML file formatted exactly like Substack expects — italics, headers, spacing, everything. You open the file in a browser, select all, copy, paste into Substack editor. Done.
+Substack's editor accepts rich text paste. It preserves bold, italics, line breaks, everything.
+What the output file looks like:
+lou_zerr_arc1_post1.html
+lou_zerr_arc1_post2.html
+...
+Open in browser → Cmd+A → Cmd+C → paste into Substack → publish.
+Two keyboard shortcuts between pipeline output and live post.
+Want me to write the HTML formatter as a Python script right now? It takes your arc JSON output and generates one HTML file per post, ready to paste.Sonnet 4.6Claude is AI and can make mistakes. Please double-check responses.ShareContentarc.jsonjsonREADME_DETAILED.md178 linesmdidea_0050.json__0001_brief.json17 linesjsonidea_0050.json__0001_business_brief_gtm.json29 linesjsonidea_0050.json__0001_business_brief_marketing_copy.json45 linesjsonidea_0050.json__0001_business_brief.json15 linesjsonidea_0050.json__0001_intake_stub_name_report.json307 linesjsonidea_0050.json__0001_intake_stub_name_suggestions.json43 linesjsonidea_0050.json__0001_intake_stub_named.json25 linesjsonidea_0050.json__0001_intake_stub.json19 linesjsonidea_0050.json__0001_one_liner.txt2 linestxtidea_0050.json__0001_pass0.json45 linesjsonidea_0050.json__0001_business_brief_seo.json164 linesjsonpost_01_free_twenty-year-favor.md38 linesmdpost_02_free_twenty-year-favor.md38 linesmdpost_03_free_twenty-year-favor.md45 linesmdpost_04_paid_twenty-year-favor.md42 linesmdpost_05_paid_twenty-year-favor.md40 linesmdpost_06_paid_twenty-year-favor.md44 linesmdpost_07_paid_twenty-year-favor.md42 linesmdschedule.json51 linesjson
