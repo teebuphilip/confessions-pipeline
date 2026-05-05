@@ -174,7 +174,7 @@ Each post generates:
 | `arc_summary` | 2-3 sentences for product descriptions |
 | `arc_subreddits` | 5 best subreddits for the arc theme |
 | `aita_post` | Reddit AITA post with current conflict + self-reflection |
-| `medium_teaser` | 100-150 word teaser with CTA to Substack |
+| `medium_article` | 500-800 word Medium article (hook, setup, turn, cliffhanger, CTA) |
 
 ## Verification Pipeline
 
@@ -250,10 +250,19 @@ Checks narrative flow:
 
 **One file = one destination. Loser-proof.**
 
+### Weekly Medium Post (one per arc)
+
+When arc completes, post `medium_article.md` to Medium:
+- Same Lou Zerr pseudonym as Substack
+- 500-800 word teaser with cliffhanger
+- CTA links to full Substack story
+- Set canonical link to Substack to avoid duplicate content penalties
+
 ### Schedule
 - 7 posts per arc
 - ~2 posts per week (every 3 days)
 - ~3 weeks per arc
+- 1 Medium article when arc completes
 
 ## Header/Footer Templates
 

@@ -196,8 +196,24 @@ GOOD AITA EXAMPLES:
 BAD AITA (will get removed):
 - "I stayed in a bad marriage for 20 years" (reflection, not current conflict)
 
-MEDIUM_TEASER:
-A 100-150 word teaser for Medium that hooks the reader and includes a CTA to read the full post on Substack. Must be compelling enough to click through.
+MEDIUM_ARTICLE:
+A full Medium article (500-800 words) that:
+- Uses the Lou Zerr byline and voice
+- Hooks with the most compelling moment from the arc
+- Tells enough of the story to create investment, but stops before the payoff
+- Leaves readers NEEDING to know what happened
+- Ends with clear CTA: "Read the full 7-part story on my Substack"
+- Does NOT give away the ending or the lessons
+- Feels like a standalone piece that happens to have more
+
+Structure:
+1. Hook (the gut punch moment)
+2. Setup (how Lou got there)
+3. The turn (when things went wrong)
+4. The cliffhanger (stop before resolution)
+5. CTA to Substack
+
+DO NOT include the actual Substack URL - we'll add that in post-processing.
 
 ARC_SUMMARY (2-3 sentences):
 What this arc is about. Used for product descriptions.
@@ -211,7 +227,7 @@ Return this exact JSON structure:
   "failure_type": "personal|professional|financial|social|relationship",
   "emotional_core": "one sentence — what this is really about underneath",
   "gut_punch": "the single most painful truth in this arc",
-  "medium_teaser": "100-150 word teaser for Medium with hook",
+  "medium_article": "500-800 word Medium article with hook, setup, turn, cliffhanger, CTA",
   "arc_subreddits": [
     {{
       "subreddit": "r/subreddit_name",
@@ -766,17 +782,33 @@ Post this to X/Twitter.
         with open(arc_dir / "aita_post.md", "w") as f:
             f.write(f"# AITA Post for: {arc['arc_title']}\n\n{aita_post}")
 
-    # Save Medium teaser
-    medium_teaser = arc.get('medium_teaser', '')
-    if medium_teaser:
-        teaser_with_cta = f"""{medium_teaser}
+    # Save Medium article (one per arc, weekly post)
+    medium_article = arc.get('medium_article', arc.get('medium_teaser', ''))
+    if medium_article:
+        medium_content = f"""# {arc['arc_title']}
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. This is mistake #{mistake_number}.*
 
 ---
 
-Read the full story on Substack: https://confessionsofaloser.substack.com
+{medium_article}
+
+---
+
+## Read the Full Story
+
+This is Part 1 of a 7-part series. The full arc — including the bottom, the crawl out, and what I should have done — is on my Substack.
+
+**→ [Read the full 7-part story on Substack](https://confessionsofaloser.substack.com)**
+
+---
+
+*Follow me here on Medium for more confessions, or subscribe to my Substack for the complete stories.*
+
+— Lou
 """
-        with open(arc_dir / "medium_teaser.md", "w") as f:
-            f.write(teaser_with_cta)
+        with open(arc_dir / "medium_article.md", "w") as f:
+            f.write(medium_content)
 
     # Save arc-level subreddits
     arc_subreddits = arc.get('arc_subreddits', [])

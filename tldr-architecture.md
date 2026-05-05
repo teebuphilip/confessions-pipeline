@@ -48,6 +48,11 @@ Repeat × 7 posts = 42 files + arc files (AITA, Medium teaser, etc.)
 5. substack_notes_post_01_2.md → Notes
 ```
 
+**Weekly (when arc completes):**
+```
+6. medium_article.md → Medium (same Lou Zerr pseudonym)
+```
+
 ## Cost
 
 ~$0.40/arc. ~$21/year at 1 arc/week.
