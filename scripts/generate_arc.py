@@ -149,6 +149,23 @@ The single best subreddit for that specific post's content. Include:
 - Suggested post title for that subreddit
 - Any subreddit-specific rules to be aware of
 
+SUBSTACK NOTES (2 per post):
+Substack Notes are short-form posts for discovery. Generate 2 Notes per article:
+
+NOTE_1_TEASER (morning post, drives to article):
+- 1-3 sentences max
+- Tease the story, create curiosity
+- Can reference "full story drops today" or link context
+- Personal, Lou's voice, not salesy
+- Example: "Fail #2: I spent 5 years trying to impress a man who never noticed. Tomorrow I tell you about the job I took to make my father proud. Spoiler: he still doesn't know what I do for a living. — Lou"
+
+NOTE_2_ENGAGEMENT (afternoon post, sparks conversation):
+- Question or confession that invites replies
+- Does NOT need to link to article
+- Goal: get people talking, algorithm rewards replies
+- Personal, relatable, slightly vulnerable
+- Example: "What's the longest you've stayed somewhere you knew you should leave? I have a number. It's embarrassing. — Lou"
+
 ARC-LEVEL OUTPUTS:
 
 ARC_SUBREDDITS (5 subreddits):
@@ -219,7 +236,9 @@ Return this exact JSON structure:
         "why_it_fits": "explanation",
         "suggested_title": "title for this subreddit",
         "rules_to_know": "relevant rules"
-      }}
+      }},
+      "note_1_teaser": "1-3 sentence teaser for morning, drives to article",
+      "note_2_engagement": "question or confession for afternoon, sparks replies"
     }}
   ]
 }}
@@ -640,6 +659,14 @@ teaser: {post.get('teaser', '')}
 **Subreddit:** {subreddit.get('name', 'N/A')}
 - Title: {subreddit.get('suggested_title', 'N/A')}
 - Why: {subreddit.get('why_it_fits', 'N/A')}
+
+## Substack Notes
+
+**Note 1 (Morning - Teaser):**
+{post.get('note_1_teaser', 'N/A')}
+
+**Note 2 (Afternoon - Engagement):**
+{post.get('note_2_engagement', 'N/A')}
 """
         with open(arc_dir / md_filename, "w") as f:
             f.write(md_content)
@@ -653,7 +680,9 @@ teaser: {post.get('teaser', '')}
             "publish_date": publish_date.strftime('%Y-%m-%d'),
             "tags": post.get('tags', []),
             "teaser": post.get('teaser', ''),
-            "x_post": post.get('x_post', '')
+            "x_post": post.get('x_post', ''),
+            "note_1_teaser": post.get('note_1_teaser', ''),
+            "note_2_engagement": post.get('note_2_engagement', '')
         })
 
         print(f"  [post {post['number']}] {post['tier'].upper()} — {post['title']}")
@@ -686,6 +715,18 @@ Read the full story on Substack: https://confessionsofaloser.substack.com
     if arc_subreddits:
         with open(arc_dir / "subreddits.json", "w") as f:
             json.dump(arc_subreddits, f, indent=2)
+
+    # Save all Substack Notes in one file for easy copy-paste
+    notes_content = f"# Substack Notes for: {arc['arc_title']}\n\n"
+    notes_content += "Copy-paste ready. Morning = Note 1 (teaser), Afternoon = Note 2 (engagement)\n\n"
+    notes_content += "---\n\n"
+    for post in arc["posts"]:
+        notes_content += f"## Post {post['number']}: {post['title']}\n\n"
+        notes_content += f"**Note 1 (Morning - Teaser):**\n{post.get('note_1_teaser', 'N/A')}\n\n"
+        notes_content += f"**Note 2 (Afternoon - Engagement):**\n{post.get('note_2_engagement', 'N/A')}\n\n"
+        notes_content += "---\n\n"
+    with open(arc_dir / "substack_notes.md", "w") as f:
+        f.write(notes_content)
 
     print(f"\n[done] Arc saved to: {arc_dir}")
     print(f"[arc] {arc['arc_title']}")
