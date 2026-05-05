@@ -607,23 +607,30 @@ def save_arc(arc: dict, output_dir: Path, mistake_number: int, verifications: di
 
     for i, post in enumerate(arc["posts"]):
         publish_date = base_date + timedelta(days=i * 3)
+        post_num = post['number']
+        tier = post['tier']
+        base_name = f"post_{post_num:02d}_{tier}_{slug}"
 
-        # Generate RTF file
-        rtf_filename = f"post_{post['number']:02d}_{post['tier']}_{slug}.rtf"
+        # =================================================================
+        # 1. RTF file (Substack article - paste ready)
+        # =================================================================
+        rtf_filename = f"{base_name}.rtf"
         rtf_content = generate_rtf(post, mistake_number, HEADER_TEMPLATE, FOOTER_TEMPLATE)
         with open(arc_dir / rtf_filename, "w") as f:
             f.write(rtf_content)
 
-        # Also save markdown for reference
-        md_filename = f"post_{post['number']:02d}_{post['tier']}_{slug}.md"
+        # =================================================================
+        # 2. MD file (reference with all assets)
+        # =================================================================
+        md_filename = f"{base_name}.md"
         tags_str = ', '.join(post.get('tags', []))
         subreddit = post.get('subreddit', {})
 
         md_content = f"""---
 arc: {arc['arc_title']}
 mistake: {mistake_number} of 943
-post: {post['number']} of 7
-tier: {post['tier'].upper()}
+post: {post_num} of 7
+tier: {tier.upper()}
 title: {post['title']}
 scheduled: {publish_date.strftime('%Y-%m-%d')}
 author: Lou Zerr
@@ -633,7 +640,7 @@ teaser: {post.get('teaser', '')}
 
 # {post['title']}
 
-*{HEADER_TEMPLATE.format(mistake_number=mistake_number, post_number=post['number'])}*
+*{HEADER_TEMPLATE.format(mistake_number=mistake_number, post_number=post_num)}*
 
 {post['hook']}
 
@@ -646,46 +653,108 @@ teaser: {post.get('teaser', '')}
 ---
 
 {FOOTER_TEMPLATE}
-
----
-
-## Promo Assets
-
-**X Post:**
-{post.get('x_post', 'N/A')}
-
-**Teaser:** {post.get('teaser', 'N/A')}
-
-**Subreddit:** {subreddit.get('name', 'N/A')}
-- Title: {subreddit.get('suggested_title', 'N/A')}
-- Why: {subreddit.get('why_it_fits', 'N/A')}
-
-## Substack Notes
-
-**Note 1 (Morning - Teaser):**
-{post.get('note_1_teaser', 'N/A')}
-
-**Note 2 (Afternoon - Engagement):**
-{post.get('note_2_engagement', 'N/A')}
 """
         with open(arc_dir / md_filename, "w") as f:
             f.write(md_content)
 
+        # =================================================================
+        # 3. X Post file (standalone, copy-paste to X)
+        # =================================================================
+        x_filename = f"{base_name}_x.md"
+        x_content = f"""# X Post for: {post['title']}
+
+Post this to X/Twitter.
+
+---
+
+{post.get('x_post', 'N/A')}
+"""
+        with open(arc_dir / x_filename, "w") as f:
+            f.write(x_content)
+
+        # =================================================================
+        # 4. Reddit file (standalone, includes subreddit in filename)
+        # =================================================================
+        subreddit_name = subreddit.get('name', 'r/unknown').replace('r/', '').replace('/', '_')
+        reddit_filename = f"{base_name}_reddit_{subreddit_name}.md"
+        reddit_content = f"""# Reddit Post for: {post['title']}
+
+**Subreddit:** {subreddit.get('name', 'N/A')}
+**Suggested Title:** {subreddit.get('suggested_title', 'N/A')}
+**Rules to know:** {subreddit.get('rules_to_know', 'N/A')}
+
+---
+
+## Post Content
+
+{subreddit.get('suggested_title', post['title'])}
+
+{post['hook']}
+
+{post['body'][:1500]}...
+
+[Read the full story on my Substack]
+
+— Lou
+"""
+        with open(arc_dir / reddit_filename, "w") as f:
+            f.write(reddit_content)
+
+        # =================================================================
+        # 5. Substack Note 1 (Morning - Teaser)
+        # =================================================================
+        note1_filename = f"substack_notes_post_{post_num:02d}_1.md"
+        note1_content = f"""# Substack Note 1 (Morning - Teaser)
+
+**Post:** {post['title']}
+**When:** Morning (with article, X, Reddit)
+**Purpose:** Drive to article
+
+---
+
+{post.get('note_1_teaser', 'N/A')}
+"""
+        with open(arc_dir / note1_filename, "w") as f:
+            f.write(note1_content)
+
+        # =================================================================
+        # 6. Substack Note 2 (Afternoon - Engagement)
+        # =================================================================
+        note2_filename = f"substack_notes_post_{post_num:02d}_2.md"
+        note2_content = f"""# Substack Note 2 (Afternoon - Engagement)
+
+**Post:** {post['title']}
+**When:** Afternoon
+**Purpose:** Spark conversation (no link needed)
+
+---
+
+{post.get('note_2_engagement', 'N/A')}
+"""
+        with open(arc_dir / note2_filename, "w") as f:
+            f.write(note2_content)
+
+        # =================================================================
+        # Schedule entry
+        # =================================================================
         schedule.append({
-            "post": post['number'],
-            "tier": post['tier'],
+            "post": post_num,
+            "tier": tier,
             "title": post['title'],
-            "rtf_file": rtf_filename,
-            "md_file": md_filename,
             "publish_date": publish_date.strftime('%Y-%m-%d'),
+            "files": {
+                "article_rtf": rtf_filename,
+                "article_md": md_filename,
+                "x_post": x_filename,
+                "reddit": reddit_filename,
+                "note_1": note1_filename,
+                "note_2": note2_filename
+            },
             "tags": post.get('tags', []),
-            "teaser": post.get('teaser', ''),
-            "x_post": post.get('x_post', ''),
-            "note_1_teaser": post.get('note_1_teaser', ''),
-            "note_2_engagement": post.get('note_2_engagement', '')
+            "subreddit": subreddit.get('name', '')
         })
 
-        print(f"  [post {post['number']}] {post['tier'].upper()} — {post['title']}")
+        print(f"  [post {post_num}] {tier.upper()} — {post['title']} (6 files)")
 
     # Save schedule
     with open(arc_dir / "schedule.json", "w") as f:
@@ -700,7 +769,6 @@ teaser: {post.get('teaser', '')}
     # Save Medium teaser
     medium_teaser = arc.get('medium_teaser', '')
     if medium_teaser:
-        # Add CTA with Substack link
         teaser_with_cta = f"""{medium_teaser}
 
 ---
@@ -710,25 +778,16 @@ Read the full story on Substack: https://confessionsofaloser.substack.com
         with open(arc_dir / "medium_teaser.md", "w") as f:
             f.write(teaser_with_cta)
 
-    # Save subreddits
+    # Save arc-level subreddits
     arc_subreddits = arc.get('arc_subreddits', [])
     if arc_subreddits:
         with open(arc_dir / "subreddits.json", "w") as f:
             json.dump(arc_subreddits, f, indent=2)
 
-    # Save all Substack Notes in one file for easy copy-paste
-    notes_content = f"# Substack Notes for: {arc['arc_title']}\n\n"
-    notes_content += "Copy-paste ready. Morning = Note 1 (teaser), Afternoon = Note 2 (engagement)\n\n"
-    notes_content += "---\n\n"
-    for post in arc["posts"]:
-        notes_content += f"## Post {post['number']}: {post['title']}\n\n"
-        notes_content += f"**Note 1 (Morning - Teaser):**\n{post.get('note_1_teaser', 'N/A')}\n\n"
-        notes_content += f"**Note 2 (Afternoon - Engagement):**\n{post.get('note_2_engagement', 'N/A')}\n\n"
-        notes_content += "---\n\n"
-    with open(arc_dir / "substack_notes.md", "w") as f:
-        f.write(notes_content)
-
+    # Print summary
+    total_files = 7 * 6 + 3  # 6 per post + arc.json + aita + medium_teaser
     print(f"\n[done] Arc saved to: {arc_dir}")
+    print(f"[files] {total_files} files generated (6 per post + arc files)")
     print(f"[arc] {arc['arc_title']}")
     print(f"[mistake] #{mistake_number} of 943")
     print(f"[core] {arc['emotional_core']}")

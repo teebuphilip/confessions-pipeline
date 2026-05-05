@@ -17,30 +17,36 @@ python scripts/generate_arc.py --seed "your story here"
 seed → generate 7 posts → verify (AI/readability/coherence) → output files
 ```
 
-## Output Per Arc
+## Output Per Arc (~48 files)
 
-| File | What |
-|------|------|
-| `post_*.rtf` | Substack paste-ready |
-| `post_*.md` | Reference + promo assets |
-| `substack_notes.md` | All 14 Notes (2 per post) |
-| `aita_post.md` | Reddit AITA |
-| `medium_teaser.md` | Medium hook |
-| `subreddits.json` | Reddit targets |
-| `schedule.json` | Publish dates + all content |
+**One file = one action. Loser-proof.**
 
-## Per Post Assets
+Example with `burning_bridges` slug:
 
-- **X post:** Provocative, 280 chars, ends "— Lou"
-- **Note 1:** Morning teaser, drives to article
-- **Note 2:** Afternoon engagement, sparks replies
-- **Subreddit:** Target + suggested title
-- **Tags:** 5-8 Substack tags
+| File | Destination |
+|------|-------------|
+| `post_01_free_burning_bridges.rtf` | Substack (paste) |
+| `post_01_free_burning_bridges_x.md` | X/Twitter |
+| `post_01_free_burning_bridges_reddit_relationships.md` | Reddit |
+| `substack_notes_post_01_1.md` | Notes (morning) |
+| `substack_notes_post_01_2.md` | Notes (afternoon) |
 
-## Daily Publish Flow
+Repeat × 7 posts = 42 files + arc files (AITA, Medium teaser, etc.)
 
-**Morning:** Article + X + Reddit + Note 1
-**Afternoon:** Note 2
+## Daily Workflow
+
+**Morning:**
+```
+1. post_01_*.rtf           → Substack
+2. post_01_*_x.md          → X
+3. post_01_*_reddit_*.md   → Reddit
+4. substack_notes_post_01_1.md → Notes
+```
+
+**Afternoon:**
+```
+5. substack_notes_post_01_2.md → Notes
+```
 
 ## Cost
 

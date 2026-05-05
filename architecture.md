@@ -49,22 +49,52 @@ confessionsofaloser/
 │   └── seed_ideas.json      # Backlog of arc ideas
 ├── output/
 │   └── drafts/
-│       └── <arc-slug>/      # Generated arc output
-│           ├── arc.json
-│           ├── verifications.json
-│           ├── schedule.json
-│           ├── post_01_free_*.rtf
-│           ├── post_01_free_*.md
-│           ├── ... (posts 2-7)
-│           ├── substack_notes.md
-│           ├── aita_post.md
-│           ├── medium_teaser.md
-│           └── subreddits.json
+│       └── <arc-slug>/      # Generated arc output (see below)
 ├── louzerr.header.txt       # Header template
 ├── louzerr.footer.txt       # Footer with CTA
 ├── state.json               # Mistake counter + arc history
 └── CLAUDE_SESSION_HANDOFF.md
 ```
+
+## Output Files (Loser-Proof Structure)
+
+**One file = one action. No hunting, no mistakes.**
+
+Example with slug `burning_bridges`, post 1, subreddit `r/relationships`:
+
+```
+output/drafts/burning_bridges/
+
+# Arc-level files
+arc.json                                    # Full arc data
+verifications.json                          # Verification results
+schedule.json                               # Publish dates + file map
+aita_post.md                                # Reddit AITA post
+medium_teaser.md                            # Medium teaser with CTA
+subreddits.json                             # Arc-level subreddit targets
+
+# Per-post files (6 files per post × 7 posts = 42 files)
+
+## Post 1 example:
+post_01_free_burning_bridges.rtf            # → Substack (paste)
+post_01_free_burning_bridges.md             # → Reference
+post_01_free_burning_bridges_x.md           # → X/Twitter (paste)
+post_01_free_burning_bridges_reddit_relationships.md  # → Reddit (paste)
+substack_notes_post_01_1.md                 # → Notes (morning)
+substack_notes_post_01_2.md                 # → Notes (afternoon)
+
+## Post 2 example:
+post_02_free_burning_bridges.rtf
+post_02_free_burning_bridges.md
+post_02_free_burning_bridges_x.md
+post_02_free_burning_bridges_reddit_selfimprovement.md
+substack_notes_post_02_1.md
+substack_notes_post_02_2.md
+
+# ... posts 3-7 follow same pattern
+```
+
+**Total per arc: ~48 files** (42 per-post + 6 arc-level)
 
 ## Input Modes
 
@@ -205,14 +235,20 @@ Checks narrative flow:
 
 ### Per Post (daily when publishing)
 
-**Morning:**
-1. Publish article to Substack
-2. Post X (provocative tweet)
-3. Post to target subreddit
-4. Post Note 1 (teaser — drives to article)
+**Morning workflow (example: Post 1 of burning_bridges):**
+```
+1. Open post_01_free_burning_bridges.rtf     → Paste to Substack → Publish
+2. Open post_01_free_burning_bridges_x.md    → Copy → Paste to X
+3. Open post_01_free_burning_bridges_reddit_relationships.md → Copy → Paste to r/relationships
+4. Open substack_notes_post_01_1.md          → Copy → Paste to Substack Notes
+```
 
-**Afternoon:**
-5. Post Note 2 (engagement — sparks conversation)
+**Afternoon workflow:**
+```
+5. Open substack_notes_post_01_2.md          → Copy → Paste to Substack Notes
+```
+
+**One file = one destination. Loser-proof.**
 
 ### Schedule
 - 7 posts per arc
