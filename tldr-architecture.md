@@ -63,6 +63,17 @@ louzerr.footer.txt         # footer CTA
 state.json                 # mistake counter
 ```
 
+## Loser Notes (PDF Product)
+
+```bash
+python scripts/generate_loser_notes.py --arc output/drafts/twenty-year-favor
+python scripts/generate_loser_notes.py --compile  # compile book
+```
+
+75 arcs → 150-page book → Gumroad/Amazon
+
+---
+
 ## More Ideas
 
 ```bash

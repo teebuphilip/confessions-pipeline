@@ -269,6 +269,32 @@ I spent 25 years building the wrong things. So I built a system that tells you i
 → Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00
 ```
 
+## Loser Notes Generator
+
+Generate PDF-ready summaries from completed arcs:
+
+```bash
+# Generate Loser Notes from one arc
+python scripts/generate_loser_notes.py --arc output/drafts/twenty-year-favor
+
+# Print to screen
+python scripts/generate_loser_notes.py --arc output/drafts/twenty-year-favor --stdout
+
+# Compile all notes into one book
+python scripts/generate_loser_notes.py --compile
+```
+
+**Output per arc:**
+- `loser_notes_<slug>.json` — structured data
+- `loser_notes_<slug>.md` — formatted markdown
+
+**Book compilation:**
+- `THE_LOSERS_PLAYBOOK.md` — all arcs combined
+- ~2 pages per arc × 75 arcs = 150-page book
+- Sell on Gumroad, Amazon KDP, etc.
+
+---
+
 ## Ideas Generator
 
 Generate more arc ideas:
