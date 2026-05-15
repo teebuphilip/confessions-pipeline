@@ -1,0 +1,1 @@
+Where were you standing when you finally capitulated on something? Not a stock — anything. A relationship, a job, an idea about yourself. I was outside a Quiznos. — Lou

@@ -1,0 +1,1 @@
+Final post in the arc drops today. It's not about the money I lost. It's about the house I drive past once a month on the way to the hardware store. — Lou

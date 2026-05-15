@@ -1,0 +1,39 @@
+{
+  "post_id": "2026-06-05-lou-ipo-that-should-have-bought-me-a-house-7-pm",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-06-05",
+  "scheduled_time": "15:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The IPO That Should Have Bought Me a House",
+  "mistake_number": 2,
+  "post_number": 7,
+  "tier": "paid",
+  "note_type": "engagement",
+  "channels": {
+    "x": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "skip",
+      "subreddits": []
+    }
+  }
+}

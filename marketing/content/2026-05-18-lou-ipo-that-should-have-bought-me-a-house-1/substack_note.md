@@ -1,0 +1,1 @@
+Fail #237: In March 2000 I did the math on a Post-it note and stuck it to my fridge with a pineapple magnet from Maui. The number had six digits. Full story drops today. — Lou

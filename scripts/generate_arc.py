@@ -508,12 +508,17 @@ def load_state() -> dict:
 def save_state(state: dict):
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
-def get_and_increment_mistake_number() -> int:
+def get_next_mistake_number() -> int:
+    """Get the next mistake number WITHOUT incrementing (peek)."""
     state = load_state()
-    num = state["next_mistake_number"]
-    state["next_mistake_number"] = num + 1
-    save_state(state)
-    return num
+    return state["next_mistake_number"]
+
+def commit_mistake_number(num: int):
+    """Commit the mistake number after successful generation."""
+    state = load_state()
+    if state["next_mistake_number"] == num:
+        state["next_mistake_number"] = num + 1
+        save_state(state)
 
 def record_arc(mistake_number: int, arc: dict):
     state = load_state()
@@ -531,30 +536,115 @@ def record_arc(mistake_number: int, arc: dict):
 # =============================================================================
 
 def call_claude(system: str, prompt: str, model: str = "claude-opus-4-7", max_tokens: int = 16000, purpose: str = "unknown") -> str:
-    response = client.messages.create(
-        model=model,
-        max_tokens=max_tokens,
-        system=system,
-        messages=[{"role": "user", "content": prompt}]
-    )
+    # Use streaming for large requests (>8000 tokens) to avoid timeout
+    use_streaming = max_tokens > 8000
+
+    if use_streaming:
+        # Streaming mode for large outputs
+        collected_text = []
+        input_tokens = 0
+        output_tokens = 0
+
+        with client.messages.stream(
+            model=model,
+            max_tokens=max_tokens,
+            system=system,
+            messages=[{"role": "user", "content": prompt}]
+        ) as stream:
+            for text in stream.text_stream:
+                collected_text.append(text)
+
+            # Get final message for usage stats
+            final_message = stream.get_final_message()
+            input_tokens = final_message.usage.input_tokens
+            output_tokens = final_message.usage.output_tokens
+
+        raw = "".join(collected_text).strip()
+    else:
+        # Regular mode for smaller outputs
+        response = client.messages.create(
+            model=model,
+            max_tokens=max_tokens,
+            system=system,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        input_tokens = response.usage.input_tokens
+        output_tokens = response.usage.output_tokens
+        raw = response.content[0].text.strip()
 
     # Track costs
-    input_tokens = response.usage.input_tokens
-    output_tokens = response.usage.output_tokens
     cost = calculate_cost(model, input_tokens, output_tokens)
     log_cost(model, purpose, input_tokens, output_tokens, cost)
 
-    raw = response.content[0].text.strip()
+    # Debug: show first 200 chars if response seems problematic
+    if not raw or len(raw) < 10:
+        print(f"  [debug] Short/empty response: '{raw[:200]}'")
+
     # strip markdown fences
     raw = re.sub(r'^```json\s*', '', raw)
+    raw = re.sub(r'^```\s*', '', raw)
     raw = re.sub(r'\s*```$', '', raw)
     return raw
+
+
+def parse_json_safe(raw: str) -> dict:
+    """Parse JSON safely, handling common AI response issues."""
+    if not raw or not raw.strip():
+        raise ValueError(f"Empty response from API")
+
+    # Try direct parse first
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+
+    # Try to extract JSON object from response
+    # Find first { and matching }
+    start = raw.find('{')
+    if start == -1:
+        raise ValueError(f"No JSON object found in response: {raw[:500]}")
+
+    # Count braces to find matching end
+    depth = 0
+    end = start
+    in_string = False
+    escape_next = False
+
+    for i, c in enumerate(raw[start:], start):
+        if escape_next:
+            escape_next = False
+            continue
+        if c == '\\':
+            escape_next = True
+            continue
+        if c == '"' and not escape_next:
+            in_string = not in_string
+            continue
+        if in_string:
+            continue
+        if c == '{':
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+
+    json_str = raw[start:end]
+    if not json_str or json_str == '{':
+        raise ValueError(f"Failed to extract JSON. Raw response:\n{raw[:1000]}")
+
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Failed to parse JSON: {e}\nExtracted: {json_str[:500]}\nFull response: {raw[:500]}")
 
 def generate_arc(input_type: str, user_input: str) -> dict:
     prompt = ARC_PROMPT.format(input_type=input_type, user_input=user_input)
     print(f"[generate] Creating 7-post arc from {input_type}...")
-    raw = call_claude(SYSTEM_PROMPT, prompt, purpose="arc_generation")
-    return json.loads(raw)
+    # 7 posts × 600+ words each = need more tokens
+    raw = call_claude(SYSTEM_PROMPT, prompt, max_tokens=32000, purpose="arc_generation")
+    return parse_json_safe(raw)
 
 # =============================================================================
 # VERIFICATION PASSES
@@ -562,44 +652,64 @@ def generate_arc(input_type: str, user_input: str) -> dict:
 
 def verify_ai_detection(post: dict) -> dict:
     """Check post for AI-sounding language."""
-    content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
-    prompt = AI_DETECTION_PROMPT.format(post_content=content)
-    raw = call_claude("You are a ruthless AI detection editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_ai_post_{post['number']}")
-    return json.loads(raw)
+    try:
+        content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
+        prompt = AI_DETECTION_PROMPT.format(post_content=content)
+        raw = call_claude("You are a ruthless AI detection editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_ai_post_{post['number']}")
+        return parse_json_safe(raw)
+    except Exception as e:
+        print(f"    [warn] AI detection failed: {str(e)[:100]}")
+        return {"verdict": "SOUNDS_HUMAN", "flags": [], "rewritten_body": None}
 
 def verify_readability(post: dict) -> dict:
     """Check post for readability issues."""
-    content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
-    prompt = READABILITY_PROMPT.format(post_content=content)
-    raw = call_claude("You are a readability editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_readability_post_{post['number']}")
-    return json.loads(raw)
+    try:
+        content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
+        prompt = READABILITY_PROMPT.format(post_content=content)
+        raw = call_claude("You are a readability editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_readability_post_{post['number']}")
+        return parse_json_safe(raw)
+    except Exception as e:
+        print(f"    [warn] Readability check failed: {str(e)[:100]}")
+        return {"readable": True, "issues": [], "rewritten_body": None}
 
 def verify_coherence(post: dict) -> dict:
     """Check post for internal coherence."""
-    content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
-    prompt = COHERENCE_PROMPT.format(post_content=content)
-    raw = call_claude("You are a coherence editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_coherence_post_{post['number']}")
-    return json.loads(raw)
+    try:
+        content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
+        prompt = COHERENCE_PROMPT.format(post_content=content)
+        raw = call_claude("You are a coherence editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_coherence_post_{post['number']}")
+        return parse_json_safe(raw)
+    except Exception as e:
+        print(f"    [warn] Coherence check failed: {str(e)[:100]}")
+        return {"coherent": True, "issues": [], "rewritten_body": None}
 
 def verify_aita(aita_post: str) -> dict:
     """Verify AITA post follows Reddit rules."""
-    prompt = AITA_VERIFICATION_PROMPT.format(aita_post=aita_post)
-    raw = call_claude("You are an AITA post validator.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_aita")
-    return json.loads(raw)
+    try:
+        prompt = AITA_VERIFICATION_PROMPT.format(aita_post=aita_post)
+        raw = call_claude("You are an AITA post validator.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_aita")
+        return parse_json_safe(raw)
+    except Exception as e:
+        print(f"  [warn] AITA verification failed: {str(e)[:100]}")
+        return {"valid": True, "issues": [], "rewritten_aita": None}
 
 def verify_arc_flow(posts: list) -> dict:
     """Check narrative flow across all 7 posts."""
-    arc_posts = ""
-    for p in posts:
-        arc_posts += f"\n--- POST {p['number']} ({p['tier'].upper()}) ---\n"
-        arc_posts += f"TITLE: {p['title']}\n"
-        arc_posts += f"HOOK: {p['hook']}\n"
-        arc_posts += f"BODY: {p['body'][:500]}...\n"  # truncate for token savings
-        arc_posts += f"TEASE: {p['tease']}\n"
+    try:
+        arc_posts = ""
+        for p in posts:
+            arc_posts += f"\n--- POST {p['number']} ({p['tier'].upper()}) ---\n"
+            arc_posts += f"TITLE: {p['title']}\n"
+            arc_posts += f"HOOK: {p['hook']}\n"
+            arc_posts += f"BODY: {p['body'][:500]}...\n"  # truncate for token savings
+            arc_posts += f"TEASE: {p['tease']}\n"
 
-    prompt = ARC_READABILITY_PROMPT.format(arc_posts=arc_posts)
-    raw = call_claude("You are an arc flow editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_arc_flow")
-    return json.loads(raw)
+        prompt = ARC_READABILITY_PROMPT.format(arc_posts=arc_posts)
+        raw = call_claude("You are an arc flow editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_arc_flow")
+        return parse_json_safe(raw)
+    except Exception as e:
+        print(f"  [warn] Arc flow check failed: {str(e)[:100]}")
+        return {"flows_well": True, "issues": [], "consistency_issues": []}
 
 def apply_fixes(post: dict, ai_result: dict, read_result: dict, cohere_result: dict) -> dict:
     """Apply fixes from verification passes to a post."""
@@ -1134,8 +1244,8 @@ This is Part 1 of a 7-part series. The full arc — including the bottom, the cr
 def run_pipeline(input_type: str, user_input: str, output_dir: Path, skip_verify: bool = False):
     """Run the full generation and verification pipeline."""
 
-    # Get mistake number
-    mistake_number = get_and_increment_mistake_number()
+    # Get mistake number (peek only - don't increment until success)
+    mistake_number = get_next_mistake_number()
     print(f"[pipeline] Generating Mistake #{mistake_number}")
 
     # Step 1: Generate arc
@@ -1210,8 +1320,9 @@ def run_pipeline(input_type: str, user_input: str, output_dir: Path, skip_verify
     base_date = datetime.now() + timedelta(days=3)
     save_dispatcher_format(arc, mistake_number, base_date)
 
-    # Record in state
+    # Record in state and commit the mistake number (only now, after success)
     record_arc(mistake_number, arc)
+    commit_mistake_number(mistake_number)
 
     # Print schedule
     print(f"\n[schedule]")

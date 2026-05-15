@@ -1,0 +1,1 @@
+Is there a house, a city, a person you drive past or look up online sometimes, knowing it could have been your life? I have an address. I will not type it. — Lou

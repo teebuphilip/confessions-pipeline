@@ -1,0 +1,1 @@
+Today's post is the closest thing I'll ever write to a how-to. Eight rules. Each one cost me real money to learn. I'm giving them to you for the price of a Substack click. — Lou

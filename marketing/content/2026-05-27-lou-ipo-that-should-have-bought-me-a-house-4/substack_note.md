@@ -1,0 +1,1 @@
+Today: the day I finally sold. Payphone outside a Quiznos. Broker named Brent. Toddler in the parking lot screaming about a watermelon. I have never been so understood. — Lou

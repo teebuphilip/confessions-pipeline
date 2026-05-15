@@ -1,0 +1,1 @@
+In March 2000 I stood in my kitchen in socks and did the math three times. The Post-it on my fridge said I was almost a millionaire. Six months later I sold at nine bucks a share. The pineapple magnet outlived the dream. — Lou

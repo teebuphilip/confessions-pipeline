@@ -1,0 +1,1 @@
+What's a rule you follow now that you would not have understood at thirty? I'll go: never invest borrowed money in something I'd lie to the lender about. — Lou

@@ -1,5 +1,5 @@
 {
-  "next_mistake_number": 2,
+  "next_mistake_number": 3,
   "arcs_generated": [
     {
       "mistake_number": 1,
@@ -7,6 +7,13 @@
       "arc_slug": "twenty-year-favor",
       "generated_date": "2026-04-30",
       "status": "posting"
+    },
+    {
+      "mistake_number": 2,
+      "arc_title": "The IPO That Should Have Bought Me a House",
+      "arc_slug": "ipo-that-should-have-bought-me-a-house",
+      "generated_date": "2026-05-15",
+      "status": "generated"
     }
   ]
 }

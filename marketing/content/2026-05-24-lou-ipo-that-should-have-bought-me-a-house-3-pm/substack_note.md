@@ -1,0 +1,1 @@
+Worst inaction of your life? Not the wrong move — the no move. The moment you sat frozen and the world ticked down a price at a time. — Lou

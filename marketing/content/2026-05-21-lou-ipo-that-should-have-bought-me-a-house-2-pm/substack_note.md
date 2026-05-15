@@ -1,0 +1,1 @@
+Who was the Dan in your life? The person who told you the exact right thing at the exact right time and you smiled and ignored them? Mine wore short-sleeved button-downs. — Lou

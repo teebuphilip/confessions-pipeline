@@ -1,0 +1,1 @@
+What's the longest you've kept a small lie alive with someone you love? Mine ran 21 years and started with a Honda Civic. — Lou
