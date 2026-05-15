@@ -20,11 +20,61 @@ Output: Loser Notes summary with:
 import argparse
 import os
 import json
+import csv
 from pathlib import Path
 from datetime import datetime
 import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY", ""))
+
+# =============================================================================
+# COST TRACKING
+# =============================================================================
+
+MODEL_PRICING = {
+    "claude-sonnet-4-20250514": {"input": 3.00, "output": 15.00},
+}
+
+COST_LOG = []
+
+def calculate_cost(model: str, input_tokens: int, output_tokens: int) -> float:
+    pricing = MODEL_PRICING.get(model, {"input": 3.00, "output": 15.00})
+    input_cost = (input_tokens / 1_000_000) * pricing["input"]
+    output_cost = (output_tokens / 1_000_000) * pricing["output"]
+    return input_cost + output_cost
+
+def log_cost(model: str, purpose: str, input_tokens: int, output_tokens: int, cost: float):
+    COST_LOG.append({
+        "timestamp": datetime.now().isoformat(),
+        "model": model,
+        "purpose": purpose,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cost_usd": round(cost, 6)
+    })
+
+def save_costs_to_global():
+    if not COST_LOG:
+        return
+    global_costs_file = ROOT_DIR / "output" / "ai_costs_all.csv"
+    global_costs_file.parent.mkdir(parents=True, exist_ok=True)
+    file_exists = global_costs_file.exists()
+    with open(global_costs_file, "a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["timestamp", "model", "purpose", "input_tokens", "output_tokens", "cost_usd"])
+        if not file_exists:
+            writer.writeheader()
+        writer.writerows(COST_LOG)
+
+def print_cost_summary():
+    if not COST_LOG:
+        return
+    total_cost = sum(c["cost_usd"] for c in COST_LOG)
+    total_input = sum(c["input_tokens"] for c in COST_LOG)
+    total_output = sum(c["output_tokens"] for c in COST_LOG)
+    print(f"\n[costs] API Calls: {len(COST_LOG)}")
+    print(f"[costs] Input tokens: {total_input:,}")
+    print(f"[costs] Output tokens: {total_output:,}")
+    print(f"[costs] Total: ${total_cost:.4f}")
 
 SCRIPT_DIR = Path(__file__).parent
 ROOT_DIR = SCRIPT_DIR.parent
@@ -123,6 +173,13 @@ def extract_loser_notes(arc: dict) -> dict:
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}]
     )
+
+    # Track costs
+    model = "claude-sonnet-4-20250514"
+    input_tokens = response.usage.input_tokens
+    output_tokens = response.usage.output_tokens
+    cost = calculate_cost(model, input_tokens, output_tokens)
+    log_cost(model, f"loser_notes_{arc.get('arc_slug', 'unknown')}", input_tokens, output_tokens, cost)
 
     raw = response.content[0].text.strip()
 
@@ -387,6 +444,10 @@ def main():
         output_file = NOTES_DIR / f"loser_notes_{slug}.{ext}"
         output_file.write_text(output)
         print(f"[saved] {output_file}")
+
+    # Save and print costs
+    save_costs_to_global()
+    print_cost_summary()
 
 
 if __name__ == "__main__":

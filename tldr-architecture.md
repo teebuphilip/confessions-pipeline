@@ -17,7 +17,7 @@ python scripts/generate_arc.py --seed "your story here"
 seed → generate 7 posts → verify (AI/readability/coherence) → output files
 ```
 
-## Output Per Arc (~48 files)
+## Output Per Arc (~48 files + dispatcher)
 
 **One file = one action. Loser-proof.**
 
@@ -32,6 +32,20 @@ Example with `burning_bridges` slug:
 | `substack_notes_post_01_2.md` | Notes (afternoon) |
 
 Repeat × 7 posts = 42 files + arc files (AITA, Medium teaser, etc.)
+
+## Dispatcher Output (Automated Posting)
+
+Also outputs to `marketing/content/` for content-dispatcher:
+
+```
+marketing/content/2026-05-17-lou-burning-bridges-1/
+  meta.json, x.md, substack.md, substack_note.md, reddit_*.md, medium.md
+
+marketing/content/2026-05-17-lou-burning-bridges-1-pm/
+  meta.json, substack_note.md  (afternoon note)
+```
+
+14 folders per arc (7 AM + 7 PM).
 
 ## Daily Workflow
 
@@ -56,6 +70,8 @@ Repeat × 7 posts = 42 files + arc files (AITA, Medium teaser, etc.)
 ## Cost
 
 ~$0.40/arc. ~$21/year at 1 arc/week.
+
+Costs tracked automatically in `output/ai_costs_all.csv`.
 
 ## Files
 

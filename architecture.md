@@ -96,6 +96,78 @@ substack_notes_post_02_2.md
 
 **Total per arc: ~48 files** (42 per-post + 6 arc-level)
 
+## Dispatcher-Compatible Output
+
+In addition to the loser-proof structure above, the pipeline also outputs content in `content-dispatcher` format for automated posting.
+
+### Folder Structure
+
+```
+marketing/content/
+
+# Morning folders (article + X + Reddit + Note 1)
+2026-05-17-lou-burning-bridges-1/
+  meta.json
+  x.md
+  substack.md
+  substack_note.md
+  reddit_relationships.md
+  medium.md              # Only in Post 1 folder
+
+# Afternoon folders (Note 2 only)
+2026-05-17-lou-burning-bridges-1-pm/
+  meta.json
+  substack_note.md
+
+# Repeat for posts 2-7...
+```
+
+### meta.json Structure
+
+```json
+{
+  "post_id": "2026-05-17-lou-burning-bridges-1",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-05-17",
+  "scheduled_time": "09:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The Bridge I Burned",
+  "mistake_number": 2,
+  "post_number": 1,
+  "tier": "free",
+  "channels": {
+    "x": { "status": "ready", "posted_at": null, "post_id": null },
+    "substack": { "status": "ready", "posted_at": null, "post_id": null },
+    "substack_note": { "status": "ready", "posted_at": null, "post_id": null },
+    "medium": { "status": "ready", "posted_at": null, "post_id": null },
+    "reddit": {
+      "status": "ready",
+      "subreddits": [
+        { "name": "relationships", "file": "reddit_relationships.md", "status": "ready" }
+      ]
+    }
+  }
+}
+```
+
+### File Contents
+
+| File | Content |
+|------|---------|
+| `x.md` | Just the tweet text (no headers) |
+| `substack.md` | Full article with header/footer |
+| `substack_note.md` | Note text only |
+| `reddit_<sub>.md` | Reddit post with title |
+| `medium.md` | Full Medium article (Post 1 only) |
+
+### Schedule Pattern
+
+- **Morning (09:00):** Article + X + Reddit + Note 1 + Medium (Post 1 only)
+- **Afternoon (15:00):** Note 2
+
+**Total per arc:** 14 content folders (7 morning + 7 afternoon)
+
 ## Input Modes
 
 ### 1. Life Event (`--event`)
@@ -325,11 +397,30 @@ Ideas organized by decade:
 - **40s:** The Damage Years
 - **50s:** The Reckoning Years
 
-## Cost Estimate
+## Cost Tracking
+
+All scripts track API costs automatically:
+
+| File | Contains |
+|------|----------|
+| `output/<arc-slug>/ai_costs.csv` | Costs for that arc run |
+| `output/ai_costs_all.csv` | All costs across all runs |
+
+Each CSV includes: timestamp, model, purpose, input_tokens, output_tokens, cost_usd
+
+### Model Pricing (per 1M tokens)
+
+| Model | Input | Output |
+|-------|-------|--------|
+| claude-opus-4-7 | $15.00 | $75.00 |
+| claude-sonnet-4-20250514 | $3.00 | $15.00 |
+
+### Cost Estimates
 
 - **Per arc:** ~$0.40 (claude-opus-4-7 generation + sonnet verification)
 - **Per year:** ~$21 at 1 arc/week
 - **Ideas generation:** ~$0.02 per batch of 10
+- **Loser Notes:** ~$0.01 per arc
 
 ## CLI Reference
 

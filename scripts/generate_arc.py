@@ -20,11 +20,83 @@ import os
 import json
 import re
 import sys
+import csv
 from datetime import datetime, timedelta
 from pathlib import Path
 import anthropic
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+# =============================================================================
+# COST TRACKING
+# =============================================================================
+
+# Model pricing (per 1M tokens)
+MODEL_PRICING = {
+    "claude-opus-4-7": {"input": 15.00, "output": 75.00},
+    "claude-sonnet-4-20250514": {"input": 3.00, "output": 15.00},
+}
+
+# Global cost tracker for current run
+COST_LOG = []
+
+def calculate_cost(model: str, input_tokens: int, output_tokens: int) -> float:
+    """Calculate cost in USD for an API call."""
+    pricing = MODEL_PRICING.get(model, {"input": 15.00, "output": 75.00})
+    input_cost = (input_tokens / 1_000_000) * pricing["input"]
+    output_cost = (output_tokens / 1_000_000) * pricing["output"]
+    return input_cost + output_cost
+
+def log_cost(model: str, purpose: str, input_tokens: int, output_tokens: int, cost: float):
+    """Log a cost entry."""
+    COST_LOG.append({
+        "timestamp": datetime.now().isoformat(),
+        "model": model,
+        "purpose": purpose,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cost_usd": round(cost, 6)
+    })
+
+def save_costs(arc_dir: Path):
+    """Save cost log to CSV."""
+    if not COST_LOG:
+        return
+
+    costs_file = arc_dir / "ai_costs.csv"
+    with open(costs_file, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["timestamp", "model", "purpose", "input_tokens", "output_tokens", "cost_usd"])
+        writer.writeheader()
+        writer.writerows(COST_LOG)
+
+    # Also append to global costs file
+    global_costs_file = ROOT_DIR / "output" / "ai_costs_all.csv"
+    file_exists = global_costs_file.exists()
+    with open(global_costs_file, "a", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["timestamp", "model", "purpose", "input_tokens", "output_tokens", "cost_usd"])
+        if not file_exists:
+            writer.writeheader()
+        writer.writerows(COST_LOG)
+
+def get_total_cost() -> dict:
+    """Get cost summary."""
+    total_input = sum(c["input_tokens"] for c in COST_LOG)
+    total_output = sum(c["output_tokens"] for c in COST_LOG)
+    total_cost = sum(c["cost_usd"] for c in COST_LOG)
+    return {
+        "calls": len(COST_LOG),
+        "input_tokens": total_input,
+        "output_tokens": total_output,
+        "total_cost_usd": round(total_cost, 4)
+    }
+
+def print_cost_summary():
+    """Print cost summary to console."""
+    summary = get_total_cost()
+    print(f"\n[costs] API Calls: {summary['calls']}")
+    print(f"[costs] Input tokens: {summary['input_tokens']:,}")
+    print(f"[costs] Output tokens: {summary['output_tokens']:,}")
+    print(f"[costs] Total: ${summary['total_cost_usd']:.4f}")
 
 # File paths
 SCRIPT_DIR = Path(__file__).parent
@@ -458,13 +530,20 @@ def record_arc(mistake_number: int, arc: dict):
 # GENERATION
 # =============================================================================
 
-def call_claude(system: str, prompt: str, model: str = "claude-opus-4-7", max_tokens: int = 16000) -> str:
+def call_claude(system: str, prompt: str, model: str = "claude-opus-4-7", max_tokens: int = 16000, purpose: str = "unknown") -> str:
     response = client.messages.create(
         model=model,
         max_tokens=max_tokens,
         system=system,
         messages=[{"role": "user", "content": prompt}]
     )
+
+    # Track costs
+    input_tokens = response.usage.input_tokens
+    output_tokens = response.usage.output_tokens
+    cost = calculate_cost(model, input_tokens, output_tokens)
+    log_cost(model, purpose, input_tokens, output_tokens, cost)
+
     raw = response.content[0].text.strip()
     # strip markdown fences
     raw = re.sub(r'^```json\s*', '', raw)
@@ -474,7 +553,7 @@ def call_claude(system: str, prompt: str, model: str = "claude-opus-4-7", max_to
 def generate_arc(input_type: str, user_input: str) -> dict:
     prompt = ARC_PROMPT.format(input_type=input_type, user_input=user_input)
     print(f"[generate] Creating 7-post arc from {input_type}...")
-    raw = call_claude(SYSTEM_PROMPT, prompt)
+    raw = call_claude(SYSTEM_PROMPT, prompt, purpose="arc_generation")
     return json.loads(raw)
 
 # =============================================================================
@@ -485,27 +564,27 @@ def verify_ai_detection(post: dict) -> dict:
     """Check post for AI-sounding language."""
     content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
     prompt = AI_DETECTION_PROMPT.format(post_content=content)
-    raw = call_claude("You are a ruthless AI detection editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000)
+    raw = call_claude("You are a ruthless AI detection editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_ai_post_{post['number']}")
     return json.loads(raw)
 
 def verify_readability(post: dict) -> dict:
     """Check post for readability issues."""
     content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
     prompt = READABILITY_PROMPT.format(post_content=content)
-    raw = call_claude("You are a readability editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000)
+    raw = call_claude("You are a readability editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_readability_post_{post['number']}")
     return json.loads(raw)
 
 def verify_coherence(post: dict) -> dict:
     """Check post for internal coherence."""
     content = f"TITLE: {post['title']}\n\nHOOK: {post['hook']}\n\nBODY:\n{post['body']}\n\nTEASE: {post['tease']}"
     prompt = COHERENCE_PROMPT.format(post_content=content)
-    raw = call_claude("You are a coherence editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000)
+    raw = call_claude("You are a coherence editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose=f"verify_coherence_post_{post['number']}")
     return json.loads(raw)
 
 def verify_aita(aita_post: str) -> dict:
     """Verify AITA post follows Reddit rules."""
     prompt = AITA_VERIFICATION_PROMPT.format(aita_post=aita_post)
-    raw = call_claude("You are an AITA post validator.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000)
+    raw = call_claude("You are an AITA post validator.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_aita")
     return json.loads(raw)
 
 def verify_arc_flow(posts: list) -> dict:
@@ -519,7 +598,7 @@ def verify_arc_flow(posts: list) -> dict:
         arc_posts += f"TEASE: {p['tease']}\n"
 
     prompt = ARC_READABILITY_PROMPT.format(arc_posts=arc_posts)
-    raw = call_claude("You are an arc flow editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000)
+    raw = call_claude("You are an arc flow editor.", prompt, model="claude-sonnet-4-20250514", max_tokens=4000, purpose="verify_arc_flow")
     return json.loads(raw)
 
 def apply_fixes(post: dict, ai_result: dict, read_result: dict, cohere_result: dict) -> dict:
@@ -816,6 +895,9 @@ This is Part 1 of a 7-part series. The full arc — including the bottom, the cr
         with open(arc_dir / "subreddits.json", "w") as f:
             json.dump(arc_subreddits, f, indent=2)
 
+    # Save costs
+    save_costs(arc_dir)
+
     # Print summary
     total_files = 7 * 6 + 3  # 6 per post + arc.json + aita + medium_teaser
     print(f"\n[done] Arc saved to: {arc_dir}")
@@ -826,6 +908,224 @@ This is Part 1 of a 7-part series. The full arc — including the bottom, the cr
     print(f"[gut punch] {arc['gut_punch']}")
 
     return arc_dir
+
+
+# =============================================================================
+# DISPATCHER-COMPATIBLE OUTPUT
+# =============================================================================
+
+def save_dispatcher_format(arc: dict, mistake_number: int, base_date: datetime):
+    """
+    Save arc in content-dispatcher format.
+
+    Creates: marketing/content/{YYYY-MM-DD}-lou-{slug}-{N}/
+      - meta.json
+      - x.md
+      - substack.md
+      - substack_note.md (morning)
+      - reddit_<subreddit>.md
+
+    For afternoon note: marketing/content/{YYYY-MM-DD}-lou-{slug}-{N}-pm/
+      - meta.json
+      - substack_note.md
+
+    Medium article goes with Post 1.
+    """
+    slug = arc["arc_slug"]
+    content_dir = ROOT_DIR / "marketing" / "content"
+    content_dir.mkdir(parents=True, exist_ok=True)
+
+    created_folders = []
+
+    for i, post in enumerate(arc["posts"]):
+        publish_date = base_date + timedelta(days=i * 3)
+        date_str = publish_date.strftime("%Y-%m-%d")
+        post_num = post['number']
+        subreddit = post.get('subreddit', {})
+        subreddit_name = subreddit.get('name', 'r/selfimprovement').replace('r/', '')
+
+        # =================================================================
+        # MORNING FOLDER: Article + X + Reddit + Note 1
+        # =================================================================
+        am_folder_name = f"{date_str}-lou-{slug}-{post_num}"
+        am_folder = content_dir / am_folder_name
+        am_folder.mkdir(parents=True, exist_ok=True)
+
+        # Build Reddit subreddits list for meta.json
+        reddit_subreddits = [{
+            "name": subreddit_name,
+            "file": f"reddit_{subreddit_name}.md",
+            "status": "ready",
+            "posted_at": None,
+            "post_id": None
+        }]
+
+        # Include Medium only with Post 1
+        include_medium = (post_num == 1)
+
+        # meta.json
+        meta = {
+            "post_id": am_folder_name,
+            "product": "confessions-of-a-loser",
+            "scheduled_date": date_str,
+            "scheduled_time": "09:00",
+            "timezone": "America/New_York",
+            "status": "ready",
+            "arc": arc["arc_title"],
+            "mistake_number": mistake_number,
+            "post_number": post_num,
+            "tier": post["tier"],
+            "channels": {
+                "x": {
+                    "status": "ready",
+                    "posted_at": None,
+                    "post_id": None
+                },
+                "substack": {
+                    "status": "ready",
+                    "posted_at": None,
+                    "post_id": None
+                },
+                "substack_note": {
+                    "status": "ready",
+                    "posted_at": None,
+                    "post_id": None
+                },
+                "medium": {
+                    "status": "ready" if include_medium else "skip",
+                    "posted_at": None,
+                    "post_id": None
+                },
+                "reddit": {
+                    "status": "ready",
+                    "subreddits": reddit_subreddits
+                }
+            }
+        }
+        with open(am_folder / "meta.json", "w") as f:
+            json.dump(meta, f, indent=2)
+
+        # x.md - just the tweet content
+        x_content = post.get('x_post', '')
+        with open(am_folder / "x.md", "w") as f:
+            f.write(x_content)
+
+        # substack.md - full article
+        filled_header = HEADER_TEMPLATE.format(
+            mistake_number=mistake_number,
+            post_number=post_num
+        )
+        substack_content = f"""# {post['title']}
+
+*{filled_header}*
+
+{post['hook']}
+
+{post['body']}
+
+*{post['tease']}*
+
+— Lou
+
+---
+
+{FOOTER_TEMPLATE}
+"""
+        with open(am_folder / "substack.md", "w") as f:
+            f.write(substack_content)
+
+        # substack_note.md - morning teaser
+        note_1 = post.get('note_1_teaser', '')
+        with open(am_folder / "substack_note.md", "w") as f:
+            f.write(note_1)
+
+        # reddit_<subreddit>.md
+        reddit_title = subreddit.get('suggested_title', post['title'])
+        reddit_body = f"""{post['hook']}
+
+{post['body'][:1500]}...
+
+[Read the full story on my Substack](https://confessionsofaloser.substack.com)
+
+— Lou
+"""
+        with open(am_folder / f"reddit_{subreddit_name}.md", "w") as f:
+            f.write(f"# {reddit_title}\n\n{reddit_body}")
+
+        # medium.md - only for Post 1
+        if include_medium:
+            medium_article = arc.get('medium_article', '')
+            medium_content = f"""# {arc['arc_title']}
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. This is mistake #{mistake_number}.*
+
+---
+
+{medium_article}
+
+---
+
+## Read the Full Story
+
+This is Part 1 of a 7-part series. The full arc — including the bottom, the crawl out, and what I should have done — is on my Substack.
+
+**→ [Read the full 7-part story on Substack](https://confessionsofaloser.substack.com)**
+
+---
+
+*Follow me here on Medium for more confessions, or subscribe to my Substack for the complete stories.*
+
+— Lou
+"""
+            with open(am_folder / "medium.md", "w") as f:
+                f.write(medium_content)
+
+        created_folders.append(am_folder_name)
+
+        # =================================================================
+        # AFTERNOON FOLDER: Note 2 only
+        # =================================================================
+        pm_folder_name = f"{date_str}-lou-{slug}-{post_num}-pm"
+        pm_folder = content_dir / pm_folder_name
+        pm_folder.mkdir(parents=True, exist_ok=True)
+
+        # meta.json for afternoon
+        pm_meta = {
+            "post_id": pm_folder_name,
+            "product": "confessions-of-a-loser",
+            "scheduled_date": date_str,
+            "scheduled_time": "15:00",
+            "timezone": "America/New_York",
+            "status": "ready",
+            "arc": arc["arc_title"],
+            "mistake_number": mistake_number,
+            "post_number": post_num,
+            "tier": post["tier"],
+            "note_type": "engagement",
+            "channels": {
+                "x": {"status": "skip", "posted_at": None, "post_id": None},
+                "substack": {"status": "skip", "posted_at": None, "post_id": None},
+                "substack_note": {
+                    "status": "ready",
+                    "posted_at": None,
+                    "post_id": None
+                },
+                "medium": {"status": "skip", "posted_at": None, "post_id": None},
+                "reddit": {"status": "skip", "subreddits": []}
+            }
+        }
+        with open(pm_folder / "meta.json", "w") as f:
+            json.dump(pm_meta, f, indent=2)
+
+        # substack_note.md - afternoon engagement
+        note_2 = post.get('note_2_engagement', '')
+        with open(pm_folder / "substack_note.md", "w") as f:
+            f.write(note_2)
+
+        created_folders.append(pm_folder_name)
+
+    print(f"\n[dispatcher] Created {len(created_folders)} content folders in marketing/content/")
+    return content_dir
 
 # =============================================================================
 # MAIN PIPELINE
@@ -905,6 +1205,11 @@ def run_pipeline(input_type: str, user_input: str, output_dir: Path, skip_verify
     print("\n[save] Writing output files...")
     arc_dir = save_arc(arc, output_dir, mistake_number, verifications)
 
+    # Step 6: Save dispatcher-compatible format
+    print("\n[save] Writing dispatcher-compatible files...")
+    base_date = datetime.now() + timedelta(days=3)
+    save_dispatcher_format(arc, mistake_number, base_date)
+
     # Record in state
     record_arc(mistake_number, arc)
 
@@ -913,6 +1218,9 @@ def run_pipeline(input_type: str, user_input: str, output_dir: Path, skip_verify
     schedule = json.load(open(arc_dir / "schedule.json"))
     for s in schedule:
         print(f"  {s['publish_date']} — [{s['tier'].upper()}] {s['title']}")
+
+    # Print cost summary
+    print_cost_summary()
 
     return arc_dir
 
