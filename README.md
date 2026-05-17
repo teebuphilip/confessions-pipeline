@@ -7,6 +7,39 @@ Content pipeline for `confessionsofaloser.substack.com`
 
 ---
 
+## Charter
+
+This repo is not just a writing pipeline. It is an authority engine.
+
+Its job is to produce long-form, sharp, defensible writing that can:
+
+- build audience and trust on Substack;
+- create material strong enough to travel to podcasts and larger media;
+- support direct monetization through paid posts, PDFs, and deeper premium research;
+- quietly strengthen downstream products like Court Dominion and WinstAPlayer without collapsing into product marketing.
+
+The priority order is:
+
+1. Make the writing good enough that serious readers take it seriously.
+2. Make the voice distinct enough that it feels like a real person, not AI sludge.
+3. Use that trust to drive attention toward the broader product stack.
+4. If the writing itself makes money, that is a win too.
+
+Substack remains the home base.
+
+The writing should aim higher than generic internet content. The standard is not "interesting post." The standard is material strong enough to make the operator sound like someone worth inviting onto a podcast.
+
+That means:
+
+- no fuzzy self-help;
+- no stat spam with no thesis;
+- no founder-posturing;
+- no marketing voice pretending to be analysis.
+
+The work should feel researched, human, quotable, and clear.
+
+---
+
 ## How it works
 
 Two intake pipes. Same output. 7 posts per arc.

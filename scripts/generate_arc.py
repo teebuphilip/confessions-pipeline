@@ -104,6 +104,7 @@ ROOT_DIR = SCRIPT_DIR.parent
 HEADER_FILE = ROOT_DIR / "louzerr.header.txt"
 FOOTER_FILE = ROOT_DIR / "louzerr.footer.txt"
 STATE_FILE = ROOT_DIR / "state.json"
+REDDIT_TARGETS_FILE = ROOT_DIR / "reddit_targets.json"
 
 # Load header/footer templates
 def load_template(filepath: Path) -> str:
@@ -113,6 +114,19 @@ def load_template(filepath: Path) -> str:
 
 HEADER_TEMPLATE = load_template(HEADER_FILE)
 FOOTER_TEMPLATE = load_template(FOOTER_FILE)
+
+# Load reddit targets config
+def load_reddit_targets() -> dict:
+    if REDDIT_TARGETS_FILE.exists():
+        return json.loads(REDDIT_TARGETS_FILE.read_text())
+    # Default: AI mode with common suggestions
+    return {
+        "mode": "ai",
+        "suggestions": ["selfimprovement", "offmychest", "GenX"],
+        "pick_per_post": 3
+    }
+
+REDDIT_TARGETS = load_reddit_targets()
 
 # =============================================================================
 # PROMPTS
@@ -214,12 +228,23 @@ Rules:
 - GOOD: "I cried on a bathroom floor at 47 because I was too scared to leave at 28. The math finally worked. — Lou"
 - BETTER: "My wife told me she loved me every day for 20 years. I believed her for maybe 3 of them. — Lou"
 
-SUBREDDIT (one per post):
-The single best subreddit for that specific post's content. Include:
+SUBREDDITS (3-5 per post):
+The best subreddits for that specific post's content. For each subreddit include:
 - Subreddit name
 - Why it fits this post specifically
 - Suggested post title for that subreddit
 - Any subreddit-specific rules to be aware of
+
+Good subreddit targets for Lou Zerr content:
+- Confessions: r/offmychest, r/TrueOffMyChest, r/confession
+- Self-improvement: r/selfimprovement, r/DecidingToBeBetter, r/getdisciplined
+- Age/Generation: r/GenX, r/AskMenOver30, r/AskOldPeople
+- Relationships: r/relationships, r/Marriage, r/Divorce
+- Financial: r/personalfinance, r/financialindependence, r/povertyfinance, r/Bogleheads
+- Career: r/careerguidance, r/jobs, r/careerchange
+- Stories: r/tifu, r/stories
+
+Pick 3-5 that fit THIS specific post best.
 
 SUBSTACK NOTES (2 per post):
 Substack Notes are short-form posts for discovery. Generate 2 Notes per article:
@@ -319,12 +344,14 @@ Return this exact JSON structure:
       "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
       "teaser": "15-word punchy uncomfortable truth",
       "x_post": "280 char max PROVOCATIVE X post ending with — Lou",
-      "subreddit": {{
-        "name": "r/subreddit_name",
-        "why_it_fits": "explanation",
-        "suggested_title": "title for this subreddit",
-        "rules_to_know": "relevant rules"
-      }},
+      "subreddits": [
+        {{
+          "name": "r/subreddit_name",
+          "why_it_fits": "explanation",
+          "suggested_title": "title for this subreddit",
+          "rules_to_know": "relevant rules"
+        }}
+      ],
       "note_1_teaser": "1-3 sentence teaser for morning, drives to article",
       "note_2_engagement": "question or confession for afternoon, sparks replies"
     }}
@@ -829,7 +856,19 @@ def save_arc(arc: dict, output_dir: Path, mistake_number: int, verifications: di
         # =================================================================
         md_filename = f"{base_name}.md"
         tags_str = ', '.join(post.get('tags', []))
-        subreddit = post.get('subreddit', {})
+
+        # Determine subreddits based on config mode
+        if REDDIT_TARGETS.get("mode") == "fixed":
+            # Fixed mode: use the same subreddits for every post
+            fixed_subs = REDDIT_TARGETS.get("subreddits", ["selfimprovement"])
+            post_subreddits = [{"name": f"r/{s}", "suggested_title": post['title'], "rules_to_know": ""} for s in fixed_subs]
+        else:
+            # AI mode: use AI-generated subreddits from the post
+            post_subreddits = post.get('subreddits', [])
+            if not post_subreddits and post.get('subreddit'):
+                post_subreddits = [post.get('subreddit')]
+            if not post_subreddits:
+                post_subreddits = [{"name": "r/selfimprovement", "suggested_title": post['title'], "rules_to_know": ""}]
 
         md_content = f"""---
 arc: {arc['arc_title']}
@@ -878,11 +917,14 @@ Post this to X/Twitter.
             f.write(x_content)
 
         # =================================================================
-        # 4. Reddit file (standalone, includes subreddit in filename)
+        # 4. Reddit files (one per subreddit)
         # =================================================================
-        subreddit_name = subreddit.get('name', 'r/unknown').replace('r/', '').replace('/', '_')
-        reddit_filename = f"{base_name}_reddit_{subreddit_name}.md"
-        reddit_content = f"""# Reddit Post for: {post['title']}
+        reddit_filenames = []
+        for subreddit in post_subreddits:
+            subreddit_name = subreddit.get('name', 'r/unknown').replace('r/', '').replace('/', '_')
+            reddit_filename = f"{base_name}_reddit_{subreddit_name}.md"
+            reddit_filenames.append(reddit_filename)
+            reddit_content = f"""# Reddit Post for: {post['title']}
 
 **Subreddit:** {subreddit.get('name', 'N/A')}
 **Suggested Title:** {subreddit.get('suggested_title', 'N/A')}
@@ -902,8 +944,8 @@ Post this to X/Twitter.
 
 — Lou
 """
-        with open(arc_dir / reddit_filename, "w") as f:
-            f.write(reddit_content)
+            with open(arc_dir / reddit_filename, "w") as f:
+                f.write(reddit_content)
 
         # =================================================================
         # 5. Substack Note 1 (Morning - Teaser)
@@ -951,15 +993,16 @@ Post this to X/Twitter.
                 "article_rtf": rtf_filename,
                 "article_md": md_filename,
                 "x_post": x_filename,
-                "reddit": reddit_filename,
+                "reddit": reddit_filenames,
                 "note_1": note1_filename,
                 "note_2": note2_filename
             },
             "tags": post.get('tags', []),
-            "subreddit": subreddit.get('name', '')
+            "subreddits": [s.get('name', '') for s in post_subreddits]
         })
 
-        print(f"  [post {post_num}] {tier.upper()} — {post['title']} (6 files)")
+        file_count = 5 + len(reddit_filenames)  # rtf, md, x, note1, note2 + reddit files
+        print(f"  [post {post_num}] {tier.upper()} — {post['title']} ({file_count} files, {len(reddit_filenames)} subreddits)")
 
     # Save schedule
     with open(arc_dir / "schedule.json", "w") as f:
@@ -1051,8 +1094,21 @@ def save_dispatcher_format(arc: dict, mistake_number: int, base_date: datetime):
         publish_date = base_date + timedelta(days=i * 3)
         date_str = publish_date.strftime("%Y-%m-%d")
         post_num = post['number']
-        subreddit = post.get('subreddit', {})
-        subreddit_name = subreddit.get('name', 'r/selfimprovement').replace('r/', '')
+
+        # Determine subreddits based on config mode
+        if REDDIT_TARGETS.get("mode") == "fixed":
+            # Fixed mode: use the same subreddits for every post
+            fixed_subs = REDDIT_TARGETS.get("subreddits", ["selfimprovement"])
+            post_subreddits = [{"name": f"r/{s}", "suggested_title": post['title'], "rules_to_know": ""} for s in fixed_subs]
+        else:
+            # AI mode: use AI-generated subreddits from the post
+            post_subreddits = post.get('subreddits', [])
+            if not post_subreddits and post.get('subreddit'):
+                # Backwards compatibility with old single-subreddit format
+                post_subreddits = [post.get('subreddit')]
+            # Default if none specified
+            if not post_subreddits:
+                post_subreddits = [{"name": "r/selfimprovement", "suggested_title": post['title'], "rules_to_know": ""}]
 
         # =================================================================
         # MORNING FOLDER: Article + X + Reddit + Note 1
@@ -1062,13 +1118,16 @@ def save_dispatcher_format(arc: dict, mistake_number: int, base_date: datetime):
         am_folder.mkdir(parents=True, exist_ok=True)
 
         # Build Reddit subreddits list for meta.json
-        reddit_subreddits = [{
-            "name": subreddit_name,
-            "file": f"reddit_{subreddit_name}.md",
-            "status": "ready",
-            "posted_at": None,
-            "post_id": None
-        }]
+        reddit_subreddits = []
+        for sub in post_subreddits:
+            sub_name = sub.get('name', 'r/selfimprovement').replace('r/', '').replace('/', '_')
+            reddit_subreddits.append({
+                "name": sub_name,
+                "file": f"reddit_{sub_name}.md",
+                "status": "ready",
+                "posted_at": None,
+                "post_id": None
+            })
 
         # Include Medium only with Post 1
         include_medium = (post_num == 1)
@@ -1149,9 +1208,11 @@ def save_dispatcher_format(arc: dict, mistake_number: int, base_date: datetime):
         with open(am_folder / "substack_note.md", "w") as f:
             f.write(note_1)
 
-        # reddit_<subreddit>.md
-        reddit_title = subreddit.get('suggested_title', post['title'])
-        reddit_body = f"""{post['hook']}
+        # reddit_<subreddit>.md - create one file per subreddit
+        for sub in post_subreddits:
+            sub_name = sub.get('name', 'r/selfimprovement').replace('r/', '').replace('/', '_')
+            reddit_title = sub.get('suggested_title', post['title'])
+            reddit_body = f"""{post['hook']}
 
 {post['body'][:1500]}...
 
@@ -1159,8 +1220,8 @@ def save_dispatcher_format(arc: dict, mistake_number: int, base_date: datetime):
 
 — Lou
 """
-        with open(am_folder / f"reddit_{subreddit_name}.md", "w") as f:
-            f.write(f"# {reddit_title}\n\n{reddit_body}")
+            with open(am_folder / f"reddit_{sub_name}.md", "w") as f:
+                f.write(f"# {reddit_title}\n\n{reddit_body}")
 
         # medium.md - only for Post 1
         if include_medium:
@@ -1234,7 +1295,14 @@ This is Part 1 of a 7-part series. The full arc — including the bottom, the cr
 
         created_folders.append(pm_folder_name)
 
-    print(f"\n[dispatcher] Created {len(created_folders)} content folders in marketing/content/")
+    reddit_mode = REDDIT_TARGETS.get("mode", "ai")
+    if reddit_mode == "fixed":
+        fixed_count = len(REDDIT_TARGETS.get("subreddits", []))
+        print(f"\n[dispatcher] Created {len(created_folders)} content folders in marketing/content/")
+        print(f"[reddit] Mode: FIXED ({fixed_count} subreddits per post)")
+    else:
+        print(f"\n[dispatcher] Created {len(created_folders)} content folders in marketing/content/")
+        print(f"[reddit] Mode: AI (subreddits picked per post based on content)")
     return content_dir
 
 # =============================================================================

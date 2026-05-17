@@ -1,0 +1,24 @@
+{
+  "mode": "ai",
+  "suggestions": [
+    "GenX",
+    "offmychest",
+    "TrueOffMyChest",
+    "selfimprovement",
+    "DecidingToBeBetter",
+    "AskMenOver30",
+    "AskOldPeople",
+    "relationships",
+    "Marriage",
+    "Divorce",
+    "personalfinance",
+    "financialindependence",
+    "povertyfinance",
+    "Bogleheads",
+    "careerguidance",
+    "tifu",
+    "confession"
+  ],
+  "pick_per_post": 3,
+  "notes": "AI picks best 3 subreddits per post based on content. Suggestions guide the AI."
+}
