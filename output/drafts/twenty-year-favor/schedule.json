@@ -1,0 +1,51 @@
+[
+  {
+    "post": 1,
+    "tier": "free",
+    "title": "I Got Married Because My Aunt Cried",
+    "file": "post_01_free_twenty-year-favor.md",
+    "publish_date": "2026-05-03"
+  },
+  {
+    "post": 2,
+    "tier": "free",
+    "title": "Year One: I Already Knew",
+    "file": "post_02_free_twenty-year-favor.md",
+    "publish_date": "2026-05-06"
+  },
+  {
+    "post": 3,
+    "tier": "free",
+    "title": "The Spreadsheet That Ate My Life",
+    "file": "post_03_free_twenty-year-favor.md",
+    "publish_date": "2026-05-09"
+  },
+  {
+    "post": 4,
+    "tier": "paid",
+    "title": "The Bathroom Floor at Forty-Seven",
+    "file": "post_04_paid_twenty-year-favor.md",
+    "publish_date": "2026-05-12"
+  },
+  {
+    "post": 5,
+    "tier": "paid",
+    "title": "The Eighteen-Month Crawl",
+    "file": "post_05_paid_twenty-year-favor.md",
+    "publish_date": "2026-05-15"
+  },
+  {
+    "post": 6,
+    "tier": "paid",
+    "title": "What I Should Have Done: The Actual Playbook",
+    "file": "post_06_paid_twenty-year-favor.md",
+    "publish_date": "2026-05-18"
+  },
+  {
+    "post": 7,
+    "tier": "paid",
+    "title": "The Tail: The Bill That Keeps Arriving",
+    "file": "post_07_paid_twenty-year-favor.md",
+    "publish_date": "2026-05-21"
+  }
+]

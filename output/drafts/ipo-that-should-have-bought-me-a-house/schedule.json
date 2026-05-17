@@ -1,0 +1,170 @@
+[
+  {
+    "post": 1,
+    "tier": "free",
+    "title": "The Pineapple Magnet",
+    "publish_date": "2026-05-18",
+    "files": {
+      "article_rtf": "post_01_free_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_01_free_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_01_free_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_01_free_ipo-that-should-have-bought-me-a-house_reddit_GenX.md",
+      "note_1": "substack_notes_post_01_1.md",
+      "note_2": "substack_notes_post_01_2.md"
+    },
+    "tags": [
+      "dot com bubble",
+      "investing mistakes",
+      "IPO",
+      "personal finance",
+      "stock market",
+      "regret",
+      "memoir"
+    ],
+    "subreddit": "r/GenX"
+  },
+  {
+    "post": 2,
+    "tier": "free",
+    "title": "Dan From Finance and the Kitchenette",
+    "publish_date": "2026-05-21",
+    "files": {
+      "article_rtf": "post_02_free_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_02_free_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_02_free_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_02_free_ipo-that-should-have-bought-me-a-house_reddit_investing.md",
+      "note_1": "substack_notes_post_02_1.md",
+      "note_2": "substack_notes_post_02_2.md"
+    },
+    "tags": [
+      "investing",
+      "dot com",
+      "stock market",
+      "regret",
+      "mentorship",
+      "ignored advice",
+      "personal finance"
+    ],
+    "subreddit": "r/investing"
+  },
+  {
+    "post": 3,
+    "tier": "free",
+    "title": "The Forty-Five Seconds",
+    "publish_date": "2026-05-24",
+    "files": {
+      "article_rtf": "post_03_free_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_03_free_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_03_free_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_03_free_ipo-that-should-have-bought-me-a-house_reddit_stocks.md",
+      "note_1": "substack_notes_post_03_1.md",
+      "note_2": "substack_notes_post_03_2.md"
+    },
+    "tags": [
+      "dot com bubble",
+      "investing mistakes",
+      "stock market",
+      "regret",
+      "decision paralysis",
+      "memoir",
+      "personal finance"
+    ],
+    "subreddit": "r/stocks"
+  },
+  {
+    "post": 4,
+    "tier": "paid",
+    "title": "Selling at Nine",
+    "publish_date": "2026-05-27",
+    "files": {
+      "article_rtf": "post_04_paid_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_04_paid_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_04_paid_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_04_paid_ipo-that-should-have-bought-me-a-house_reddit_investing.md",
+      "note_1": "substack_notes_post_04_1.md",
+      "note_2": "substack_notes_post_04_2.md"
+    },
+    "tags": [
+      "dot com crash",
+      "selling at the bottom",
+      "regret",
+      "marriage",
+      "personal finance",
+      "memoir",
+      "financial loss"
+    ],
+    "subreddit": "r/investing"
+  },
+  {
+    "post": 5,
+    "tier": "paid",
+    "title": "The Transmission Call",
+    "publish_date": "2026-05-30",
+    "files": {
+      "article_rtf": "post_05_paid_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_05_paid_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_05_paid_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_05_paid_ipo-that-should-have-bought-me-a-house_reddit_confession.md",
+      "note_1": "substack_notes_post_05_1.md",
+      "note_2": "substack_notes_post_05_2.md"
+    },
+    "tags": [
+      "family",
+      "lies",
+      "money and relationships",
+      "regret",
+      "in laws",
+      "memoir",
+      "confession"
+    ],
+    "subreddit": "r/confession"
+  },
+  {
+    "post": 6,
+    "tier": "paid",
+    "title": "What I Should Have Done: The Rules I Follow Now",
+    "publish_date": "2026-06-02",
+    "files": {
+      "article_rtf": "post_06_paid_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_06_paid_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_06_paid_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_06_paid_ipo-that-should-have-bought-me-a-house_reddit_Bogleheads.md",
+      "note_1": "substack_notes_post_06_1.md",
+      "note_2": "substack_notes_post_06_2.md"
+    },
+    "tags": [
+      "investing rules",
+      "personal finance",
+      "dot com lessons",
+      "money mistakes",
+      "financial advice",
+      "memoir",
+      "regret"
+    ],
+    "subreddit": "r/Bogleheads"
+  },
+  {
+    "post": 7,
+    "tier": "paid",
+    "title": "The Tail: What It Still Costs Me",
+    "publish_date": "2026-06-05",
+    "files": {
+      "article_rtf": "post_07_paid_ipo-that-should-have-bought-me-a-house.rtf",
+      "article_md": "post_07_paid_ipo-that-should-have-bought-me-a-house.md",
+      "x_post": "post_07_paid_ipo-that-should-have-bought-me-a-house_x.md",
+      "reddit": "post_07_paid_ipo-that-should-have-bought-me-a-house_reddit_financialindependence.md",
+      "note_1": "substack_notes_post_07_1.md",
+      "note_2": "substack_notes_post_07_2.md"
+    },
+    "tags": [
+      "regret",
+      "long term consequences",
+      "dot com bubble",
+      "memoir",
+      "alternate lives",
+      "personal finance",
+      "aging"
+    ],
+    "subreddit": "r/financialindependence"
+  }
+]

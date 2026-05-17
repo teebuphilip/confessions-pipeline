@@ -1,4 +1,3 @@
-output/drafts/*
 backlog.json
 __pycache__/
 *.pyc

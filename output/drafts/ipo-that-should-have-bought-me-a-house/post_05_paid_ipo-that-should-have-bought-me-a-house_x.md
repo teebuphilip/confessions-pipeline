@@ -1,0 +1,7 @@
+# X Post for: The Transmission Call
+
+Post this to X/Twitter.
+
+---
+
+I told my brother-in-law in 2021 that the loan in '99 wasn't for a transmission. I told him while passing the green beans. He chewed. He swallowed. He said 'huh.' Then he said 'so what'd you make?' He has not stopped bringing it up since. — Lou
