@@ -1,0 +1,1 @@
+What's the smallest amount of money you ever won that ended up costing you the most? I'll go first: eighteen dollars. — Lou

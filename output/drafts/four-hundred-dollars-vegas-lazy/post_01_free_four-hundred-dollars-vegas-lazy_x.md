@@ -1,0 +1,7 @@
+# X Post for: The Tuesday I Trusted Vegas Like It Was My Priest
+
+Post this to X/message board.
+
+---
+
+I lost $400 on a football game in the time it took me to buy a garden hose at Home Depot. The line moved 2.5 points while I was in the checkout lane. I never opened the second tab. — Lou

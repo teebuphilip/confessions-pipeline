@@ -1,0 +1,1 @@
+What's a thing you did once that your partner's nervous system still remembers, even though neither of you talks about it? — Lou

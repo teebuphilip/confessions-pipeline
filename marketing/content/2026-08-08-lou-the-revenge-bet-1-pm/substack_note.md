@@ -1,0 +1,1 @@
+What's the smallest thing you've ever done that you knew, in the moment, was going to cost you? Not a bet necessarily. Any "just to look" moment. Mine was 12:14pm on a Wednesday. — Lou

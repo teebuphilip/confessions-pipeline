@@ -1,0 +1,231 @@
+[
+  {
+    "post": 1,
+    "tier": "free",
+    "title": "The First Twenty Dollars",
+    "publish_date": "2026-08-08",
+    "files": {
+      "article_rtf": "post_01_free_the-guessing-years.rtf",
+      "article_md": "post_01_free_the-guessing-years.md",
+      "x_post": "post_01_free_the-guessing-years_x.md",
+      "reddit": [
+        "post_01_free_the-guessing-years_reddit_sportsbook.md",
+        "post_01_free_the-guessing-years_reddit_problemgambling.md",
+        "post_01_free_the-guessing-years_reddit_GenX.md"
+      ],
+      "note_1": "substack_notes_post_01_1.md",
+      "note_2": "substack_notes_post_01_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "addiction",
+      "GenX",
+      "confessions",
+      "personal finance",
+      "regret"
+    ],
+    "subreddits": [
+      "r/sportsbook",
+      "r/problemgambling",
+      "r/GenX"
+    ]
+  },
+  {
+    "post": 2,
+    "tier": "free",
+    "title": "The Year I Already Knew",
+    "publish_date": "2026-08-11",
+    "files": {
+      "article_rtf": "post_02_free_the-guessing-years.rtf",
+      "article_md": "post_02_free_the-guessing-years.md",
+      "x_post": "post_02_free_the-guessing-years_x.md",
+      "reddit": [
+        "post_02_free_the-guessing-years_reddit_problemgambling.md",
+        "post_02_free_the-guessing-years_reddit_DecidingToBeBetter.md",
+        "post_02_free_the-guessing-years_reddit_TrueOffMyChest.md"
+      ],
+      "note_1": "substack_notes_post_02_1.md",
+      "note_2": "substack_notes_post_02_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "addiction",
+      "self-awareness",
+      "confessions",
+      "denial",
+      "regret"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/DecidingToBeBetter",
+      "r/TrueOffMyChest"
+    ]
+  },
+  {
+    "post": 3,
+    "tier": "free",
+    "title": "The Middle Twenty Years",
+    "publish_date": "2026-08-14",
+    "files": {
+      "article_rtf": "post_03_free_the-guessing-years.rtf",
+      "article_md": "post_03_free_the-guessing-years.md",
+      "x_post": "post_03_free_the-guessing-years_x.md",
+      "reddit": [
+        "post_03_free_the-guessing-years_reddit_Marriage.md",
+        "post_03_free_the-guessing-years_reddit_problemgambling.md",
+        "post_03_free_the-guessing-years_reddit_AskMenOver30.md"
+      ],
+      "note_1": "substack_notes_post_03_1.md",
+      "note_2": "substack_notes_post_03_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "marriage",
+      "addiction",
+      "denial",
+      "GenX",
+      "medium-life-crisis"
+    ],
+    "subreddits": [
+      "r/Marriage",
+      "r/problemgambling",
+      "r/AskMenOver30"
+    ]
+  },
+  {
+    "post": 4,
+    "tier": "paid",
+    "title": "The Envelope in the Silverware Drawer",
+    "publish_date": "2026-08-17",
+    "files": {
+      "article_rtf": "post_04_paid_the-guessing-years.rtf",
+      "article_md": "post_04_paid_the-guessing-years.md",
+      "x_post": "post_04_paid_the-guessing-years_x.md",
+      "reddit": [
+        "post_04_paid_the-guessing-years_reddit_problemgambling.md",
+        "post_04_paid_the-guessing-years_reddit_TrueOffMyChest.md",
+        "post_04_paid_the-guessing-years_reddit_confession.md",
+        "post_04_paid_the-guessing-years_reddit_Marriage.md"
+      ],
+      "note_1": "substack_notes_post_04_1.md",
+      "note_2": "substack_notes_post_04_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "marriage",
+      "rock bottom",
+      "confessions",
+      "fatherhood",
+      "addiction"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/TrueOffMyChest",
+      "r/confession",
+      "r/Marriage"
+    ]
+  },
+  {
+    "post": 5,
+    "tier": "paid",
+    "title": "Eleven Days of Cowardice",
+    "publish_date": "2026-08-20",
+    "files": {
+      "article_rtf": "post_05_paid_the-guessing-years.rtf",
+      "article_md": "post_05_paid_the-guessing-years.md",
+      "x_post": "post_05_paid_the-guessing-years_x.md",
+      "reddit": [
+        "post_05_paid_the-guessing-years_reddit_problemgambling.md",
+        "post_05_paid_the-guessing-years_reddit_Marriage.md",
+        "post_05_paid_the-guessing-years_reddit_TrueOffMyChest.md"
+      ],
+      "note_1": "substack_notes_post_05_1.md",
+      "note_2": "substack_notes_post_05_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "marriage",
+      "recovery",
+      "confessions",
+      "addiction",
+      "rock bottom"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/Marriage",
+      "r/TrueOffMyChest"
+    ]
+  },
+  {
+    "post": 6,
+    "tier": "paid",
+    "title": "What I Should Have Done",
+    "publish_date": "2026-08-23",
+    "files": {
+      "article_rtf": "post_06_paid_the-guessing-years.rtf",
+      "article_md": "post_06_paid_the-guessing-years.md",
+      "x_post": "post_06_paid_the-guessing-years_x.md",
+      "reddit": [
+        "post_06_paid_the-guessing-years_reddit_problemgambling.md",
+        "post_06_paid_the-guessing-years_reddit_personalfinance.md",
+        "post_06_paid_the-guessing-years_reddit_getdisciplined.md"
+      ],
+      "note_1": "substack_notes_post_06_1.md",
+      "note_2": "substack_notes_post_06_2.md"
+    },
+    "tags": [
+      "gambling",
+      "recovery",
+      "rules",
+      "personal finance",
+      "hard-won-lessons",
+      "sports betting",
+      "addiction"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/personalfinance",
+      "r/getdisciplined"
+    ]
+  },
+  {
+    "post": 7,
+    "tier": "paid",
+    "title": "The Tail: What It Still Costs Me",
+    "publish_date": "2026-08-26",
+    "files": {
+      "article_rtf": "post_07_paid_the-guessing-years.rtf",
+      "article_md": "post_07_paid_the-guessing-years.md",
+      "x_post": "post_07_paid_the-guessing-years_x.md",
+      "reddit": [
+        "post_07_paid_the-guessing-years_reddit_problemgambling.md",
+        "post_07_paid_the-guessing-years_reddit_GenX.md",
+        "post_07_paid_the-guessing-years_reddit_Marriage.md",
+        "post_07_paid_the-guessing-years_reddit_financialindependence.md"
+      ],
+      "note_1": "substack_notes_post_07_1.md",
+      "note_2": "substack_notes_post_07_2.md"
+    },
+    "tags": [
+      "gambling",
+      "recovery",
+      "marriage",
+      "aftermath",
+      "long-term-cost",
+      "sports betting",
+      "GenX",
+      "addiction"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/GenX",
+      "r/Marriage",
+      "r/financialindependence"
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "next_mistake_number": 3,
+  "next_mistake_number": 10,
   "arcs_generated": [
     {
       "mistake_number": 1,
@@ -13,6 +13,55 @@
       "arc_title": "The IPO That Should Have Bought Me a House",
       "arc_slug": "ipo-that-should-have-bought-me-a-house",
       "generated_date": "2026-05-15",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 3,
+      "arc_title": "The $400 I Gave Vegas Because I Was Lazy",
+      "arc_slug": "four-hundred-dollars-vegas-lazy",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 4,
+      "arc_title": "The $600 Line Move I Didn't See",
+      "arc_slug": "600-line-move-i-didnt-see",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 5,
+      "arc_title": "The Soft Open That Made Me Look Stupid",
+      "arc_slug": "soft-open-made-me-look-stupid",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 6,
+      "arc_title": "The Hedge That Ate Itself",
+      "arc_slug": "hedge-that-ate-itself",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 7,
+      "arc_title": "The Revenge Bet",
+      "arc_slug": "the-revenge-bet",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 8,
+      "arc_title": "The $300 Vibe Check",
+      "arc_slug": "the-300-dollar-vibe-check",
+      "generated_date": "2026-08-05",
+      "status": "generated"
+    },
+    {
+      "mistake_number": 9,
+      "arc_title": "The Guessing Years",
+      "arc_slug": "the-guessing-years",
+      "generated_date": "2026-08-05",
       "status": "generated"
     }
   ]

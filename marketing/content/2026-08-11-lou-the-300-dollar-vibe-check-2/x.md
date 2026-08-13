@@ -1,0 +1,1 @@
+I lost $222 in my sleep. Woke up, checked my phone before I peed, saw the red number, and the guy who told me to buy was posting frog memes at 6am. That's when I learned the difference between a victim and a mark. — Lou

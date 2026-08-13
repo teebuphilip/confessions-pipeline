@@ -1,0 +1,1 @@
+What's a rule you know is correct and refuse to follow? I have two. One of them is 'go to a meeting.' — Lou

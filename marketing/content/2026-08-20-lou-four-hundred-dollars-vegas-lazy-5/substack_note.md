@@ -1,0 +1,1 @@
+Part 5 today: every coward move in the 90 days after she found the folder. Including the fake therapy appointment. And where I hid the app on my phone. (Hint: behind the flashlight.) — Lou

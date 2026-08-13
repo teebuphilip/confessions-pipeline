@@ -1,0 +1,1 @@
+What's the fastest you've ever lost real money on a decision that took less than a minute? Mine is eleven seconds. I timed it. — Lou

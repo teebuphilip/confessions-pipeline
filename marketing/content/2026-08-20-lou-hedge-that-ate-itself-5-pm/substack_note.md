@@ -1,0 +1,1 @@
+Is there a door you're holding open that you know you should close? Mine has $23 in it and requires a password I have memorized against my will. — Lou

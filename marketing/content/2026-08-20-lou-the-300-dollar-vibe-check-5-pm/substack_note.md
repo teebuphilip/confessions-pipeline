@@ -1,0 +1,1 @@
+When you told your partner the real number, what did they do in the first ten seconds? Mine put down her fork and asked for a minute. — Lou

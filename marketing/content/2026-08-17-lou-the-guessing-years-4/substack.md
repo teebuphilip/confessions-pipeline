@@ -1,0 +1,43 @@
+# The Envelope in the Silverware Drawer
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 9 of 943 (part 4 of 7).*
+
+There was $3,200 in an envelope in the drawer next to the forks, and by Thursday night at 11:47 pm there wasn't.
+
+There was $3,200 in an envelope in the drawer next to the forks, and by Thursday night at 11:47 pm there wasn't.
+
+My daughter was seventeen. Her top row was crooked in a way that made her stop smiling in photos around age fourteen. My wife had been saving for her braces for two years, in cash, because our checking account was a war zone I didn't fully understand yet and she'd learned, without ever quite admitting it to herself, that money in the account had a way of disappearing.
+
+The envelope was white. It said BRACES on it in black Sharpie in my wife's handwriting. My wife has beautiful handwriting. It's one of the things I noticed first about her, in 2001, on a card she gave me for my birthday when we were dating. She wrote BRACES on this envelope like she was writing a wedding invitation.
+
+I opened the drawer on a Thursday in October 2022 because I needed a bottle opener. I was making myself a beer. The Thursday night college game had just started — a MAC game, some school in Ohio against some school in Michigan, on ESPN 2. I had already put $400 on the underdog earlier that week and lost. I had already put $250 on a Wednesday MLB playoff game and lost. I was down about $1,100 for the week, which was not a catastrophic week by 2022 standards, but which was giving me the specific tight feeling in my chest that I had come to recognize as the moment before I did something stupid to fix it.
+
+Mikey — the bar guy, the one with the fake cousin in Vegas — had texted me at 5:12 pm. The line on the Thursday MAC game had moved three points in the last hour. Sharp money, he said. Lock. He used the word 'mortgage,' which was our shorthand for a bet you'd bet your mortgage on. I didn't have a mortgage. I had an envelope.
+
+I saw the envelope when I was looking for the bottle opener. I want to be honest about the next thirty seconds because they are the thirty seconds I've thought about more than any other thirty seconds of my life.
+
+I saw it. I looked at it. I closed the drawer. I opened the drawer again. I picked it up. I felt the thickness of it. My wife had told me at some point, maybe two months earlier, that she had $3,200 in it. I did the math in my head, which is a thing gamblers do — you don't even need paper. If I put the whole thing on the MAC game at minus 110, I'd win $2,909. I could put back the $3,200 by tomorrow morning, take my losses for the week to zero, and have almost three grand left over as breathing room.
+
+Breathing room. That's the phrase I remember thinking. Like the money in the envelope was suffocating me.
+
+I took the envelope. I closed the drawer. I went into the garage. I sat on a folding chair I keep out there next to a workbench I've never used. I opened the app on my phone. I deposited $3,200 via instant bank transfer. It cleared in about ninety seconds. I put the whole thing on the underdog getting three-and-a-half points in the MAC game, which had already started, second quarter, tied at 7.
+
+My team went up 14-7 at half. 21-7 in the third. 24-10 with eight minutes left. I stood up from the folding chair at 24-10 with eight minutes left and I actually — I want you to picture this — I actually walked back into the kitchen. I opened the drawer. I looked at the empty spot where the envelope had been. I said, out loud, to nobody: I'm going to put it back tomorrow.
+
+The other team scored with 4:12 left. Then again with 1:38 left. Then a two-point conversion. Then an onside kick they somehow recovered. Then a 41-yard field goal as time expired.
+
+Final: 27-24. The underdog lost by three. I needed three-and-a-half.
+
+I sat in the garage for an hour after the game ended. Then I did the coward things. I'm going to tell you about those next week. All of them. Even the one I've never told my wife.
+
+*Next: eleven days of lies, one 3 am spreadsheet, and the specific coward's math of how you almost don't tell her.*
+
+— Lou
+
+---
+
+I wish I had this tool when I was gambling heavily - https://www.predeve.com.  I am such a loser that I am giving this guy free publicity.  Don't be a loser.  Monitor your gambling signals.
+
+I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours, you get back everything — brief, pricing, name, SEO, marketing copy, GTM plan.
+
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00

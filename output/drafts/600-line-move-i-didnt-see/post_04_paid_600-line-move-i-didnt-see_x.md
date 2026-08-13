@@ -1,0 +1,7 @@
+# X Post for: Sunday Morning, 11:47 AM, In The Driveway
+
+Post this to X/message board.
+
+---
+
+I stood in my driveway in socks Sunday morning realizing I was going to lose $600 on a football game. The worst part wasn't the money. It was watching the story I told myself about being disciplined die on hot concrete. — Lou

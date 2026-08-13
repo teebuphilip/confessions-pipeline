@@ -1,0 +1,1 @@
+Last post in the arc drops today. 137 days no bet. The crack in my bathroom tile is still there. I still open the app once every 10 days just to look. I don't touch anything. — Lou

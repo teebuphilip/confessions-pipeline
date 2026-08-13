@@ -1,0 +1,1 @@
+I wrote 13 rules for myself after losing $600 on a football game. Ballpoint pen, index card, taped in my desk drawer. I've broken most of them since. The card is not a solution. It's a witness. — Lou

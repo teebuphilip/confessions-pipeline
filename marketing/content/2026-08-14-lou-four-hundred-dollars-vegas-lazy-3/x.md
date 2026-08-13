@@ -1,0 +1,1 @@
+My wife asked me how much I was up. I was down $340. I said 'a few hundred' and let her think I meant up. She'd already checked the account. She was giving me one last chance to be honest. I failed it over eggs. — Lou

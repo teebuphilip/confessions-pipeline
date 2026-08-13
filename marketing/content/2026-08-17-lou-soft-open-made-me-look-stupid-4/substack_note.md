@@ -1,0 +1,1 @@
+Today's post is the hardest one to write. A Sunday in October. 9:40 PM. Bathroom floor. $1,204 left of $11,000. My dog came in and lay on the cold tile next to me. — Lou

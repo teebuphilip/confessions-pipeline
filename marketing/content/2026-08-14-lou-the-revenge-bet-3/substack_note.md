@@ -1,0 +1,1 @@
+Part 3 drops today. 9:14pm on a Wednesday. Four bets running. Sober. Alone. And a dog upstairs walking across a hardwood floor, click click click, the loudest sound in an apartment where a grown man was quietly setting fire to his week. — Lou

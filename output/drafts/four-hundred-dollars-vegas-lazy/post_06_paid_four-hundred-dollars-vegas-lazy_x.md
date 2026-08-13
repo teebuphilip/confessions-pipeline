@@ -1,0 +1,7 @@
+# X Post for: What I Should Have Done: The Rules I Use Now
+
+Post this to X/message board.
+
+---
+
+The rules that keep me from losing the marriage: open 3 tabs, not 2. Weekly cap is $80, not $100. Wait an hour if you're excited. Every bet hits the joint account. None of these are wisdom. All of them are fences. — Lou

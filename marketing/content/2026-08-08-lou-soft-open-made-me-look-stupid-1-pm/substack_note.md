@@ -1,0 +1,1 @@
+What's the dumbest amount of money you've lost before lunchtime? Mine is $2,400 and I was still in a bathrobe when I did it. — Lou

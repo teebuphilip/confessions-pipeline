@@ -1,0 +1,1 @@
+My rule for not losing another $1,500: I have to hand-write a paragraph explaining why the bet makes sense before I place it. Turns out most of my urges to gamble cannot survive the search for a working pen. — Lou

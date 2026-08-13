@@ -1,0 +1,1 @@
+Paid post today: the 15 rules I wrote in a spiral notebook the Saturday after I lost the mortgage money. No metaphors. — Lou

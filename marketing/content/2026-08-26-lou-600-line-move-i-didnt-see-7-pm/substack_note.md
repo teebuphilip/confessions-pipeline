@@ -1,0 +1,1 @@
+What's a small tax you still pay, years later, for one bad decision? Not the big obvious cost. The small one. The one only you notice. Mine is fifteen seconds every time I open a specific app. — Lou

@@ -1,0 +1,1 @@
+Fail #47ish: I bet $400 on a football game in eleven seconds and then went to Home Depot. By the time I got back with a garden hose, the line had moved two and a half points against me. Full story drops today. — Lou

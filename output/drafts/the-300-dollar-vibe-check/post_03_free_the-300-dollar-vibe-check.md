@@ -1,0 +1,65 @@
+---
+arc: The $300 Vibe Check
+mistake: 8 of 943
+post: 3 of 7
+tier: FREE
+title: How I Talked Myself Into Doing It Again
+scheduled: 2026-08-14
+author: Lou Zerr
+tags: gambling, self-deception, gambling, midlife, problem gambling, financial mistakes, rationalization
+teaser: I paid $300 for a lesson, then paid another $128 to prove I hadn't learned it.
+---
+
+# How I Talked Myself Into Doing It Again
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 8 of 943 (part 3 of 7).*
+
+Six days later I was back with the book with $150 and a fresh theory about my own intelligence.
+
+Six days later I was back with the book with $150 and a fresh theory about my own intelligence.
+
+The theory went like this. The $300 loss wasn't really a loss. It was tuition. I had paid $300 to learn a valuable lesson about not tailing sharps blindly. Now that I had learned the lesson, I would not repeat it. Therefore, going forward, any bets I made would be informed by the lesson, and therefore smarter, and therefore likely to win.
+
+I want you to read that paragraph again. Slowly. Because it is exactly the kind of sentence a 55-year-old man tells himself before he loses another $150.
+
+It was a Saturday. My wife was at her sister's. The house was that specific Saturday quiet where you can hear the fridge cycling. I made a pour-over coffee, which I only do when I'm about to do something I shouldn't, because pour-over coffee makes me feel like a man with a system.
+
+I opened the account.
+
+I told myself I would only look. Just look. Get a sense of the market. Not bet. Look. This is what every problem gambler has said before every bet since the invention of currency. I would like to formally admit, on the record, that I had become a problem gambler in six days. I don't think I would have used that phrase then. I would have said 'I'm being careful.' 'I'm learning.' 'I'm doing my research.'
+
+My research consisted of the following. I looked at seven different contracts. I read the fine print on none of them. I opened three Substacks I'd never read before, all of which promised 'edge' in the books, and I skimmed them for about forty seconds each. I nodded at things I didn't understand. I felt smart because I was nodding.
+
+This is the middle of the story. This is the part nobody tells you about. Not the big loss. The middle. The part where you have already learned the lesson and you're congratulating yourself for having learned it while you set up the conditions to learn it again.
+
+I settled on a contract. It was about a Fed announcement. I told myself this was different. This one had actual data behind it. I had read (skimmed) (glanced at) a Substack that mentioned it. The Substack writer had a real name. He had 11,000 followers, which felt more legitimate than 4,200, because in my head there was a threshold at which strangers became trustworthy and 11,000 seemed to be it.
+
+I did not check whether the Substack writer had ever been right about anything. I did not check his P&L. I did not check when he'd made the call, or at what price, or whether he was still in the position. I just noted that he existed, that he had more followers than the last guy, and that his profile picture was a photograph of a human face rather than an anime character. Progress, I told myself. I was being more careful.
+
+I bet $150.
+
+The Fed announcement came out three hours later. The contract moved against me almost immediately. I watched it live. I did that thing where you stare at a chart as if staring will make it turn. My coffee got cold. My back hurt from sitting weird.
+
+By 4pm I was down $98.
+
+Here's the part I want to be honest about. I did not close the position. I held again. I held because closing meant admitting, and admitting meant I hadn't actually learned the lesson from the $300, and if I hadn't learned the lesson from the $300 then the $300 hadn't been tuition, it had just been $300, and I couldn't afford for it to have just been $300, so the position had to come back.
+
+The position did not come back.
+
+I closed it Sunday morning for $22. Total damage across two weeks: $428 and change.
+
+My wife came home Sunday afternoon. She asked if I'd had a good weekend. I said yeah, quiet, I read. Third lie. I was keeping count now.
+
+The problem was never that I trusted someone on a message board. The problem was I had no rows. No ledger of my own. No record of signals I had acted on and whether they had worked. I was making claims without evidence, including claims to myself about what I knew and didn't know. There is a tool now that won't let you do that. It's called PredEve. Every signal gets a row. Every row gets an outcome. You cannot look at a stranger's post and say "he sounds right" and act on it, because the tool is sitting there asking: where's your data? Show me the row. I didn't have rows. I had a man with an anime profile picture and $300 I should have kept.
+
+*Behind the paywall: the night I hit a number I'm not comfortable saying out loud yet.*
+
+— Lou
+
+---
+
+I wish I had this tool when I was gambling heavily - https://www.predeve.com.  I am such a loser that I am giving this guy free publicity.  Don't be a loser.  Monitor your gambling signals.
+
+I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours, you get back everything — brief, pricing, name, SEO, marketing copy, GTM plan.
+
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00

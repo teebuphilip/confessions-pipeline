@@ -23,3 +23,10 @@ timestamp,model,purpose,input_tokens,output_tokens,cost_usd
 2026-05-15T13:05:35.927558,claude-sonnet-4-20250514,verify_coherence_post_7,1399,396,0.010137
 2026-05-15T13:05:37.668011,claude-sonnet-4-20250514,verify_aita,742,77,0.003381
 2026-05-15T13:05:47.089532,claude-sonnet-4-20250514,verify_arc_flow,1671,414,0.011223
+2026-08-05T07:41:08.009506,claude-opus-4-7,arc_generation,4000,18263,1.429725
+2026-08-05T07:47:27.017962,claude-opus-4-7,arc_generation,3991,18723,1.46409
+2026-08-05T07:53:08.791896,claude-opus-4-7,arc_generation,4008,17429,1.367295
+2026-08-05T07:58:42.815814,claude-opus-4-7,arc_generation,4009,17462,1.369785
+2026-08-05T08:13:42.877399,claude-opus-4-7,arc_generation,3989,19485,1.52121
+2026-08-05T10:19:26.204157,claude-opus-4-7,arc_generation,3982,18363,1.436955
+2026-08-05T10:26:04.996502,claude-opus-4-7,arc_generation,3995,17792,1.394325

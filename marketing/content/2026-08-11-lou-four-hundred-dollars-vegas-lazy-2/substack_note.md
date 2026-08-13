@@ -1,0 +1,1 @@
+Fail continues: I won $180 the week after I lost $400 and it convinced me I was a genius. Part 2 drops today. Spoiler: my wife started keeping a list around Halloween. — Lou

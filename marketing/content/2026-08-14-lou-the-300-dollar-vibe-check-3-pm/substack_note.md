@@ -1,0 +1,1 @@
+What's a word you've used to make a bad decision sound better than it was? Mine is 'tuition.' — Lou

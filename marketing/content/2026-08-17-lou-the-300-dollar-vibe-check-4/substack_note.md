@@ -1,0 +1,1 @@
+Paid post today: the night I typed 500, then typed over it and typed 800, and clicked confirm on money that wasn't supposed to be mine to click on. — Lou

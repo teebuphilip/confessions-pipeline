@@ -1,0 +1,7 @@
+# X Post for: The Neighbor's Dog
+
+Post this to X/message board.
+
+---
+
+At 9:14pm my upstairs neighbor's dog walked across the floor and I heard every toenail. That's how quiet a Wednesday gets when you've placed four bets sober trying to un-lose a Monday. I wasn't chasing money. I was chasing a version of myself. — Lou

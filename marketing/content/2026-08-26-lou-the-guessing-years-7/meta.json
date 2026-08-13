@@ -1,0 +1,67 @@
+{
+  "post_id": "2026-08-26-lou-the-guessing-years-7",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-08-26",
+  "scheduled_time": "09:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The Guessing Years",
+  "mistake_number": 9,
+  "post_number": 7,
+  "tier": "paid",
+  "channels": {
+    "x": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "ready",
+      "subreddits": [
+        {
+          "name": "problemgambling",
+          "file": "reddit_problemgambling.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "GenX",
+          "file": "reddit_GenX.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "Marriage",
+          "file": "reddit_Marriage.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "financialindependence",
+          "file": "reddit_financialindependence.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        }
+      ]
+    }
+  }
+}

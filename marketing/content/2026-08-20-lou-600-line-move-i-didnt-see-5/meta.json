@@ -1,0 +1,67 @@
+{
+  "post_id": "2026-08-20-lou-600-line-move-i-didnt-see-5",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-08-20",
+  "scheduled_time": "09:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The $600 Line Move I Didn't See",
+  "mistake_number": 4,
+  "post_number": 5,
+  "tier": "paid",
+  "channels": {
+    "x": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "ready",
+      "subreddits": [
+        {
+          "name": "problemgambling",
+          "file": "reddit_problemgambling.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "Marriage",
+          "file": "reddit_Marriage.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "personalfinance",
+          "file": "reddit_personalfinance.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "TrueOffMyChest",
+          "file": "reddit_TrueOffMyChest.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        }
+      ]
+    }
+  }
+}

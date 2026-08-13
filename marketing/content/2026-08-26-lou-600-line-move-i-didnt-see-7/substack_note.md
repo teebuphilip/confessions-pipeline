@@ -1,0 +1,1 @@
+Final post in the arc drops today. The tail. What a $600 loss actually costs you six months later — the fifteen-second thumb hesitation, the wife who now checks the balance, the hobby I can't do anymore. — Lou

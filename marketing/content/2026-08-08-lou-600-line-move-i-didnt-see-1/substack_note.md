@@ -1,0 +1,1 @@
+Fail #17 drops today. I lost six hundred bucks on a football game because I placed the bet on a Tuesday and didn't look at it again until Sunday. I called that discipline. — Lou

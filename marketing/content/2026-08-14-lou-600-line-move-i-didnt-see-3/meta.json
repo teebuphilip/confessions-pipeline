@@ -1,0 +1,60 @@
+{
+  "post_id": "2026-08-14-lou-600-line-move-i-didnt-see-3",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-08-14",
+  "scheduled_time": "09:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The $600 Line Move I Didn't See",
+  "mistake_number": 4,
+  "post_number": 3,
+  "tier": "free",
+  "channels": {
+    "x": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "ready",
+      "subreddits": [
+        {
+          "name": "sportsbook",
+          "file": "reddit_sportsbook.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "problemgambling",
+          "file": "reddit_problemgambling.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "getdisciplined",
+          "file": "reddit_getdisciplined.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        }
+      ]
+    }
+  }
+}

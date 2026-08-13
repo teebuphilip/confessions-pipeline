@@ -1,0 +1,1 @@
+Ever notice how the things you do to feel like a better person sometimes make you a worse one? I put my phone away at breakfast and lost $600 because of it. Tell me one of yours. — Lou

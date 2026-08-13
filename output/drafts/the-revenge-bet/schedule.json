@@ -1,0 +1,230 @@
+[
+  {
+    "post": 1,
+    "tier": "free",
+    "title": "The Monday That Cost Me Wednesday",
+    "publish_date": "2026-08-08",
+    "files": {
+      "article_rtf": "post_01_free_the-revenge-bet.rtf",
+      "article_md": "post_01_free_the-revenge-bet.md",
+      "x_post": "post_01_free_the-revenge-bet_x.md",
+      "reddit": [
+        "post_01_free_the-revenge-bet_reddit_sportsbook.md",
+        "post_01_free_the-revenge-bet_reddit_problemgambling.md",
+        "post_01_free_the-revenge-bet_reddit_GenX.md"
+      ],
+      "note_1": "substack_notes_post_01_1.md",
+      "note_2": "substack_notes_post_01_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "problem gambling",
+      "addiction",
+      "personal finance",
+      "self destruction"
+    ],
+    "subreddits": [
+      "r/sportsbook",
+      "r/problemgambling",
+      "r/GenX"
+    ]
+  },
+  {
+    "post": 2,
+    "tier": "free",
+    "title": "The 6PM Bet That Wasn't A Bet",
+    "publish_date": "2026-08-11",
+    "files": {
+      "article_rtf": "post_02_free_the-revenge-bet.rtf",
+      "article_md": "post_02_free_the-revenge-bet.md",
+      "x_post": "post_02_free_the-revenge-bet_x.md",
+      "reddit": [
+        "post_02_free_the-revenge-bet_reddit_sportsbook.md",
+        "post_02_free_the-revenge-bet_reddit_problemgambling.md",
+        "post_02_free_the-revenge-bet_reddit_decidingtobebetter.md"
+      ],
+      "note_1": "substack_notes_post_02_1.md",
+      "note_2": "substack_notes_post_02_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sports betting",
+      "self deception",
+      "problem gambling",
+      "chasing losses",
+      "rationalization"
+    ],
+    "subreddits": [
+      "r/sportsbook",
+      "r/problemgambling",
+      "r/decidingtobebetter"
+    ]
+  },
+  {
+    "post": 3,
+    "tier": "free",
+    "title": "The Neighbor's Dog",
+    "publish_date": "2026-08-14",
+    "files": {
+      "article_rtf": "post_03_free_the-revenge-bet.rtf",
+      "article_md": "post_03_free_the-revenge-bet.md",
+      "x_post": "post_03_free_the-revenge-bet_x.md",
+      "reddit": [
+        "post_03_free_the-revenge-bet_reddit_problemgambling.md",
+        "post_03_free_the-revenge-bet_reddit_offmychest.md",
+        "post_03_free_the-revenge-bet_reddit_GenX.md"
+      ],
+      "note_1": "substack_notes_post_03_1.md",
+      "note_2": "substack_notes_post_03_2.md"
+    },
+    "tags": [
+      "gambling",
+      "problem gambling",
+      "addiction",
+      "loneliness",
+      "sports betting",
+      "chasing losses",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/offmychest",
+      "r/GenX"
+    ]
+  },
+  {
+    "post": 4,
+    "tier": "paid",
+    "title": "10:47PM",
+    "publish_date": "2026-08-17",
+    "files": {
+      "article_rtf": "post_04_paid_the-revenge-bet.rtf",
+      "article_md": "post_04_paid_the-revenge-bet.md",
+      "x_post": "post_04_paid_the-revenge-bet_x.md",
+      "reddit": [
+        "post_04_paid_the-revenge-bet_reddit_problemgambling.md",
+        "post_04_paid_the-revenge-bet_reddit_TrueOffMyChest.md",
+        "post_04_paid_the-revenge-bet_reddit_sportsbook.md"
+      ],
+      "note_1": "substack_notes_post_04_1.md",
+      "note_2": "substack_notes_post_04_2.md"
+    },
+    "tags": [
+      "gambling",
+      "problem gambling",
+      "sports betting",
+      "addiction",
+      "rock bottom",
+      "chasing losses",
+      "confession"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/TrueOffMyChest",
+      "r/sportsbook"
+    ]
+  },
+  {
+    "post": 5,
+    "tier": "paid",
+    "title": "The Slow Coward Crawl",
+    "publish_date": "2026-08-20",
+    "files": {
+      "article_rtf": "post_05_paid_the-revenge-bet.rtf",
+      "article_md": "post_05_paid_the-revenge-bet.md",
+      "x_post": "post_05_paid_the-revenge-bet_x.md",
+      "reddit": [
+        "post_05_paid_the-revenge-bet_reddit_problemgambling.md",
+        "post_05_paid_the-revenge-bet_reddit_addiction.md",
+        "post_05_paid_the-revenge-bet_reddit_decidingtobebetter.md",
+        "post_05_paid_the-revenge-bet_reddit_TrueOffMyChest.md"
+      ],
+      "note_1": "substack_notes_post_05_1.md",
+      "note_2": "substack_notes_post_05_2.md"
+    },
+    "tags": [
+      "gambling recovery",
+      "problem gambling",
+      "addiction recovery",
+      "therapy",
+      "self deception",
+      "relapse",
+      "cowardice"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/addiction",
+      "r/decidingtobebetter",
+      "r/TrueOffMyChest"
+    ]
+  },
+  {
+    "post": 6,
+    "tier": "paid",
+    "title": "What I Should Have Done",
+    "publish_date": "2026-08-23",
+    "files": {
+      "article_rtf": "post_06_paid_the-revenge-bet.rtf",
+      "article_md": "post_06_paid_the-revenge-bet.md",
+      "x_post": "post_06_paid_the-revenge-bet_x.md",
+      "reddit": [
+        "post_06_paid_the-revenge-bet_reddit_problemgambling.md",
+        "post_06_paid_the-revenge-bet_reddit_decidingtobebetter.md",
+        "post_06_paid_the-revenge-bet_reddit_getdisciplined.md",
+        "post_06_paid_the-revenge-bet_reddit_sportsbook.md"
+      ],
+      "note_1": "substack_notes_post_06_1.md",
+      "note_2": "substack_notes_post_06_2.md"
+    },
+    "tags": [
+      "gambling recovery",
+      "problem gambling",
+      "rules",
+      "playbook",
+      "self improvement",
+      "addiction recovery",
+      "sports betting"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/decidingtobebetter",
+      "r/getdisciplined",
+      "r/sportsbook"
+    ]
+  },
+  {
+    "post": 7,
+    "tier": "paid",
+    "title": "The Tail",
+    "publish_date": "2026-08-26",
+    "files": {
+      "article_rtf": "post_07_paid_the-revenge-bet.rtf",
+      "article_md": "post_07_paid_the-revenge-bet.md",
+      "x_post": "post_07_paid_the-revenge-bet_x.md",
+      "reddit": [
+        "post_07_paid_the-revenge-bet_reddit_problemgambling.md",
+        "post_07_paid_the-revenge-bet_reddit_personalfinance.md",
+        "post_07_paid_the-revenge-bet_reddit_GenX.md",
+        "post_07_paid_the-revenge-bet_reddit_AskMenOver30.md"
+      ],
+      "note_1": "substack_notes_post_07_1.md",
+      "note_2": "substack_notes_post_07_2.md"
+    },
+    "tags": [
+      "gambling recovery",
+      "long term consequences",
+      "regret",
+      "midlife",
+      "problem gambling",
+      "financial recovery",
+      "aging"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/personalfinance",
+      "r/GenX",
+      "r/AskMenOver30"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+Part 6 (paid): the actual list of rules I use now. Nine of them. None inspirational. All boring. I lost $612 and my wife's trust learning them. — Lou

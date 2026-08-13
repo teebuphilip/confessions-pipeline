@@ -1,0 +1,140 @@
+{
+  "posts": [
+    {
+      "post_number": 1,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 2,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 3,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 4,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 5,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 6,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    },
+    {
+      "post_number": 7,
+      "ai_detection": {
+        "verdict": "SOUNDS_HUMAN",
+        "flags": [],
+        "rewritten_body": null
+      },
+      "readability": {
+        "readable": true,
+        "issues": [],
+        "rewritten_body": null
+      },
+      "coherence": {
+        "coherent": true,
+        "issues": [],
+        "rewritten_body": null
+      }
+    }
+  ],
+  "aita": {
+    "valid": true,
+    "issues": [],
+    "rewritten_aita": null
+  },
+  "arc_flow": {
+    "flows_well": true,
+    "issues": [],
+    "consistency_issues": []
+  }
+}

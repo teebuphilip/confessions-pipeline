@@ -1,0 +1,1 @@
+What's the one rule you wish someone had handed you at 26 that would have changed everything? I have ten. Rule 4 hurts the most. — Lou

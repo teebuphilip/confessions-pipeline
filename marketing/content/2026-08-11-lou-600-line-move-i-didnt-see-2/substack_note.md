@@ -1,0 +1,1 @@
+Part 2 is up. This is the one about how I made a mistake dressed as a good habit. I put my phone face down and let a full point of line movement happen in the background while I felt virtuous about eggs. — Lou

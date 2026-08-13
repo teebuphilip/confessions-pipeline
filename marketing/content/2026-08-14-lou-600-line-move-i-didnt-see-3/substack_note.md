@@ -1,0 +1,1 @@
+Part 3 today. The one where I opened the sportsbook app three times on Friday night and looked at exactly the wrong number every single time. My wife asked if I was okay. I said fine. I was not fine. — Lou

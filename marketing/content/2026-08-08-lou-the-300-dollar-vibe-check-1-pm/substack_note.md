@@ -1,0 +1,1 @@
+What's the smallest amount of information you've ever needed to make a bad financial decision? Mine is sixty-two characters. — Lou

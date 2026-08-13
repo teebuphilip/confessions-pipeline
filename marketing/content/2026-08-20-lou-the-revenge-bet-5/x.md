@@ -1,0 +1,1 @@
+It took me 8 months from the night I knew I had a gambling problem to the morning I actually deleted the apps. In between: quit therapy, forgot my mother's birthday, told my brother a half-truth. If your "recovery" has a redemption montage, you're lying. — Lou

@@ -1,0 +1,1 @@
+The crawl out included seven cowardly moves. I did not delete the app. I lied to my brother about the amount. I lied to my accountant on a form I've been honest on for 11 years. I am not cured. I am contained. There is a difference. — Lou

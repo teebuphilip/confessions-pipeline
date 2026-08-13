@@ -1,0 +1,1 @@
+Fail #4, part 2: The year I kept a color-coded spreadsheet of my sports betting and invented a category called 'learning fees' to make the total look better. Today's post goes up in an hour. — Lou

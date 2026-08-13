@@ -1,0 +1,16 @@
+# I lost more money in one morning than I did in my divorce, on games I couldn't name a player in
+
+The Sunday I want to tell you about started with me setting an alarm for six in the morning to place bets before church, which I do not attend.
+
+The Sunday I want to tell you about started with me setting an alarm for six in the morning to place bets before church, which I do not attend.
+
+I'd been up until one the night before running numbers on a slate of European soccer games I did not understand. I don't watch European soccer. I could not name the league. But there had been a chart on the Discord I'd joined that showed a wide gap between the FanDuel lines and some overseas prediction market feed that Kalshi had a proxy for, and the chart had a red arrow on it, and someone in the Discord had typed the word "juicy," and that was enough for me.
+
+I put three thousand dollars into play across nine matches. Some on FanDuel, some on Kalshi, some hedges, some outright. By the time I set the alarm and went to bed the exposure map on my spreadsheet had gone from something that looked like a bar chart to something that looked like the EKG of a man having a bad time.
+
+Six AM came. I made coffee in the dark. I opened the laptop and my chest did a thing chests do, which is to say it tightened up in a way that is not chest pain but is not nothing either. I want to be honest and say I did not enjoy checking those scores. I had not enjoyed checking scores for months. Whatever the initial rush of it had been, back in the fall with the twelve dollars, had been replaced with a low-grade nausea that I now got any time I opened either app. I still opened the apps. Every day. Sometimes fifteen, twenty times a day. But I did not want to.
+...
+
+[Read the full story on my Substack](https://confessionsofaloser.substack.com)
+
+— Lou

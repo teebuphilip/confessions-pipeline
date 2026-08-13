@@ -1,0 +1,41 @@
+# The Middle Twenty Years
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 9 of 943 (part 3 of 7).*
+
+For twenty years I was a functional degenerate, which is a phrase I've never said out loud but have absolutely earned.
+
+For twenty years I was a functional degenerate, which is a phrase I've never said out loud but have absolutely earned.
+
+The middle years are the worst to write about because nothing happens in them. Nothing dramatic. Nothing you can point at. It's a slow smear of Sunday afternoons and Thursday nights and email alerts from three different sportsbooks and a wife who slowly stops asking why I'm on my phone during dinner.
+
+By 2003 I was married for the second time, to the woman I'm still married to, God knows why. Her name doesn't matter here. We had a daughter in 2005. I had moved out of copier sales into medical device sales, which paid better and demanded more travel, and travel is a beautiful cover for a man who wants to spend Thursday night in a hotel bar with three games on three TVs and a laptop open to a spreadsheet nobody else will ever see.
+
+Here is how I rationalized it.
+
+Rationalization one: I was up. This was the big one. I told myself, for approximately fifteen consecutive years, that I was net up on sports betting. I said it to my wife when she asked. I said it to my brother when he asked. I said it to myself, out loud, in the shower, some mornings.
+
+I was not up. I have since done the math, using bank statements I finally requested, and my net position from 1994 to 2022 was somewhere between negative $180,000 and negative $220,000, depending on how you count the credit card interest on the withdrawals. But I told myself I was up, because I never counted losses on cash bets, and I never counted the interest, and I never counted the times I withdrew from my 401k early and paid the penalty.
+
+Rationalization two: I had an edge. This one is embarrassing to type. I told myself for twenty years that I had an edge because I 'did the research.' What this meant, in practice, was that I read a lot of columns on ESPN dot com and had opinions about defensive coordinators. It also meant I paid $79 a month for four different years to a service called Winning Edge Sports that texted me picks from a man who called himself 'The Doctor.' The Doctor was not a doctor. The Doctor was, I later learned, a 24-year-old kid in Boca Raton who used a random number generator.
+
+Rationalization three: everybody does it. This is true in the sense that a lot of people bet on sports, and false in every sense that matters. Everybody does not lose $200,000. Everybody does not miss their daughter's third grade band concert because there was a live line moving on a Pac-12 game they had a hunch on. Everybody does not lie to their wife about a checking account for eleven years.
+
+Rationalization four, and this is the sneakiest one: I told myself I was going to write about it. I told myself for years that I was 'gathering material.' That there was a book in this. That the losses were tuition. That my future self, the one who would eventually get clean and get honest and get typing, was going to be so grateful to present-me for all this rich, painful, honest source material.
+
+So now here we are. Future-me. Typing. And I want to tell past-me to go to hell, except past-me is me, and the material is real, and I am, in fact, writing about it. Which means the rationalization worked. Which is horrifying.
+
+The middle years ended in a garage in October of 2022. I want to tell you about that now, but I can't type the whole thing in one post. I need to break it up because when I try to write it straight through I stop being able to see the screen.
+
+So the next one is going to be short. And ugly. And I'm sorry in advance.
+
+*Next week I tell you about the envelope in the silverware drawer. And the Thursday night I opened it.*
+
+— Lou
+
+---
+
+I wish I had this tool when I was gambling heavily - https://www.predeve.com.  I am such a loser that I am giving this guy free publicity.  Don't be a loser.  Monitor your gambling signals.
+
+I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours, you get back everything — brief, pricing, name, SEO, marketing copy, GTM plan.
+
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00

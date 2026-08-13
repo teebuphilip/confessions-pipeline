@@ -1,0 +1,1 @@
+What's a rule you wrote for yourself that actually works? Mine is: if I can't handwrite the reason, I don't do the thing. — Lou

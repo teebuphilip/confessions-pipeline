@@ -1,0 +1,1 @@
+I opened the silverware drawer for a bottle opener. There was $3,200 in an envelope marked BRACES. By 11:47 pm it was gone. I have not opened that drawer the same way since. — Lou

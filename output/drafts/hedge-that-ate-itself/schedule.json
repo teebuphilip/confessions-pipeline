@@ -1,0 +1,228 @@
+[
+  {
+    "post": 1,
+    "tier": "free",
+    "title": "The Two Tabs",
+    "publish_date": "2026-08-08",
+    "files": {
+      "article_rtf": "post_01_free_hedge-that-ate-itself.rtf",
+      "article_md": "post_01_free_hedge-that-ate-itself.md",
+      "x_post": "post_01_free_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_01_free_hedge-that-ate-itself_reddit_sportsbook.md",
+        "post_01_free_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_01_free_hedge-that-ate-itself_reddit_AskMenOver30.md"
+      ],
+      "note_1": "substack_notes_post_01_1.md",
+      "note_2": "substack_notes_post_01_2.md"
+    },
+    "tags": [
+      "gambling",
+      "sportsbook",
+      "prediction markets",
+      "financial mistakes",
+      "kalshi",
+      "fanduel",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/sportsbook",
+      "r/problemgambling",
+      "r/AskMenOver30"
+    ]
+  },
+  {
+    "post": 2,
+    "tier": "free",
+    "title": "The Year I Already Knew",
+    "publish_date": "2026-08-11",
+    "files": {
+      "article_rtf": "post_02_free_hedge-that-ate-itself.rtf",
+      "article_md": "post_02_free_hedge-that-ate-itself.md",
+      "x_post": "post_02_free_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_02_free_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_02_free_hedge-that-ate-itself_reddit_sportsbook.md",
+        "post_02_free_hedge-that-ate-itself_reddit_GenX.md"
+      ],
+      "note_1": "substack_notes_post_02_1.md",
+      "note_2": "substack_notes_post_02_2.md"
+    },
+    "tags": [
+      "gambling",
+      "self-deception",
+      "sportsbook",
+      "kalshi",
+      "spreadsheets",
+      "financial mistakes",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/sportsbook",
+      "r/GenX"
+    ]
+  },
+  {
+    "post": 3,
+    "tier": "free",
+    "title": "The Middle Was A Language Problem",
+    "publish_date": "2026-08-14",
+    "files": {
+      "article_rtf": "post_03_free_hedge-that-ate-itself.rtf",
+      "article_md": "post_03_free_hedge-that-ate-itself.md",
+      "x_post": "post_03_free_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_03_free_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_03_free_hedge-that-ate-itself_reddit_offmychest.md",
+        "post_03_free_hedge-that-ate-itself_reddit_AskMenOver30.md"
+      ],
+      "note_1": "substack_notes_post_03_1.md",
+      "note_2": "substack_notes_post_03_2.md"
+    },
+    "tags": [
+      "gambling",
+      "self-deception",
+      "friendship",
+      "sportsbook",
+      "kalshi",
+      "denial",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/offmychest",
+      "r/AskMenOver30"
+    ]
+  },
+  {
+    "post": 4,
+    "tier": "paid",
+    "title": "The Sunday In June",
+    "publish_date": "2026-08-17",
+    "files": {
+      "article_rtf": "post_04_paid_hedge-that-ate-itself.rtf",
+      "article_md": "post_04_paid_hedge-that-ate-itself.md",
+      "x_post": "post_04_paid_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_04_paid_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_04_paid_hedge-that-ate-itself_reddit_offmychest.md",
+        "post_04_paid_hedge-that-ate-itself_reddit_TrueOffMyChest.md"
+      ],
+      "note_1": "substack_notes_post_04_1.md",
+      "note_2": "substack_notes_post_04_2.md"
+    },
+    "tags": [
+      "gambling",
+      "problem gambling",
+      "financial rock bottom",
+      "sportsbook",
+      "kalshi",
+      "chasing losses",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/offmychest",
+      "r/TrueOffMyChest"
+    ]
+  },
+  {
+    "post": 5,
+    "tier": "paid",
+    "title": "Every Coward Move",
+    "publish_date": "2026-08-20",
+    "files": {
+      "article_rtf": "post_05_paid_hedge-that-ate-itself.rtf",
+      "article_md": "post_05_paid_hedge-that-ate-itself.md",
+      "x_post": "post_05_paid_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_05_paid_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_05_paid_hedge-that-ate-itself_reddit_offmychest.md",
+        "post_05_paid_hedge-that-ate-itself_reddit_DecidingToBeBetter.md"
+      ],
+      "note_1": "substack_notes_post_05_1.md",
+      "note_2": "substack_notes_post_05_2.md"
+    },
+    "tags": [
+      "gambling recovery",
+      "problem gambling",
+      "financial recovery",
+      "confessions",
+      "family",
+      "shame",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/offmychest",
+      "r/DecidingToBeBetter"
+    ]
+  },
+  {
+    "post": 6,
+    "tier": "paid",
+    "title": "What I Should Have Done: The Actual Rules",
+    "publish_date": "2026-08-23",
+    "files": {
+      "article_rtf": "post_06_paid_hedge-that-ate-itself.rtf",
+      "article_md": "post_06_paid_hedge-that-ate-itself.md",
+      "x_post": "post_06_paid_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_06_paid_hedge-that-ate-itself_reddit_personalfinance.md",
+        "post_06_paid_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_06_paid_hedge-that-ate-itself_reddit_sportsbook.md"
+      ],
+      "note_1": "substack_notes_post_06_1.md",
+      "note_2": "substack_notes_post_06_2.md"
+    },
+    "tags": [
+      "gambling",
+      "financial rules",
+      "problem gambling recovery",
+      "sportsbook",
+      "prediction markets",
+      "kalshi",
+      "personal finance"
+    ],
+    "subreddits": [
+      "r/personalfinance",
+      "r/problemgambling",
+      "r/sportsbook"
+    ]
+  },
+  {
+    "post": 7,
+    "tier": "paid",
+    "title": "The Tail: What It Still Costs",
+    "publish_date": "2026-08-26",
+    "files": {
+      "article_rtf": "post_07_paid_hedge-that-ate-itself.rtf",
+      "article_md": "post_07_paid_hedge-that-ate-itself.md",
+      "x_post": "post_07_paid_hedge-that-ate-itself_x.md",
+      "reddit": [
+        "post_07_paid_hedge-that-ate-itself_reddit_problemgambling.md",
+        "post_07_paid_hedge-that-ate-itself_reddit_AskMenOver30.md",
+        "post_07_paid_hedge-that-ate-itself_reddit_GenX.md",
+        "post_07_paid_hedge-that-ate-itself_reddit_offmychest.md"
+      ],
+      "note_1": "substack_notes_post_07_1.md",
+      "note_2": "substack_notes_post_07_2.md"
+    },
+    "tags": [
+      "gambling recovery",
+      "problem gambling",
+      "friendship",
+      "family",
+      "long-term consequences",
+      "shame",
+      "midlife"
+    ],
+    "subreddits": [
+      "r/problemgambling",
+      "r/AskMenOver30",
+      "r/GenX",
+      "r/offmychest"
+    ]
+  }
+]

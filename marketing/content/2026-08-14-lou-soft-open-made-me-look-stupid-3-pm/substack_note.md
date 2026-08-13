@@ -1,0 +1,1 @@
+Have you ever built a system specifically designed to lie to you about something? Mine had color coding. — Lou
