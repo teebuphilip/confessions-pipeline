@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-09-21-lou-revenge-bet-06",
+  "post_id": "2026-09-21-lou-revenge-bet-06",
+  "product": "confessionsofaloser",
+  "slug": "lou-revenge-bet-06",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-09-21",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "the-revenge-bet",
+  "post_number": 6,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}

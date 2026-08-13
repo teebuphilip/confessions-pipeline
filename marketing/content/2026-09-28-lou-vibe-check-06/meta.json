@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-09-28-lou-vibe-check-06",
+  "post_id": "2026-09-28-lou-vibe-check-06",
+  "product": "confessionsofaloser",
+  "slug": "lou-vibe-check-06",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-09-28",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "the-300-dollar-vibe-check",
+  "post_number": 6,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-09-14-lou-hedge-06",
+  "post_id": "2026-09-14-lou-hedge-06",
+  "product": "confessionsofaloser",
+  "slug": "lou-hedge-06",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-09-14",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "hedge-that-ate-itself",
+  "post_number": 6,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}

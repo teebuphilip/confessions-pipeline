@@ -1,0 +1,63 @@
+---
+arc: The $400 I Gave Vegas Because I Was Lazy
+mistake: 3 of 943
+post: 1 of 7
+tier: FREE
+title: The Tuesday I Trusted Vegas Like It Was My Priest
+scheduled: 2026-08-08
+author: Lou Zerr
+tags: sports betting, gambling, money mistakes, confessions, Gen X, personal finance, regret
+teaser: I bet $400 in eleven seconds and spent an hour buying a garden hose I didn't need.
+---
+
+# The Tuesday I Trusted Vegas Like It Was My Priest
+
+*I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 3 of 943 (part 1 of 7).*
+
+The line was minus 3.5 and I bet it in eleven seconds.
+
+The line was minus 3.5 and I bet it in eleven seconds.
+
+I counted, later. Not because I'm proud of it. Because I wanted to know exactly how little thought I had put into losing $400. Eleven seconds. That's about the time it takes to microwave a cup of yesterday's coffee, which is what I was drinking when I did it.
+
+August 12. A Tuesday. My kitchen table has a chip in the corner from when I dropped a cast iron pan two Christmases ago. I remember the chip because I was staring at it while the wheel on the screen spun and confirmed the bet. There's a particular sound the slip makes. A little chirp. Like a bird that just took your money.
+
+Here is what I knew going in. The home team was favored by three and a half points. That number felt right. I don't know how to describe 'felt right' to someone who has never bet on sports. It's the same feeling you get when you're about to text your ex at 1am and you've convinced yourself it's a good idea. It's a feeling that is almost always wrong and it's the feeling you trust the most.
+
+I didn't check anything. I didn't look at the book. I didn't look at another shop. I didn't check the injury report. I didn't check the weather in the town where the game was being played. I didn't check whether the starting quarterback had a functioning ACL. I checked exactly one thing: whether the app remembered my card number.
+
+It did.
+
+Here's where I want to explain something about myself and men in general, and then I promise I'll get back to the story. There is a version of masculine confidence that is really just laziness wearing a Rolex. I have worn that Rolex. For most of my adult life, I have made decisions with the swagger of a man who has done the research and the actual preparation of a man who has watched half a YouTube video. This is why I'm on my second marriage. This is why my 401k looks the way it looks. This is why I bet $400 on a game between two teams whose starting lineups I could not have named at gunpoint.
+
+After I hit confirm, I stood up. I stretched. I felt good. I felt like a guy who had just made a decision. I put on shoes. I told my wife I was going to Home Depot for a garden hose because the old one had a slow leak by the spigot. I remember she said 'get the good kind, not the vinyl one.' I remember I said 'yeah, yeah.' I bought the vinyl one because it was seven dollars cheaper and I already knew, deep in the reptile part of my brain, that I might need that seven dollars.
+
+The drive to Home Depot is nine minutes. The wait at the register was maybe four. By the time I was back in my truck with a coiled green snake of cheap hose in the passenger seat, the line had moved.
+
+I didn't know that yet. I was singing along to a Tom Petty song. I was thinking about what I'd do with the winnings. A new grill, maybe. My wife hated the old one. She said it made the chicken taste like the inside of a shed.
+
+I got home. I set the hose on the porch. I opened the laptop.
+
+The line was minus 1.
+
+I stared at it for a long time. Long enough that the laptop fan kicked on. Long enough that my coffee, which I'd reheated twice already, went cold again for the third time.
+
+Minus 1. In under an hour, the number had moved two and a half points. That doesn't happen for nothing. That happens because somebody, somewhere, knew something. And that somebody had put enough money down to shove the whole market.
+
+I hadn't even kicked off yet. And I already knew.
+
+What I didn't know, sitting there with my cheap hose and my cold coffee, was that this wasn't the mistake. The mistake was the year I'd spent believing Vegas was God.
+
+Tomorrow: the first time I ignored a moving line and got away with it, which was the worst possible outcome.
+
+*Getting away with it the first time is how you lose the next ten.*
+
+— Lou
+
+---
+
+I wish I had this tool when I was gambling heavily - https://www.predeve.com.  I am such a loser that I am giving this guy free publicity.  Don't be a loser.  Monitor your gambling signals.
+
+I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours, you get back everything — brief, pricing, name, SEO, marketing copy, GTM plan.
+
+→ Find out if your idea is already dead: https://buy.stripe.com/fZu4gy2Na4zU2kM3Od87K00

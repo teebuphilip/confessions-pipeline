@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-09-10-lou-hedge-02",
+  "post_id": "2026-09-10-lou-hedge-02",
+  "product": "confessionsofaloser",
+  "slug": "lou-hedge-02",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-09-10",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "hedge-that-ate-itself",
+  "post_number": 2,
+  "post_type": "free",
+  "channels": {
+    "substack": "ready"
+  }
+}

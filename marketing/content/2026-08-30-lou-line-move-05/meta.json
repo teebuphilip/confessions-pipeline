@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-08-30-lou-line-move-05",
+  "post_id": "2026-08-30-lou-line-move-05",
+  "product": "confessionsofaloser",
+  "slug": "lou-line-move-05",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-08-30",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "600-line-move-i-didnt-see",
+  "post_number": 5,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}
