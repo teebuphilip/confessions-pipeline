@@ -77,20 +77,26 @@ output/drafts/<arc-slug>/
 
 ### Dispatcher bundles (automated posting)
 
+See `CONTENT_CONTRACT.md` and `SHAREABLE_CONTENT_CONTRACT.md` for the full channel contract.
+
 ```
 marketing/content/
-  {YYYY-MM-DD}-lou-{slug}-{N}/      # morning: article + X + Reddit + Note 1
+  {YYYY-MM-DD}-lou-{slug}-{N}/
     meta.json
-    substack.md
-    x.md
-    substack_note.md
-    reddit_<sub>.md
+    substack.md                     # canonical long-form article (source of truth)
+    substack_note.md                # base Substack Note (compatibility alias)
+    substack_note_morning.md        # slot 1: dropped-article note
+    substack_note_afternoon.md      # slot 2: question related to today's article
+    substack_note_evening.md        # slot 3: provocative gambling/prediction markets question
     medium.md                       # Post 1 only
-
-  {YYYY-MM-DD}-lou-{slug}-{N}-pm/   # afternoon: Note 2 only
-    meta.json
-    substack_note.md
+    bluesky.md                      # optional mirrored short post
+    x.md                            # human review file when X is enabled
+    x_queue.json                    # machine dispatch queue when X is enabled
 ```
+
+All channels drive back to the daily Substack article. Links use `{{substack_url}}` as a placeholder until the rewrite job runs.
+
+`meta.json.channels.substack_notes.items` is the slot-aware dispatch list. Each item names `slot`, `file`, and `status`.
 
 ---
 
@@ -106,15 +112,15 @@ marketing/content/
 
 | Arc folder | Short slug | Dates | Mistake # |
 |---|---|---|---|
-| four-hundred-dollars-vegas-lazy | lou-vegas-lazy | Aug 19–25 | #3 |
-| 600-line-move-i-didnt-see | lou-line-move | Aug 26–Sep 1 | #4 |
-| soft-open-made-me-look-stupid | lou-soft-open | Sep 2–8 | #5 |
-| hedge-that-ate-itself | lou-hedge | Sep 9–15 | #6 |
-| the-revenge-bet | lou-revenge-bet | Sep 16–22 | #7 |
-| the-300-dollar-vibe-check | lou-vibe-check | Sep 23–29 | #8 |
-| the-guessing-years | lou-guessing-years | Sep 30–Oct 6 | #9 |
+| four-hundred-dollars-vegas-lazy | lou-vegas-lazy | Aug 22–28 | #3 |
+| 600-line-move-i-didnt-see | lou-line-move | Aug 29–Sep 4 | #4 |
+| soft-open-made-me-look-stupid | lou-soft-open | Sep 5–11 | #5 |
+| hedge-that-ate-itself | lou-hedge | Sep 12–18 | #6 |
+| the-revenge-bet | lou-revenge-bet | Sep 19–25 | #7 |
+| the-300-dollar-vibe-check | lou-vibe-check | Sep 26–Oct 2 | #8 |
+| the-guessing-years | lou-guessing-years | Oct 3–9 | #9 |
 
-**Next available start date: Tuesday Oct 7, 2026**
+**Next available start date: Saturday Oct 10, 2026**
 
 ---
 
@@ -147,10 +153,12 @@ Lou is 55. 943 mistakes. Still going. Writes so others don't repeat his failures
 | 1 | FREE | The setup. The moment it started. |
 | 2 | FREE | The first year. When he already knew. |
 | 3 | FREE | The middle. How he rationalized staying. |
-| 4 | PAID | The bottom. One specific terrible moment. |
-| 5 | PAID | The crawl out. Every coward move included. |
-| 6 | PAID | `What I Should Have Done:` — concrete rules, no metaphors. |
-| 7 | PAID | `The Tail:` — what it still costs him today. |
+| 4 | FREE | The bottom. One specific terrible moment. |
+| 5 | FREE | The crawl out. Every coward move included. |
+| 6 | FREE | `What I Should Have Done:` — concrete rules, no metaphors. |
+| 7 | FREE | `The Tail:` — what it still costs him today. |
+
+All posts are FREE. Goal right now is eyes on the other properties (predeve.com etc.), not subscription revenue.
 
 Minimum 600 words per post. One specific scene per post. Not a summary.
 
@@ -160,12 +168,17 @@ Minimum 600 words per post. One specific scene per post. Not a summary.
 
 | Channel | Timing | Content |
 |---|---|---|
-| Substack | 9am | Full article |
-| X/Twitter | 9am | 280-char gut punch, ends `— Lou` |
-| Reddit | 9am | Subreddit-specific post |
-| Substack Note 1 | 9am (with article) | Teaser, drives to article |
-| Substack Note 2 | 3pm | Question/confession, sparks replies |
+| Substack | 9am | Full article — source of truth for the day |
+| Substack Note (morning) | 9am | "Dropped new article" — teaser + link to article |
+| Substack Note (afternoon) | 3pm | Question directly related to today's article |
+| Substack Note (evening) | 6pm | Provocative gambling/prediction markets question |
 | Medium | Weekly (arc complete) | 500-800 word teaser with Substack CTA |
+| Bluesky | Optional | Mirrored short post, native, under 200 chars |
+| X/Twitter | Optional | 6-8 posts, staggered, first 1-2 carry link |
+
+All three Substack Notes link back to the daily article. The morning note is the drop announcement. The afternoon note pulls from the article's core question. The evening note opens a broader gambling/prediction markets provocation that fits the arc's theme — it is not a summary, it is a conversation starter.
+
+Every link in every channel uses `{{substack_url}}` until the rewrite job replaces it with the live URL.
 
 ---
 
