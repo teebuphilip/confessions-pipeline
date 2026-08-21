@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-10-07-lou-guessing-years-05",
+  "post_id": "2026-10-07-lou-guessing-years-05",
+  "product": "confessionsofaloser",
+  "slug": "lou-guessing-years-05",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-10-07",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "the-guessing-years",
+  "post_number": 5,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}

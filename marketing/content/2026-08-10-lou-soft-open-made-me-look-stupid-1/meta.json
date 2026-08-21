@@ -1,0 +1,60 @@
+{
+  "post_id": "2026-08-10-lou-soft-open-made-me-look-stupid-1",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-08-10",
+  "scheduled_time": "09:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The Soft Open That Made Me Look Stupid",
+  "mistake_number": 5,
+  "post_number": 1,
+  "tier": "free",
+  "channels": {
+    "x": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "ready",
+      "subreddits": [
+        {
+          "name": "sportsbook",
+          "file": "reddit_sportsbook.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "GenX",
+          "file": "reddit_GenX.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        },
+        {
+          "name": "offmychest",
+          "file": "reddit_offmychest.md",
+          "status": "ready",
+          "posted_at": null,
+          "post_id": null
+        }
+      ]
+    }
+  }
+}

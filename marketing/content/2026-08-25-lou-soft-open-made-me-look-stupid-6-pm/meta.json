@@ -1,0 +1,39 @@
+{
+  "post_id": "2026-08-25-lou-soft-open-made-me-look-stupid-6-pm",
+  "product": "confessions-of-a-loser",
+  "scheduled_date": "2026-08-25",
+  "scheduled_time": "15:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "arc": "The Soft Open That Made Me Look Stupid",
+  "mistake_number": 5,
+  "post_number": 6,
+  "tier": "paid",
+  "note_type": "engagement",
+  "channels": {
+    "x": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "substack_note": {
+      "status": "ready",
+      "posted_at": null,
+      "post_id": null
+    },
+    "medium": {
+      "status": "skip",
+      "posted_at": null,
+      "post_id": null
+    },
+    "reddit": {
+      "status": "skip",
+      "subreddits": []
+    }
+  }
+}

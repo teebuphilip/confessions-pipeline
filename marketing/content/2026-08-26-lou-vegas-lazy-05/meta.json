@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-08-26-lou-vegas-lazy-05",
+  "post_id": "2026-08-26-lou-vegas-lazy-05",
+  "product": "confessionsofaloser",
+  "slug": "lou-vegas-lazy-05",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-08-26",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "four-hundred-dollars-vegas-lazy",
+  "post_number": 5,
+  "post_type": "paid",
+  "channels": {
+    "substack": "ready"
+  }
+}

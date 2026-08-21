@@ -1,0 +1,17 @@
+{
+  "bundle_path": "marketing/content/2026-09-06-lou-soft-open-02",
+  "post_id": "2026-09-06-lou-soft-open-02",
+  "product": "confessionsofaloser",
+  "slug": "lou-soft-open-02",
+  "title": "",
+  "status": "ready",
+  "scheduled_date": "2026-09-06",
+  "scheduled_time": "07:00",
+  "timezone": "America/New_York",
+  "arc": "soft-open-made-me-look-stupid",
+  "post_number": 2,
+  "post_type": "free",
+  "channels": {
+    "substack": "ready"
+  }
+}
