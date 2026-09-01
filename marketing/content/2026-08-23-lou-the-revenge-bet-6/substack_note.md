@@ -1,1 +1,0 @@
-Part 6 drops today. No metaphors. No lessons. 15 rules I wrote down after a decade of losing to myself. Rule 4 alone would have saved me thousands of dollars and one relationship. — Lou

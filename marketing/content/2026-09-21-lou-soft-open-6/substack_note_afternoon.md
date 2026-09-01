@@ -1,0 +1,3 @@
+Two. Check at least two venues before entering. If the book and another shop disagree by more than five cents on the same event, one of them is wrong, and it is not you who knows which one. The disagreement is not your opportunity. The disagreement is information about which venue has caught up to reality. Wait for them to converge within five cents. Then enter, if you must enter at all, on the side with more volume.
+
+{{substack_url}}

@@ -1,0 +1,1 @@
+Lou Zerr, mistake #5. I opened the account before I opened my eyes. That's when I already knew. {{substack_url}}

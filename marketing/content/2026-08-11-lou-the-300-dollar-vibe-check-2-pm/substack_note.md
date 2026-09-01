@@ -1,1 +1,0 @@
-What's the first thing you check in the morning? Be honest. And how long has it been that thing? — Lou

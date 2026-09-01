@@ -1,0 +1,1 @@
+Lou Zerr, mistake #5. The crack in the tile is a receipt. I brush my teeth in front of it every morning. {{substack_url}}

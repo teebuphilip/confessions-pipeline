@@ -1,1 +1,0 @@
-What's the worst decision you made before 9am on a Sunday? Mine involved a trackpad, a shaking hand, and a sport I don't watch. — Lou

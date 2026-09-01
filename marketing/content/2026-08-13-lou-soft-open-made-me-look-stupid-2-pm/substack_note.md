@@ -1,1 +1,0 @@
-When did you know you had a problem, and how long after that did you finally admit it out loud? For me it was 47 days. — Lou

@@ -1,1 +1,0 @@
-Today's post is the one I've been dreading writing for twenty-four years. Lockup day. The trade window. The forty-five seconds I did not click. — Lou

@@ -1,1 +1,0 @@
-4:11 AM. I opened the gambling app before I opened my eyes. Told myself it was discipline. It was the opposite of discipline wearing a Halloween costume. I already knew what I was. I just didn't have the word for it yet. — Lou

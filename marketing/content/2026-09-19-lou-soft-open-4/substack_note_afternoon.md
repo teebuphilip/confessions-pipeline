@@ -1,0 +1,3 @@
+What had happened was this. At 8:15 PM I had placed a bet for $3,100 on a market I'd been watching for two weeks. It was a big one. It was, in my mind, the bet that was going to reset the numbers. I had done everything right this time. I had waited for the full market to open. I had checked both platforms. They agreed within two cents. I had watched the volume come in. I had watched the sharps come in — or what I thought were the sharps, which was volume moving in ways I had decided were significant based on nothing but the fact that I wanted them to be significant.
+
+{{substack_url}}

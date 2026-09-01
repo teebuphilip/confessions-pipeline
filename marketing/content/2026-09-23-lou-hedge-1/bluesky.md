@@ -1,0 +1,1 @@
+Lou Zerr, mistake #6. The worst thing that can happen the first time you try something stupid is winning. {{substack_url}}

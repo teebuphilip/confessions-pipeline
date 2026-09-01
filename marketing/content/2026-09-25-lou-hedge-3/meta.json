@@ -1,0 +1,148 @@
+{
+  "bundle_path": "marketing/content/2026-09-25-lou-hedge-3",
+  "post_id": "2026-09-25-lou-hedge-3",
+  "product": "confessionsofaloser",
+  "slug": "lou-hedge-3",
+  "title": "The Middle Was A Language Problem",
+  "teaser": "I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter.",
+  "arc": "The Hedge That Ate Itself",
+  "mistake_number": 6,
+  "post_number": 3,
+  "scheduled_date": "2026-09-25",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "hedging",
+    "sports betting",
+    "gambling math",
+    "confessions",
+    "predeve"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #6 of 943, part 3 of 7.\n\n\"I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter.\"\n\nThe Middle Was A Language Problem\n\n{{substack_url}}",
+        "Here's what a language problem does to you. It buys you time. If the thing you're doing has a name that isn't the true name, then the true name doesn't apply to you. I was not a gambler. Gamblers were the guys at the OTB on the corner of my old neighborhood, guys with racing forms folded four ways in their coat pockets, guys my father warned me about when I was nine. I was a man with a laptop and a thesis. Totally different animal.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #6, part 3 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #6 of 943, part 3 of 7.\n\n\"I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter.\"\n\nThe Middle Was A Language Problem\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #6. I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #6. I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Hedge That Ate Itself",
+    "mistake": "#6 of 943",
+    "post": "3 of 7",
+    "teaser": "I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter."
+  }
+}

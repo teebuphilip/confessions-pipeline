@@ -1,1 +1,0 @@
-Six months after losing $600 on a football game my thumb still hesitates 15 seconds every time I open the sportsbook. My wife checks the balance now. She never used to. That's what $600 actually buys. — Lou

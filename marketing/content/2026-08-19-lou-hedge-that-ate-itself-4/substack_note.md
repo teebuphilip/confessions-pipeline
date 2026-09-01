@@ -1,1 +1,0 @@
-Fail #4, part 4. The Sunday in June. The one I don't like talking about. Paid post. If you've been reading along, this is the middle of it. — Lou

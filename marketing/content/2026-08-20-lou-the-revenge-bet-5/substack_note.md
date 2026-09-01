@@ -1,1 +1,0 @@
-Part 5 today. The crawl out. Not a clean arc. Not a redemption montage. Eight months of quitting therapy, forgetting my mother's birthday, deleting one app out of four and calling it progress. If your recovery story sounds pretty, you're lying. — Lou

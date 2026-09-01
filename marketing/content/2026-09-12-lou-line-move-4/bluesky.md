@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. I didn't cash out for $84 because cashing out meant admitting my Tuesday self was wrong. {{substack_url}}

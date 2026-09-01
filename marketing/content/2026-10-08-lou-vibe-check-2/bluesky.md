@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. I checked my phone before I peed. That sentence tells you what kind of man I was. {{substack_url}}

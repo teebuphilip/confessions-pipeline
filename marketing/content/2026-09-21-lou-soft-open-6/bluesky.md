@@ -1,0 +1,1 @@
+Lou Zerr, mistake #5. Twelve rules that cost me $9,796. I follow ten of them. Guess which two I don't. {{substack_url}}

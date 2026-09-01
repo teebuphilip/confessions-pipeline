@@ -1,0 +1,1 @@
+Lou Zerr, mistake #3. Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me. {{substack_url}}

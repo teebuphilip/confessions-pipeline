@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-10-20-lou-guessing-years-7",
+  "post_id": "2026-10-20-lou-guessing-years-7",
+  "product": "confessionsofaloser",
+  "slug": "lou-guessing-years-7",
+  "title": "The Tail: What It Still Costs Me",
+  "teaser": "There's a room in my own house my wife has not entered since April 2023. That's what it still costs.",
+  "arc": "The Guessing Years",
+  "mistake_number": 9,
+  "post_number": 7,
+  "scheduled_date": "2026-10-20",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "gambling",
+    "confessions",
+    "Gen X",
+    "prediction markets",
+    "predeve",
+    "betting systems"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #9 of 943, part 7 of 7.\n\n\"There's a room in my own house my wife has not entered since April 2023. That's what it still costs.\"\n\nThe Tail: What It Still Costs Me\n\n{{substack_url}}",
+        "In part three of this arc I told you that future-me built something. That after the garage and the envelope and the Wednesday meetings, I got obsessed with a single question: what would a system look like that made no claims without evidence? That logged every signal, tracked every outcome, and kept the whole ledger public so nothing could be quietly buried?\n\n{{substack_url}}",
+        "Lou Zerr, mistake #9, part 7 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #9 of 943, part 7 of 7.\n\n\"There's a room in my own house my wife has not entered since April 2023. That's what it still costs.\"\n\nThe Tail: What It Still Costs Me\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #9. There's a room in my own house my wife has not entered since April 2023. That's what it still costs. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #9. There's a room in my own house my wife has not entered since April 2023. That's what it still costs. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Guessing Years",
+    "mistake": "#9 of 943",
+    "post": "7 of 7",
+    "teaser": "There's a room in my own house my wife has not entered since April 2023. That's what it still costs."
+  }
+}

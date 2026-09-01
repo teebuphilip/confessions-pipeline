@@ -1,0 +1,3 @@
+Move one: the fake appointment. Monday morning I came downstairs in a dress shirt like a man who had things handled. I told her I had called someone. I said I had a Thursday appointment. I said his name was Dr. Morrow, which was a name I made up on the spot from a mattress store I had driven past on the way home from Home Depot the previous week. Morrow Mattress. I gave a therapist the name of a mattress company. She said 'okay.' She did not say good. She did not say thank you. She said okay.
+
+{{substack_url}}

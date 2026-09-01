@@ -1,0 +1,1 @@
+Lou Zerr, mistake #7. A thesis is just a permission slip your brain writes so you'll shut up and place the bet. {{substack_url}}

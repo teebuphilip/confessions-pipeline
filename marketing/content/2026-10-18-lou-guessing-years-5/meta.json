@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-10-18-lou-guessing-years-5",
+  "post_id": "2026-10-18-lou-guessing-years-5",
+  "product": "confessionsofaloser",
+  "slug": "lou-guessing-years-5",
+  "title": "Eleven Days of Cowardice",
+  "teaser": "My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nine.",
+  "arc": "The Guessing Years",
+  "mistake_number": 9,
+  "post_number": 5,
+  "scheduled_date": "2026-10-18",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "gambling",
+    "confessions",
+    "Gen X",
+    "prediction markets",
+    "predeve",
+    "betting systems"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #9 of 943, part 5 of 7.\n\n\"My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nine.\"\n\nEleven Days of Cowardice\n\n{{substack_url}}",
+        "Day nine, Saturday. My wife opened the drawer to get a spoon. She said, oh good, you moved the envelope. I said, what? She said, I moved it into the drawer with the taxes two weeks ago because I didn't want it in the kitchen. She said, this must be the one you were saving. She smiled at me. She thought I had been saving up a second envelope for something. She thought I was surprising her.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #9, part 5 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #9 of 943, part 5 of 7.\n\n\"My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nine.\"\n\nEleven Days of Cowardice\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #9. My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nin {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #9. My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nin {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Guessing Years",
+    "mistake": "#9 of 943",
+    "post": "5 of 7",
+    "teaser": "My wife smiled at me and thought I'd been saving a second envelope to surprise her. That was day nine."
+  }
+}

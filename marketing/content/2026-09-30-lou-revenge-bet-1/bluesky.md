@@ -1,0 +1,1 @@
+Lou Zerr, mistake #7. Healthy people close the account. I opened it at lunch to feel the sting again. {{substack_url}}

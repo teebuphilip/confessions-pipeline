@@ -1,0 +1,1 @@
+Lou Zerr, mistake #7. Winning that night was worse than losing. Losing would have taught me. Winning taught my brain the w {{substack_url}}

@@ -1,1 +1,0 @@
-Lockup day, 2000. I had the trade window open. Shares typed in. Finger on the mouse. The screensaver tried to kick in and I moved the mouse instead of clicking sell. That mouse twitch cost me a house. — Lou

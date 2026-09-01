@@ -1,0 +1,1 @@
+Lou Zerr, mistake #9. I told my wife I was net up on gambling for fifteen years. I was down two hundred grand. {{substack_url}}

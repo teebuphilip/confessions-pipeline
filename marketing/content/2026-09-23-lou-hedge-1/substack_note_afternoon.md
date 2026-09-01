@@ -1,0 +1,3 @@
+I'd been on the book for maybe six months at that point. Nothing crazy. Twenty here, fifty there. Enough to make Sunday afternoons feel like they had stakes. Enough that when I lost I told myself it was entertainment and when I won I told myself I was picking up a knack for it. Both of those things were lies and I knew it and I kept saying them anyway, because that's what a grown man does when he needs a reason to keep doing something he shouldn't.
+
+{{substack_url}}

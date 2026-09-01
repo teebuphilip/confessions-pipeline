@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. I looked at my bet three times Friday night. I never once looked at the line. That's the whole disea {{substack_url}}

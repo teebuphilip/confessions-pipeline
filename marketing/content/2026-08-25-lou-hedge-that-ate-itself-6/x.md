@@ -1,1 +1,0 @@
-The information wasn't the problem. I had a document on my desktop that explained exactly why my system didn't work. I saved the file. I placed a bet the next morning. — Lou

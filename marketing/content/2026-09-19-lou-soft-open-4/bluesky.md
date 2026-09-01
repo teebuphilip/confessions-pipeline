@@ -1,0 +1,1 @@
+Lou Zerr, mistake #5. I lost $9,796 in six weeks and sat on the bathroom floor because I couldn't think of a reason to sta {{substack_url}}

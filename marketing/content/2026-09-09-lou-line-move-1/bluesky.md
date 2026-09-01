@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. I thought betting Tuesday made me disciplined. It made me a man with a position and no plan. {{substack_url}}

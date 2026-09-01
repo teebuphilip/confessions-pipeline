@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. The rule that stopped me most wasn't a bet limit. It was having to find a pen. {{substack_url}}

@@ -1,0 +1,1 @@
+Lou Zerr, mistake #3. I set a 4am alarm to check Australian football and called it international diversification. {{substack_url}}

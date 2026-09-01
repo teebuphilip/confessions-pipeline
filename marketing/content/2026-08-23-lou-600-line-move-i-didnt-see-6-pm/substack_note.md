@@ -1,1 +1,0 @@
-Do you have a physical object somewhere in your house that exists just to remind you of a promise you keep breaking? I have an index card in a desk drawer. Show me yours. — Lou

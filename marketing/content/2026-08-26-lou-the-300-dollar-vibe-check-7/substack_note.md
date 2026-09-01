@@ -1,1 +1,0 @@
-Final post in the Kalshi arc: four months clean, and my wife still glances at my phone at breakfast. Live now on Substack. — Lou

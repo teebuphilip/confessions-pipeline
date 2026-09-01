@@ -1,0 +1,3 @@
+Thursday came. I saw a line I liked. Underdog getting seven. I did the same thing I did the week before. Opened the app. Confirmed the bet. Closed the laptop. This time it was $150 because I was, in my own mind, being 'responsible.' You know what a responsible man does after losing $400? He doesn't bet the next week. He reads a book. He goes to bed at nine. What I did was bet $150 and call it discipline.
+
+{{substack_url}}

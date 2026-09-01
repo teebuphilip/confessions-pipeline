@@ -1,0 +1,3 @@
+My brother and I do not talk the way we used to. We talk. But there is a topic between us now, and the topic sits in the middle of every phone call, and we work around it. He knows I gambled. He does not know the actual number. That means every conversation contains a small ongoing lie, and small ongoing lies age badly. I can feel him waiting for me to say the real number. I can feel myself not saying it. This has gone on for four months. It will probably go on for longer, because the longer it goes on the harder it becomes to correct, which is a mechanic I described in the last post and am now demonstrating in real time.
+
+{{substack_url}}

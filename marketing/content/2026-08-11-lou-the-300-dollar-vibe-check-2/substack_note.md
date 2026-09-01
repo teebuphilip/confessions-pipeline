@@ -1,1 +1,0 @@
-Fail #6 Part 2: I checked my phone before I peed. The number was red. The guy who cost me $222 was posting frog memes. Full story up now. — Lou

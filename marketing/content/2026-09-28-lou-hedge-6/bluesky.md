@@ -1,0 +1,1 @@
+Lou Zerr, mistake #6. If you cannot explain in one sentence why one venue is wrong, you have a coin flip and two sets of f {{substack_url}}

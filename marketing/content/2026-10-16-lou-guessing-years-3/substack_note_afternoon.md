@@ -1,0 +1,3 @@
+Future-me also built something. After the garage and the envelope and the Wednesday meetings and the spreadsheet my wife made, I got obsessed with one question: what would a system look like that made claims only when it had evidence? That logged signals, tracked outcomes, and kept a public ledger of what worked and what didn't? No edge claimed without rows to back it up. The answer is a tool called PredEve. I'll tell you more about it later. For now just know it exists because twenty-eight years of rationalizations needed a correction in the other direction.
+
+{{substack_url}}

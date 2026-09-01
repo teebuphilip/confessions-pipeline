@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-10-16-lou-guessing-years-3",
+  "post_id": "2026-10-16-lou-guessing-years-3",
+  "product": "confessionsofaloser",
+  "slug": "lou-guessing-years-3",
+  "title": "The Middle Twenty Years",
+  "teaser": "I told my wife I was net up on gambling for fifteen years. I was down two hundred grand.",
+  "arc": "The Guessing Years",
+  "mistake_number": 9,
+  "post_number": 3,
+  "scheduled_date": "2026-10-16",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "gambling",
+    "confessions",
+    "Gen X",
+    "prediction markets",
+    "predeve",
+    "betting systems"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #9 of 943, part 3 of 7.\n\n\"I told my wife I was net up on gambling for fifteen years. I was down two hundred grand.\"\n\nThe Middle Twenty Years\n\n{{substack_url}}",
+        "Future-me also built something. After the garage and the envelope and the Wednesday meetings and the spreadsheet my wife made, I got obsessed with one question: what would a system look like that made claims only when it had evidence? That logged signals, tracked outcomes, and kept a public ledger of what worked and what didn't? No edge claimed without rows to back it up. The answer is a tool called PredEve. I'll tell you more about it later. For now just know it exists because twenty-eight years of rationalizations needed a correction in the other direction.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #9, part 3 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #9 of 943, part 3 of 7.\n\n\"I told my wife I was net up on gambling for fifteen years. I was down two hundred grand.\"\n\nThe Middle Twenty Years\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #9. I told my wife I was net up on gambling for fifteen years. I was down two hundred grand. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #9. I told my wife I was net up on gambling for fifteen years. I was down two hundred grand. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Guessing Years",
+    "mistake": "#9 of 943",
+    "post": "3 of 7",
+    "teaser": "I told my wife I was net up on gambling for fifteen years. I was down two hundred grand."
+  }
+}

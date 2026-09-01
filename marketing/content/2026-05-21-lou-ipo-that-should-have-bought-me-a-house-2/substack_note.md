@@ -1,1 +1,0 @@
-Fail #238 drops today: the day a finance guy named Dan cornered me by the coffee pot and told me exactly how not to lose everything. I thanked him. I ignored him. — Lou

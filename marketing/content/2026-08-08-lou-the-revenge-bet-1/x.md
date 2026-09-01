@@ -1,1 +1,0 @@
-I lost $80 on a parlay Monday and laughed. Wednesday I opened the app on my lunch break "just to look." By 10:47pm I had $50 left and a work presentation I hadn't read. The moment you're doomed isn't the bet. It's the look. — Lou

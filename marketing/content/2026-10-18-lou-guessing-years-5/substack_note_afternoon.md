@@ -1,0 +1,3 @@
+Day nine, Saturday. My wife opened the drawer to get a spoon. She said, oh good, you moved the envelope. I said, what? She said, I moved it into the drawer with the taxes two weeks ago because I didn't want it in the kitchen. She said, this must be the one you were saving. She smiled at me. She thought I had been saving up a second envelope for something. She thought I was surprising her.
+
+{{substack_url}}

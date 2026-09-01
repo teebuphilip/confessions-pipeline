@@ -1,1 +1,0 @@
-Today: 12 rules that cost me $9,796. No metaphors. No stories. Just the moves. I follow 10 of them. Guess which two I don't. — Lou

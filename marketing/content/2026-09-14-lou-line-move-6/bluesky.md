@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. I wrote thirteen rules on an index card. I have broken most of them since. The card sits in the draw {{substack_url}}

@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. I bet $300 on a stranger's post because I trusted his confidence more than my own brain. {{substack_url}}

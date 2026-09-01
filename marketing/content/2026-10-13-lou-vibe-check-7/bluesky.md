@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. The cost of $1,528 in losses is a half-second glance at my phone at breakfast, four months later. {{substack_url}}

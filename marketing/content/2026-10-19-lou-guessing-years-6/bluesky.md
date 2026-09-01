@@ -1,0 +1,1 @@
+Lou Zerr, mistake #9. If someone in your phone is making your life worse, delete them today. It costs nothing. {{substack_url}}

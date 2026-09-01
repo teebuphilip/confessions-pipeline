@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. I put the mortgage money on a screen in the basement while my wife did a crossword upstairs. {{substack_url}}

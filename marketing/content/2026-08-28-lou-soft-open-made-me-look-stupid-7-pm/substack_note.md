@@ -1,1 +1,0 @@
-Is there a physical thing in your house that's a receipt for a mistake you made? Mine is a cracked tile behind the toilet. I see it every morning. I'm not fixing it yet. — Lou

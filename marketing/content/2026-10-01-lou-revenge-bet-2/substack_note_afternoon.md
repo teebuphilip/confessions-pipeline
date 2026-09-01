@@ -1,0 +1,3 @@
+My thesis was this. A college basketball team from a conference I could not name was playing at home against a team on the second night of a back-to-back. The home team's best player, a sophomore guard I had watched play zero minutes of basketball in my life, was averaging something like 19 points a game. The line was reasonable. The under on total points looked soft. I had done "research," which meant I had scrolled a stats page for maybe ninety seconds.
+
+{{substack_url}}

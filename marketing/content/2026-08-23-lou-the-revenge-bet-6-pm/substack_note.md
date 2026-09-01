@@ -1,1 +1,0 @@
-What's a rule you've written for yourself in blood? Mine: never open the app the day after a loss. It sounds simple. It has cost me thousands of dollars to actually follow. — Lou

@@ -1,1 +1,0 @@
-It's been 4 months since my last bet. My body still wakes me up at 7am Sunday like it wants to place one. Ninety seconds of lying still until the alert passes. That's the tail. — Lou

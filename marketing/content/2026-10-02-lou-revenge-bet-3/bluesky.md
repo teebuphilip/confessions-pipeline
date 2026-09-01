@@ -1,0 +1,1 @@
+Lou Zerr, mistake #7. I wasn't betting to win money. I was betting to stop being the guy who lost on Monday. {{substack_url}}

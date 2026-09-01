@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. The $600 is gone once. The fifteen-second hesitation before every bet is a tax I pay forever. {{substack_url}}

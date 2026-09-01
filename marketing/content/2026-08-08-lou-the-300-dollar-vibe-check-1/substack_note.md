@@ -1,1 +1,0 @@
-Fail #6: I gave $300 to a stranger with an anime profile picture because he used the word 'sharp' and I was tired. Story drops today. — Lou

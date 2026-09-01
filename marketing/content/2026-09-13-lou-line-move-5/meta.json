@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-09-13-lou-line-move-5",
+  "post_id": "2026-09-13-lou-line-move-5",
+  "product": "confessionsofaloser",
+  "slug": "lou-line-move-5",
+  "title": "The Monday Spreadsheet I Built To Feel Better",
+  "teaser": "I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it.",
+  "arc": "The $600 Line Move I Didn't See",
+  "mistake_number": 4,
+  "post_number": 5,
+  "scheduled_date": "2026-09-13",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "line movement",
+    "sports betting",
+    "sharp money",
+    "gambling",
+    "confessions",
+    "predeve"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #4 of 943, part 5 of 7.\n\n\"I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it.\"\n\nThe Monday Spreadsheet I Built To Feel Better\n\n{{substack_url}}",
+        "Move one. Monday, 6:15 a.m. I woke up before my alarm, which never happens, and my first thought was the $600. Not in dollars. In objects. The brakes. The dentist. The streaming stack. My brain had been doing this math while I slept. I lay there for eleven minutes doing more of it.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #4, part 5 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #4 of 943, part 5 of 7.\n\n\"I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it.\"\n\nThe Monday Spreadsheet I Built To Feel Better\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #4. I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #4. I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The $600 Line Move I Didn't See",
+    "mistake": "#4 of 943",
+    "post": "5 of 7",
+    "teaser": "I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it."
+  }
+}

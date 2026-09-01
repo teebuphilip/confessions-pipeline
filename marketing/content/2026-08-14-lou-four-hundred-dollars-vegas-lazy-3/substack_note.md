@@ -1,1 +1,0 @@
-Part 3 today: how I built a whole philosophy to keep betting. I called setting a 4am alarm to check Australian football 'international diversification.' Out loud. In my own kitchen. — Lou

@@ -1,1 +1,0 @@
-Fail #47: I won my first sports bet in 1994. Eighteen dollars. It's the most expensive money I ever made. Full story drops today. — Lou

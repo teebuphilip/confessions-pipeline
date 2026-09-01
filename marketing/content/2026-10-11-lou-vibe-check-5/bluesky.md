@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. I stopped gambling because my account had $47 in it and I was too tired to reload, not because I got {{substack_url}}

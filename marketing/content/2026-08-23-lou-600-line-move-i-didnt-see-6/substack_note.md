@@ -1,1 +1,0 @@
-Post 6 today. The 13 rules I wrote on an index card after the loss. Not inspiration. Not lessons. A checklist. I've broken most of them since. Sharing anyway. — Lou

@@ -1,1 +1,0 @@
-I opened the sportsbook three times Friday night to check my bet. I never once checked the line. Because underneath everything I already knew I was wrong. — Lou

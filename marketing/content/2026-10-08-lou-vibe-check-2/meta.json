@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-10-08-lou-vibe-check-2",
+  "post_id": "2026-10-08-lou-vibe-check-2",
+  "product": "confessionsofaloser",
+  "slug": "lou-vibe-check-2",
+  "title": "The Number In Red",
+  "teaser": "I checked my phone before I peed. That sentence tells you what kind of man I was.",
+  "arc": "The $300 Vibe Check",
+  "mistake_number": 8,
+  "post_number": 2,
+  "scheduled_date": "2026-10-08",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "vibes",
+    "sports betting",
+    "gambling",
+    "confessions",
+    "prediction markets",
+    "predeve"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #8 of 943, part 2 of 7.\n\n\"I checked my phone before I peed. That sentence tells you what kind of man I was.\"\n\nThe Number In Red\n\n{{substack_url}}",
+        "6:04am. Still dark. My wife was breathing that slow deep breath she does when she's about to wake up on her own in twelve minutes. The dog was on the rug at the foot of the bed doing that leg-twitch thing dogs do when they're dreaming about running.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #8, part 2 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #8 of 943, part 2 of 7.\n\n\"I checked my phone before I peed. That sentence tells you what kind of man I was.\"\n\nThe Number In Red\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #8. I checked my phone before I peed. That sentence tells you what kind of man I was. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #8. I checked my phone before I peed. That sentence tells you what kind of man I was. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The $300 Vibe Check",
+    "mistake": "#8 of 943",
+    "post": "2 of 7",
+    "teaser": "I checked my phone before I peed. That sentence tells you what kind of man I was."
+  }
+}

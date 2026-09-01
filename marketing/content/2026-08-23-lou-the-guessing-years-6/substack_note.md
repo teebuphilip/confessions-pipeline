@@ -1,1 +1,0 @@
-Fail #52: today's post is the rules. Ten of them. No metaphors. No frameworks. Just the moves I should have made, in the order I should have made them. — Lou

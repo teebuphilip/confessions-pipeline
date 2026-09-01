@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-10-15-lou-guessing-years-2",
+  "post_id": "2026-10-15-lou-guessing-years-2",
+  "product": "confessionsofaloser",
+  "slug": "lou-guessing-years-2",
+  "title": "The Year I Already Knew",
+  "teaser": "I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morning.",
+  "arc": "The Guessing Years",
+  "mistake_number": 9,
+  "post_number": 2,
+  "scheduled_date": "2026-10-15",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "gambling",
+    "confessions",
+    "Gen X",
+    "prediction markets",
+    "predeve",
+    "betting systems"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #9 of 943, part 2 of 7.\n\n\"I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morning.\"\n\nThe Year I Already Knew\n\n{{substack_url}}",
+        "It was the second week of the college football season. I had $600 in my checking account, which was about $500 more than usual, because I'd sold two copiers to a periodontist in a strip mall the week before and gotten the commission early. I was renting a slightly better apartment by then, on the ground floor, no Mrs. Kolar. I had a real TV. I had cable.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #9, part 2 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #9 of 943, part 2 of 7.\n\n\"I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morning.\"\n\nThe Year I Already Knew\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #9. I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morni {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #9. I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morni {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Guessing Years",
+    "mistake": "#9 of 943",
+    "post": "2 of 7",
+    "teaser": "I told myself out loud in a parking lot that I had a problem. Then I placed another bet Sunday morning."
+  }
+}

@@ -1,0 +1,3 @@
+Here's what I thought I had figured out. I thought I had noticed a thing. Two platforms. Same event. Different prices in the morning. By afternoon, the prices would converge. Sometimes wildly. Twelve cents, fifteen cents, once a full twenty. If you got in early on the cheaper side, you were essentially getting a discount, and when the market caught up you'd be sitting on free money.
+
+{{substack_url}}

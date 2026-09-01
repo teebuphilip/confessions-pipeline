@@ -1,1 +1,0 @@
-Fail #4: I found a gap between FanDuel and Kalshi that looked like free money. Today I tell you about the first bet, the twelve dollars I won, and why winning was the worst thing that could have happened. — Lou

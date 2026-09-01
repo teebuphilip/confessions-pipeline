@@ -1,1 +1,0 @@
-I lost $2,400 on a football game I didn't watch, at 11:47 AM, in a bathrobe. Not because the team lost. Because I bought at a price that didn't exist yet. Prediction markets have a soft open. I was the toe Vegas dips in the water. — Lou

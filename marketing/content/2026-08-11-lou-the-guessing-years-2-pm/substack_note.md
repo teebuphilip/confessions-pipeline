@@ -1,1 +1,0 @@
-When did you first know? Not the moment you admitted it. The moment you first knew, and told nobody, and kept going. — Lou

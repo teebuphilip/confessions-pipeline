@@ -1,0 +1,3 @@
+The reason I did not delete it — and this is the first cowardly thing I did, of many, in a sequence I'm going to lay out for you honestly — is that I wanted to leave myself an out. I wanted the option. Not the plan. Just the option. In the same way a smoker who is quitting keeps one pack in a drawer they promise they'll never open, I kept the app on my phone so that I could tell myself I was choosing not to use it, rather than not having it to use.
+
+{{substack_url}}

@@ -1,0 +1,3 @@
+Here's what a language problem does to you. It buys you time. If the thing you're doing has a name that isn't the true name, then the true name doesn't apply to you. I was not a gambler. Gamblers were the guys at the OTB on the corner of my old neighborhood, guys with racing forms folded four ways in their coat pockets, guys my father warned me about when I was nine. I was a man with a laptop and a thesis. Totally different animal.
+
+{{substack_url}}

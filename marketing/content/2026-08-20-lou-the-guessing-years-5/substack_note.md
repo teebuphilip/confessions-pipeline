@@ -1,1 +1,0 @@
-Fail #51: For 11 days I lied to my wife, my brother, my bank, and myself. Today I tell you every single lie. In order. — Lou

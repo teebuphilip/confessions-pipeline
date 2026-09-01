@@ -1,0 +1,1 @@
+Lou Zerr, mistake #6. My body still does a small alert at 7am on Sundays, waiting for me to place a bet I'm not going to p {{substack_url}}

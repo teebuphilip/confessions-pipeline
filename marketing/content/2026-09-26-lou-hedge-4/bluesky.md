@@ -1,0 +1,1 @@
+Lou Zerr, mistake #6. I lost thirty-one hundred dollars on a Sunday morning on European soccer I don't watch and can't nam {{substack_url}}

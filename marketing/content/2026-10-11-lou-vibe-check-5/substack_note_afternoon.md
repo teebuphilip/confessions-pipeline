@@ -1,0 +1,3 @@
+October 15th. I finally told my wife. Not all of it. About 60% of it. I told her I had lost 'around $800' on the books. The real number was $1,528. I picked 800 because 800 sounded bad but survivable. I picked 800 because I was a coward. She was quiet for a long time. Then she said, 'Is that all?' And I said, 'Yes.' And she looked at me the way she looks at me when she doesn't believe me but has decided not to fight about it right now.
+
+{{substack_url}}

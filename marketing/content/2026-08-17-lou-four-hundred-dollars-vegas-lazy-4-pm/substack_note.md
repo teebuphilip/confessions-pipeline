@@ -1,1 +1,0 @@
-What's the worst thing you've ever labeled something to hide it? I'm going first: HVAC WARRANTIES. In a filing cabinet. In my basement. For sixteen months. — Lou

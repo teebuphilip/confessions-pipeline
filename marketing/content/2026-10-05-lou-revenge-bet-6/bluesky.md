@@ -1,0 +1,1 @@
+Lou Zerr, mistake #7. If you use the word thesis about a bet, you are not being professional. You are writing a permission {{substack_url}}

@@ -1,0 +1,3 @@
+Coward move number two: I lied to my sister. She called in July and asked if I was okay because I'd been weird on the phone, and I said I was fine, work was busy, which is a hilarious thing for me to have said because I work from home doing a job I do not want to describe here and it was, at that moment, extremely not busy. She didn't push. She never pushes. She's been not-pushing for about forty years and I have taken advantage of it my whole life.
+
+{{substack_url}}

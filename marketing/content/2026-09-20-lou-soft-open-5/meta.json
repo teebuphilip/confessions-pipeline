@@ -1,0 +1,149 @@
+{
+  "bundle_path": "marketing/content/2026-09-20-lou-soft-open-5",
+  "post_id": "2026-09-20-lou-soft-open-5",
+  "product": "confessionsofaloser",
+  "slug": "lou-soft-open-5",
+  "title": "The Cowardly Crawl Out",
+  "teaser": "I did not delete the account. I told my brother a shaped version of the truth. I lied to my accountant.",
+  "arc": "The Soft Open That Made Me Look Stupid",
+  "mistake_number": 5,
+  "post_number": 5,
+  "scheduled_date": "2026-09-20",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "sports betting",
+    "gambling",
+    "soft lines",
+    "confessions",
+    "Gen X",
+    "predeve"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #5 of 943, part 5 of 7.\n\n\"I did not delete the account. I told my brother a shaped version of the truth. I lied to my accountant.\"\n\nThe Cowardly Crawl Out\n\n{{substack_url}}",
+        "The reason I did not delete it \u2014 and this is the first cowardly thing I did, of many, in a sequence I'm going to lay out for you honestly \u2014 is that I wanted to leave myself an out. I wanted the option. Not the plan. Just the option. In the same way a smoker who is quitting keeps one pack in a drawer they promise they'll never open, I kept the app on my phone so that I could tell myself I was choosing not to use it, rather than not having it to use.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #5, part 5 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #5 of 943, part 5 of 7.\n\n\"I did not delete the account. I told my brother a shaped version of the truth. I lied to my accountant.\"\n\nThe Cowardly Crawl Out\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #5. I did not delete the account. I told my brother a shaped version of the truth. I lied to my accounta {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #5. I did not delete the account. I told my brother a shaped version of the truth. I lied to my accounta {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Soft Open That Made Me Look Stupid",
+    "mistake": "#5 of 943",
+    "post": "5 of 7",
+    "teaser": "I did not delete the account. I told my brother a shaped version of the truth. I lied to my accountant."
+  }
+}

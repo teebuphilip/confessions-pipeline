@@ -1,1 +1,0 @@
-What's the biggest lie you've told your partner in a single ordinary sentence? Mine was 'the basement is cold.' — Lou

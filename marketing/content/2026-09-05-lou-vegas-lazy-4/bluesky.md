@@ -1,0 +1,1 @@
+Lou Zerr, mistake #3. I told my wife 'some of it went to Christmas.' The Christmas budget was $600. She'd done it herself. {{substack_url}}

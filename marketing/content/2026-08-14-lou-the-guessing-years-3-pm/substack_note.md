@@ -1,1 +1,0 @@
-What's the dumbest thing you ever paid a monthly subscription for? I'll start: sports picks from a fake doctor. Four years. — Lou

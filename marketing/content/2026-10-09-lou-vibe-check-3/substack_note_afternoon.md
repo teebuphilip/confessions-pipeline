@@ -1,0 +1,3 @@
+The problem was never that I trusted someone on a message board. The problem was I had no rows. No ledger of my own. No record of signals I had acted on and whether they had worked. I was making claims without evidence, including claims to myself about what I knew and didn't know. There is a tool now that won't let you do that. It's called PredEve. Every signal gets a row. Every row gets an outcome. You cannot look at a stranger's post and say "he sounds right" and act on it, because the tool is sitting there asking: where's your data? Show me the row. I didn't have rows. I had a man with an anime profile picture and $300 I should have kept.
+
+{{substack_url}}

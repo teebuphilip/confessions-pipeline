@@ -1,1 +1,0 @@
-What's the moment you knew you'd already lost, before the thing had officially been lost? Mine happened in socks. Tell me yours. — Lou

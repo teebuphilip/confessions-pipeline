@@ -1,1 +1,0 @@
-What's the quietest room you've ever destroyed yourself in? Mine was a beige-carpeted living room with a muted laptop and a dog walking upstairs. No screaming. No bottle. Just clicks. — Lou

@@ -1,1 +1,0 @@
-What's a lie you told yourself with a spreadsheet? I labeled my worst gambling losses as 'learning fees' so the bottom row looked survivable. It didn't. — Lou

@@ -1,1 +1,0 @@
-I stood in front of my open fridge at 6pm and used the word "thesis" about a college basketball game in a conference I couldn't find on a map. That word cost me $60. The chase doesn't look like chasing. It looks like analysis. — Lou

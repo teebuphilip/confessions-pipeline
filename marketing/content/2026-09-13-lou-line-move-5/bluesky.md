@@ -1,0 +1,1 @@
+Lou Zerr, mistake #4. I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it. {{substack_url}}

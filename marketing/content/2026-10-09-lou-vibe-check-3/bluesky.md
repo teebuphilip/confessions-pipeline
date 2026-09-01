@@ -1,0 +1,1 @@
+Lou Zerr, mistake #8. I paid $300 for a lesson, then paid another $128 to prove I hadn't learned it. {{substack_url}}

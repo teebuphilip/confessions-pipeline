@@ -1,1 +1,0 @@
-Day 6: I lied to my brother about needing money for a water heater. Day 7: he called back and said 'Lou' and I hung up on him. Day 11: I told my wife a true number out loud for the first time in 29 years. — Lou

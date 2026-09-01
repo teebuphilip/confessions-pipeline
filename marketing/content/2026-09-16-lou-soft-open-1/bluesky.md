@@ -1,0 +1,1 @@
+Lou Zerr, mistake #5. I put $2,400 on a price that didn't exist yet, in a bathrobe, at 11:47 AM. {{substack_url}}

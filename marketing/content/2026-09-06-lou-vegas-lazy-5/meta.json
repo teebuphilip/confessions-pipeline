@@ -1,0 +1,150 @@
+{
+  "bundle_path": "marketing/content/2026-09-06-lou-vegas-lazy-5",
+  "post_id": "2026-09-06-lou-vegas-lazy-5",
+  "product": "confessionsofaloser",
+  "slug": "lou-vegas-lazy-5",
+  "title": "Every Coward Move I Made In The Next Ninety Days",
+  "teaser": "I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot.",
+  "arc": "The $400 I Gave Vegas Because I Was Lazy",
+  "mistake_number": 3,
+  "post_number": 5,
+  "scheduled_date": "2026-09-06",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "sports betting",
+    "gambling",
+    "money mistakes",
+    "confessions",
+    "Gen X",
+    "personal finance",
+    "regret"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #3 of 943, part 5 of 7.\n\n\"I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot.\"\n\nEvery Coward Move I Made In The Next Ninety Days\n\n{{substack_url}}",
+        "Move one: the fake appointment. Monday morning I came downstairs in a dress shirt like a man who had things handled. I told her I had called someone. I said I had a Thursday appointment. I said his name was Dr. Morrow, which was a name I made up on the spot from a mattress store I had driven past on the way home from Home Depot the previous week. Morrow Mattress. I gave a therapist the name of a mattress company. She said 'okay.' She did not say good. She did not say thank you. She said okay.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #3, part 5 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #3 of 943, part 5 of 7.\n\n\"I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot.\"\n\nEvery Coward Move I Made In The Next Ninety Days\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #3. I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #3. I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The $400 I Gave Vegas Because I Was Lazy",
+    "mistake": "#3 of 943",
+    "post": "5 of 7",
+    "teaser": "I gave a fake therapist the name of a mattress store I drove past on the way home from Home Depot."
+  }
+}

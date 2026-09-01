@@ -1,1 +1,0 @@
-Fail #50 drops today. It's the one I've never written before. There was an envelope in the silverware drawer with my daughter's name on it. — Lou

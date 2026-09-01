@@ -1,0 +1,1 @@
+Lou Zerr, mistake #6. If you're calling a year of losses tuition, you are the one being taught, and you are failing. {{substack_url}}

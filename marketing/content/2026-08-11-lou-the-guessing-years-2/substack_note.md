@@ -1,1 +1,0 @@
-Fail #48: I told myself in a parking lot in 1995 that I had a gambling problem. Then I bet on the Bengals four days later. Today's post is about the space between knowing and doing. — Lou

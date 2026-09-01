@@ -1,1 +1,0 @@
-What's one boring rule that would have saved you from a stupid year? Mine: if you move money from savings to fund a hobby, the hobby is over. I did not follow it. — Lou

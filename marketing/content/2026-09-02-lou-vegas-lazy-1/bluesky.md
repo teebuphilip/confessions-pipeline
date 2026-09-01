@@ -1,0 +1,1 @@
+Lou Zerr, mistake #3. I bet $400 in eleven seconds and spent an hour buying a garden hose I didn't need. {{substack_url}}
