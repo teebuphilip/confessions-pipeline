@@ -1,15 +1,3 @@
----
-arc: The Revenge Bet
-mistake: 7 of 943
-post: 6 of 7
-tier: PAID
-title: What I Should Have Done
-scheduled: 2026-08-23
-author: Lou Zerr
-tags: gambling recovery, problem gambling, rules, playbook, self improvement, addiction recovery, sports betting
-teaser: If you use the word thesis about a bet, you are not being professional. You are writing a permission slip.
----
-
 # What I Should Have Done
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 7 of 943 (part 6 of 7).*

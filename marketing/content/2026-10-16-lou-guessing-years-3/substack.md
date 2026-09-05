@@ -1,15 +1,3 @@
----
-arc: The Guessing Years
-mistake: 9 of 943
-post: 3 of 7
-tier: FREE
-title: The Middle Twenty Years
-scheduled: 2026-08-14
-author: Lou Zerr
-tags: gambling, sports betting, marriage, addiction, denial, GenX, medium-life-crisis
-teaser: I told my wife I was net up on gambling for fifteen years. I was down two hundred grand.
----
-
 # The Middle Twenty Years
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 9 of 943 (part 3 of 7).*

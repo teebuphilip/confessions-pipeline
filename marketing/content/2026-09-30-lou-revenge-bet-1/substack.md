@@ -1,15 +1,3 @@
----
-arc: The Revenge Bet
-mistake: 7 of 943
-post: 1 of 7
-tier: FREE
-title: The Monday That Cost Me Wednesday
-scheduled: 2026-08-08
-author: Lou Zerr
-tags: gambling, sports betting, problem gambling, addiction, personal finance, self destruction
-teaser: Healthy people close the account. I opened it at lunch to feel the sting again.
----
-
 # The Monday That Cost Me Wednesday
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 7 of 943 (part 1 of 7).*

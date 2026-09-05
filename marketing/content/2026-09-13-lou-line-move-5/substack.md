@@ -1,15 +1,3 @@
----
-arc: The $600 Line Move I Didn't See
-mistake: 4 of 943
-post: 5 of 7
-tier: PAID
-title: The Monday Spreadsheet I Built To Feel Better
-scheduled: 2026-08-20
-author: Lou Zerr
-tags: denial, spreadsheets, self-deception, marriage, gambling recovery, confession, middle age
-teaser: I built a spreadsheet to make my losses look smaller and I knew I was lying while I built it.
----
-
 # The Monday Spreadsheet I Built To Feel Better
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 4 of 943 (part 5 of 7).*

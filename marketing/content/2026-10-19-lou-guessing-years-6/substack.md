@@ -1,15 +1,3 @@
----
-arc: The Guessing Years
-mistake: 9 of 943
-post: 6 of 7
-tier: PAID
-title: What I Should Have Done
-scheduled: 2026-08-23
-author: Lou Zerr
-tags: gambling, recovery, rules, personal finance, hard-won-lessons, sports betting, addiction
-teaser: If someone in your phone is making your life worse, delete them today. It costs nothing.
----
-
 # What I Should Have Done
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 9 of 943 (part 6 of 7).*

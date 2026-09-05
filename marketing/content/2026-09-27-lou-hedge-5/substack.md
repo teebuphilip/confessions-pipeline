@@ -1,15 +1,3 @@
----
-arc: The Hedge That Ate Itself
-mistake: 6 of 943
-post: 5 of 7
-tier: PAID
-title: Every Coward Move
-scheduled: 2026-08-20
-author: Lou Zerr
-tags: gambling recovery, problem gambling, financial recovery, confessions, family, shame, midlife
-teaser: I took twenty-two hundred out of an IRA to chase a hedge and I still haven't told my sister.
----
-
 # Every Coward Move
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 6 of 943 (part 5 of 7).*

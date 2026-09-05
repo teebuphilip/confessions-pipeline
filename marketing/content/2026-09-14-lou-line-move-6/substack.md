@@ -1,15 +1,3 @@
----
-arc: The $600 Line Move I Didn't See
-mistake: 4 of 943
-post: 6 of 7
-tier: PAID
-title: What I Should Have Done: The Line Movement Checklist I Wrote After
-scheduled: 2026-08-23
-author: Lou Zerr
-tags: rules, gambling discipline, checklist, personal finance, self-management, recovery, middle age
-teaser: I wrote thirteen rules on an index card. I have broken most of them since. The card sits in the drawer as a witness.
----
-
 # What I Should Have Done: The Line Movement Checklist I Wrote After
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 4 of 943 (part 6 of 7).*

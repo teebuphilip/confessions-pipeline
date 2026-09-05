@@ -1,15 +1,3 @@
----
-arc: The Revenge Bet
-mistake: 7 of 943
-post: 2 of 7
-tier: FREE
-title: The 6PM Bet That Wasn't A Bet
-scheduled: 2026-08-11
-author: Lou Zerr
-tags: gambling, sports betting, self deception, problem gambling, chasing losses, rationalization
-teaser: A thesis is just a permission slip your brain writes so you'll shut up and place the bet.
----
-
 # The 6PM Bet That Wasn't A Bet
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 7 of 943 (part 2 of 7).*

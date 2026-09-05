@@ -1,15 +1,3 @@
----
-arc: The $300 Vibe Check
-mistake: 8 of 943
-post: 2 of 7
-tier: FREE
-title: The Number In Red
-scheduled: 2026-08-11
-author: Lou Zerr
-tags: gambling, gambling, loss, shame, morning routine, financial mistakes, marriage
-teaser: I checked my phone before I peed. That sentence tells you what kind of man I was.
----
-
 # The Number In Red
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 8 of 943 (part 2 of 7).*

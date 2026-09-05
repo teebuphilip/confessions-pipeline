@@ -1,15 +1,3 @@
----
-arc: The Soft Open That Made Me Look Stupid
-mistake: 5 of 943
-post: 2 of 7
-tier: FREE
-title: The Second Bet Was Worse Than The First
-scheduled: 2026-08-11
-author: Lou Zerr
-tags: gambling addiction, the books, denial, financial mistakes, midlife, confessions, self-sabotage
-teaser: I opened the account before I opened my eyes. That's when I already knew.
----
-
 # The Second Bet Was Worse Than The First
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 5 of 943 (part 2 of 7).*

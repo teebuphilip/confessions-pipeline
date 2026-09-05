@@ -1,15 +1,3 @@
----
-arc: The Hedge That Ate Itself
-mistake: 6 of 943
-post: 3 of 7
-tier: FREE
-title: The Middle Was A Language Problem
-scheduled: 2026-08-14
-author: Lou Zerr
-tags: gambling, self-deception, friendship, book, gambling, denial, midlife
-teaser: I hit decline on a friend whose wife had had a scare because a line was moving in the third quarter.
----
-
 # The Middle Was A Language Problem
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 6 of 943 (part 3 of 7).*

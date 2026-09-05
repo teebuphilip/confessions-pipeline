@@ -1,15 +1,3 @@
----
-arc: The Soft Open That Made Me Look Stupid
-mistake: 5 of 943
-post: 7 of 7
-tier: PAID
-title: The Tail: What It Still Costs Me
-scheduled: 2026-08-26
-author: Lou Zerr
-tags: aftermath, gambling recovery, family, regret, the books, midlife, confessions
-teaser: The crack in the tile is a receipt. I brush my teeth in front of it every morning.
----
-
 # The Tail: What It Still Costs Me
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 5 of 943 (part 7 of 7).*

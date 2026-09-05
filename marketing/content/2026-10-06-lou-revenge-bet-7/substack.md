@@ -1,15 +1,3 @@
----
-arc: The Revenge Bet
-mistake: 7 of 943
-post: 7 of 7
-tier: PAID
-title: The Tail
-scheduled: 2026-08-26
-author: Lou Zerr
-tags: gambling recovery, long term consequences, regret, midlife, problem gambling, financial recovery, aging
-teaser: Won the bet. Lost the year. That's the whole thing.
----
-
 # The Tail
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 7 of 943 (part 7 of 7).*

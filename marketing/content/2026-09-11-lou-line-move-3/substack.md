@@ -1,15 +1,3 @@
----
-arc: The $600 Line Move I Didn't See
-mistake: 4 of 943
-post: 3 of 7
-tier: FREE
-title: The Friday I Opened The App And Looked At The Wrong Thing
-scheduled: 2026-08-14
-author: Lou Zerr
-tags: denial, self-sabotage, gambling, avoidance, personal finance, honesty
-teaser: I looked at my bet three times Friday night. I never once looked at the line. That's the whole disease.
----
-
 # The Friday I Opened The App And Looked At The Wrong Thing
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 4 of 943 (part 3 of 7).*

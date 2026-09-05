@@ -1,15 +1,3 @@
----
-arc: The $300 Vibe Check
-mistake: 8 of 943
-post: 4 of 7
-tier: PAID
-title: The Night I Loaded The Card
-scheduled: 2026-08-17
-author: Lou Zerr
-tags: gambling, problem gambling, marriage, money, gambling, mortgage, financial ruin
-teaser: I put the mortgage money on a screen in the basement while my wife did a crossword upstairs.
----
-
 # The Night I Loaded The Card
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 8 of 943 (part 4 of 7).*

@@ -1,15 +1,3 @@
----
-arc: The $600 Line Move I Didn't See
-mistake: 4 of 943
-post: 2 of 7
-tier: FREE
-title: The Wednesday I Made Eggs Instead
-scheduled: 2026-08-11
-author: Lou Zerr
-tags: habits, self-awareness, gambling, morning routine, financial mistakes, middle age
-teaser: I traded ninety seconds of information for the story of being a man who eats breakfast without a screen.
----
-
 # The Wednesday I Made Eggs Instead
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 4 of 943 (part 2 of 7).*

@@ -1,15 +1,3 @@
----
-arc: The $400 I Gave Vegas Because I Was Lazy
-mistake: 3 of 943
-post: 2 of 7
-tier: FREE
-title: The Year I Thought I Was A Genius
-scheduled: 2026-08-11
-author: Lou Zerr
-tags: sports betting, gambling, marriage, self-deception, money, confessions, Gen X
-teaser: My wife stopped slamming doors. That's how I knew it was bad.
----
-
 # The Year I Thought I Was A Genius
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 3 of 943 (part 2 of 7).*

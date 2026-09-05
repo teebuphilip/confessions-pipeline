@@ -1,15 +1,3 @@
----
-arc: The Hedge That Ate Itself
-mistake: 6 of 943
-post: 6 of 7
-tier: PAID
-title: What I Should Have Done: The Actual Rules
-scheduled: 2026-08-23
-author: Lou Zerr
-tags: gambling, financial rules, problem gambling recovery, book, the books, gambling, personal finance
-teaser: If you cannot explain in one sentence why one venue is wrong, you have a coin flip and two sets of fees.
----
-
 # What I Should Have Done: The Actual Rules
 
 *I've made 943 serious mistakes in my life. I'm documenting every one of them so you don't have to make the same ones. My name is Lou Zerr. Here's another 6 of 943 (part 6 of 7).*
