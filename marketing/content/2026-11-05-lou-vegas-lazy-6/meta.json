@@ -1,0 +1,150 @@
+{
+  "bundle_path": "marketing/content/2026-11-05-lou-vegas-lazy-6",
+  "post_id": "2026-11-05-lou-vegas-lazy-6",
+  "product": "confessionsofaloser",
+  "slug": "lou-vegas-lazy-6",
+  "title": "What I Should Have Done: The Rules I Use Now",
+  "teaser": "Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me.",
+  "arc": "The $400 I Gave Vegas Because I Was Lazy",
+  "mistake_number": 3,
+  "post_number": 6,
+  "scheduled_date": "2026-11-05",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "sports betting",
+    "gambling",
+    "money mistakes",
+    "confessions",
+    "Gen X",
+    "personal finance",
+    "regret"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #3 of 943, part 6 of 7.\n\n\"Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me.\"\n\nWhat I Should Have Done: The Rules I Use Now\n\n{{substack_url}}",
+        "So here are the actual things I do. If you take one and use it, great. If you take none, I don't care. This isn't a framework. It's a list of specific things a specific idiot has to do to stay out of trouble.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #3, part 6 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #3 of 943, part 6 of 7.\n\n\"Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me.\"\n\nWhat I Should Have Done: The Rules I Use Now\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #3. Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #3. Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The $400 I Gave Vegas Because I Was Lazy",
+    "mistake": "#3 of 943",
+    "post": "6 of 7",
+    "teaser": "Nine boring rules from an idiot who lost $612 to learn them. Boring is what saved me."
+  }
+}

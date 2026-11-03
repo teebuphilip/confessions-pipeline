@@ -42,7 +42,7 @@ Which, in the language of people who have lived with me for thirty years, is a p
 
 ---
 
-I wish I had this tool when I was gambling heavily - https://www.predeve.com.  I am such a loser that I am giving this guy free publicity.  Don't be a loser.  Monitor your gambling signals.
+If I had tracked my betting patterns instead of my feelings, I would have quit two years earlier. WinstaPlayer does what I couldn't do for myself. https://www.winstaplayer.com?utm_source=substack&utm_medium=newsletter&utm_campaign=winstaplayer-bio
 
 I spent 25 years building the wrong things. So I built a system that tells you if your startup idea is already dead before you waste 6 months on it. $97, 48 hours, you get back everything — brief, pricing, name, SEO, marketing copy, GTM plan.
 

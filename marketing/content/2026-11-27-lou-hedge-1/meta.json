@@ -1,0 +1,148 @@
+{
+  "bundle_path": "marketing/content/2026-11-27-lou-hedge-1",
+  "post_id": "2026-11-27-lou-hedge-1",
+  "product": "confessionsofaloser",
+  "slug": "lou-hedge-1",
+  "title": "The Two Tabs",
+  "teaser": "The worst thing that can happen the first time you try something stupid is winning.",
+  "arc": "The Hedge That Ate Itself",
+  "mistake_number": 6,
+  "post_number": 1,
+  "scheduled_date": "2026-11-27",
+  "scheduled_time": "02:00",
+  "timezone": "America/New_York",
+  "status": "ready",
+  "main_article_file": "substack.md",
+  "primary_channel": "substack",
+  "substack_tags": [
+    "hedging",
+    "sports betting",
+    "gambling math",
+    "confessions",
+    "predeve"
+  ],
+  "channels": {
+    "substack": {
+      "file": "substack.md",
+      "link_policy": "site_cta",
+      "role": "primary_source_article",
+      "status": "ready"
+    },
+    "substack_note": {
+      "file": "substack_note.md",
+      "files": [
+        "substack_note.md",
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "status": "ready"
+    },
+    "substack_note_morning": {
+      "family": "substack_note",
+      "file": "substack_note_morning.md",
+      "link_policy": "hook",
+      "slot": "morning",
+      "status": "ready"
+    },
+    "substack_note_afternoon": {
+      "family": "substack_note",
+      "file": "substack_note_afternoon.md",
+      "link_policy": "hook",
+      "slot": "afternoon",
+      "status": "ready"
+    },
+    "substack_note_evening": {
+      "family": "substack_note",
+      "file": "substack_note_evening.md",
+      "link_policy": "hook",
+      "slot": "evening",
+      "status": "ready"
+    },
+    "substack_notes": {
+      "files": [
+        "substack_note_morning.md",
+        "substack_note_afternoon.md",
+        "substack_note_evening.md"
+      ],
+      "items": [
+        {
+          "slot": "morning",
+          "file": "substack_note_morning.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "afternoon",
+          "file": "substack_note_afternoon.md",
+          "link_policy": "hook",
+          "status": "ready"
+        },
+        {
+          "slot": "evening",
+          "file": "substack_note_evening.md",
+          "link_policy": "hook",
+          "status": "ready"
+        }
+      ],
+      "link_policy": "hook",
+      "role": "slot_aware_note_selector",
+      "status": "ready"
+    },
+    "medium": {
+      "file": "medium.md",
+      "link_policy": "canonical_article",
+      "role": "secondary_long_form_export",
+      "status": "ready"
+    },
+    "bluesky": {
+      "file": "bluesky.md",
+      "link_policy": "optional_link",
+      "max_chars": 200,
+      "status": "ready"
+    }
+  },
+  "hook_qa": {
+    "substack_note": {
+      "candidates": [
+        "New post from Lou Zerr \u2014 mistake #6 of 943, part 1 of 7.\n\n\"The worst thing that can happen the first time you try something stupid is winning.\"\n\nThe Two Tabs\n\n{{substack_url}}",
+        "I'd been on the book for maybe six months at that point. Nothing crazy. Twenty here, fifty there. Enough to make Sunday afternoons feel like they had stakes. Enough that when I lost I told myself it was entertainment and when I won I told myself I was picking up a knack for it. Both of those things were lies and I knew it and I kept saying them anyway, because that's what a grown man does when he needs a reason to keep doing something he shouldn't.\n\n{{substack_url}}",
+        "Lou Zerr, mistake #6, part 1 of 7. {{substack_url}}"
+      ],
+      "selected": "New post from Lou Zerr \u2014 mistake #6 of 943, part 1 of 7.\n\n\"The worst thing that can happen the first time you try something stupid is winning.\"\n\nThe Two Tabs\n\n{{substack_url}}"
+    },
+    "bluesky": {
+      "candidates": [
+        "Lou Zerr, mistake #6. The worst thing that can happen the first time you try something stupid is winning. {{substack_url}}"
+      ],
+      "selected": "Lou Zerr, mistake #6. The worst thing that can happen the first time you try something stupid is winning. {{substack_url}}"
+    }
+  },
+  "narrative": {
+    "arc": "The Hedge That Ate Itself",
+    "mistake": "#6 of 943",
+    "post": "1 of 7",
+    "teaser": "The worst thing that can happen the first time you try something stupid is winning."
+  }
+}
